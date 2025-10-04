@@ -12,11 +12,11 @@
 .title {
   line-height: 1.3;
   font-weight: 700;
-  color: light-dark(var(--mantine-color-gray-9), var(--mantine-color-gray-0));
+  color: light-dark(var(--mantine-color-darker-5), var(--mantine-color-light-0));
 }
 
 .content {
   line-height: 1.8;
   white-space: pre-wrap;
-  color: light-dark(var(--mantine-color-gray-8), var(--mantine-color-gray-2));
+  color: light-dark(var(--mantine-color-darker-4), var(--mantine-color-light-2));
 }

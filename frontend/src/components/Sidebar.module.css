@@ -3,8 +3,8 @@
   min-width: 200px;
   max-width: 200px;
   height: 100%;
-  border-right: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
-  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+  border-right: 1px solid light-dark(var(--mantine-color-light-5), var(--mantine-color-dark-5));
+  background-color: light-dark(var(--mantine-color-light-0), var(--mantine-color-darker-7));
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -18,16 +18,16 @@
 }
 
 .umapSection {
-  border-top: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  border-top: 1px solid light-dark(var(--mantine-color-light-5), var(--mantine-color-dark-5));
   padding: 8px;
-  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-8));
+  background-color: light-dark(var(--mantine-color-light-1), var(--mantine-color-darker-8));
 }
 
 .umapPlaceholder {
   width: 100%;
   height: 150px;
   border-radius: var(--mantine-radius-md);
-  background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-6));
+  background-color: light-dark(var(--mantine-color-light-2), var(--mantine-color-dark-6));
   border: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
 }
 
@@ -42,12 +42,17 @@
 }
 
 .workspaceItem:hover {
-  background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-6));
+  background-color: light-dark(var(--mantine-color-light-1), var(--mantine-color-dark-6));
 }
 
 .workspaceItemActive {
-  background-color: light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+  background-color: light-dark(var(--mantine-color-mint-1), var(--mantine-color-zomp-7));
+  color: light-dark(var(--mantine-color-zomp-6), var(--mantine-color-mint-2));
   font-weight: 600;
+}
+
+.workspaceItemActive:hover {
+  background-color: light-dark(var(--mantine-color-mint-1), var(--mantine-color-zomp-7));
 }
 
 .workspaceButton {
