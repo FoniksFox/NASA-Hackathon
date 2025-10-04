@@ -14,6 +14,7 @@ import {
 } from '@mantine/core';
 import { IconPlus, IconTrash, IconPencil, IconCheck, IconX } from '@tabler/icons-react';
 import classes from './Sidebar.module.css';
+import { MiniGraphView } from './MiniGraphView';
 
 export interface Workspace {
   id: string;
@@ -168,28 +169,12 @@ export default function Sidebar({
           </Stack>
         </Box>
 
-        {/* UMAP Visualization Section */}
+        {/* Graph Visualization Section */}
         <Box className={classes.umapSection}>
           <Text size="xs" fw={600} mb="xs" px="xs" c="dimmed">
             GRAPH PREVIEW
           </Text>
-          <Box className={classes.umapPlaceholder}>
-            <Stack align="center" justify="center" h="100%" gap="xs">
-              <svg width="60" height="60" viewBox="0 0 60 60">
-                <circle cx="15" cy="15" r="4" fill="var(--mantine-color-blue-6)" opacity="0.6" />
-                <circle cx="45" cy="20" r="3" fill="var(--mantine-color-green-6)" opacity="0.6" />
-                <circle cx="30" cy="35" r="5" fill="var(--mantine-color-red-6)" opacity="0.6" />
-                <circle cx="20" cy="45" r="3" fill="var(--mantine-color-yellow-6)" opacity="0.6" />
-                <circle cx="40" cy="40" r="4" fill="var(--mantine-color-cyan-6)" opacity="0.6" />
-                <line x1="15" y1="15" x2="30" y2="35" stroke="var(--mantine-color-gray-5)" strokeWidth="1" opacity="0.3" />
-                <line x1="30" y1="35" x2="40" y2="40" stroke="var(--mantine-color-gray-5)" strokeWidth="1" opacity="0.3" />
-                <line x1="30" y1="35" x2="20" y2="45" stroke="var(--mantine-color-gray-5)" strokeWidth="1" opacity="0.3" />
-              </svg>
-              <Text size="xs" c="dimmed" ta="center">
-                UMAP Visualization
-              </Text>
-            </Stack>
-          </Box>
+          <MiniGraphView activePublicationId={undefined} />
         </Box>
       </Box>
 

@@ -1,6 +1,6 @@
 import './App.css'
 import { Button, Stack, Box, Text } from '@mantine/core'
-import { BrowserHeader, Sidebar, PublicationViewer } from './components'
+import { BrowserHeader, Sidebar, PublicationViewer, GraphView } from './components'
 import { useWorkspaces } from './hooks'
 import { useEffect, useState, useRef } from 'react'
 import type { Tab } from './hooks'
@@ -131,12 +131,10 @@ export default function App() {
           )}
 
           {activeTab === 'graph' && (
-            <Box p="md">
-              <Stack gap="md">
-                <h2>Graph View</h2>
-                <Text c="dimmed">Graph visualization coming soon...</Text>
-              </Stack>
-            </Box>
+            <GraphView
+              activePublicationId={activeTab === 'graph' ? undefined : activeTab}
+              onNodeClick={addPublicationTab}
+            />
           )}
 
           {activeTab.startsWith('pub-') && (
