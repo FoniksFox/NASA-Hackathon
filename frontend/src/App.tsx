@@ -1,6 +1,6 @@
 import './App.css'
-import { Button, Stack } from '@mantine/core'
-import { BrowserHeader, Sidebar } from './components'
+import { Button, Stack, Box, Text } from '@mantine/core'
+import { BrowserHeader, Sidebar, PublicationViewer } from './components'
 import { useWorkspaces } from './hooks'
 import { useEffect, useState, useRef } from 'react'
 import type { Tab } from './hooks'
@@ -113,20 +113,35 @@ export default function App() {
           onDeleteWorkspace={deleteWorkspace}
           onRenameWorkspace={renameWorkspace}
         />
-        <section style={{ flex: 1, padding: 16 }}>
-          <Stack gap="md">
-            <h2>Welcome</h2>
-            <p>Active Workspace: <strong>{activeWorkspace?.name}</strong></p>
-            <p>Active Tab: <strong>{activeTab}</strong></p>
-            <p>Open Tabs: <strong>{publicationTabs.length}</strong></p>
-            
-            {/* Demo button to test tab functionality */}
-            <div>
-              <Button onClick={addSamplePublication}>
-                Open Sample Publication
-              </Button>
-            </div>
-          </Stack>
+        <section style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0, minHeight: 0 }}>
+          {activeTab === 'chat' && (
+            <Box p="md">
+              <Stack gap="md">
+                <h2>AI Chat</h2>
+                <Text c="dimmed">Chat interface coming soon...</Text>
+                
+                {/* Demo button to test tab functionality */}
+                <div>
+                  <Button onClick={addSamplePublication}>
+                    Open Sample Publication
+                  </Button>
+                </div>
+              </Stack>
+            </Box>
+          )}
+
+          {activeTab === 'graph' && (
+            <Box p="md">
+              <Stack gap="md">
+                <h2>Graph View</h2>
+                <Text c="dimmed">Graph visualization coming soon...</Text>
+              </Stack>
+            </Box>
+          )}
+
+          {activeTab.startsWith('pub-') && (
+            <PublicationViewer publicationId={activeTab} />
+          )}
         </section>
       </main>
     </div>
