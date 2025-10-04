@@ -142,3 +142,16 @@ npm run dev
 ## Acknowledgements
 
 Built for the 2025 NASA Space Apps Challenge. Use of NASA data should follow NASA's terms and attribution guidelines.
+
+## Colors
+https://coolors.co/4db391-3c9779-222222-323232-ebebeb-ffffff
+Main color - Base: #4DB391 Enhanced: #3C9779
+Dark Mode - Text: #FFFFFF Background: #323232
+Light Mode - Text: #222222 Background: #EBEBEB
+
+## Logo Repository
+
+https://upvedues-my.sharepoint.com/:f:/g/personal/mestmor2_upv_edu_es/EioY1Oe3mUROjKn7OrvHdCIBD7OYUyCAroIaIfwNPJC6JA?e=sfgSRi
+
+
+
