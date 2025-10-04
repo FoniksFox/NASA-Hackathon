@@ -86,17 +86,23 @@ export default function BrowserHeader({
       <Group gap={0} h="100%" wrap="nowrap" className={classes.headerContent}>
         {/* Logo + Name Section */}
         <Box className={classes.logoSection}>
-          <Group gap="xs" px="md">
-            {logoUrl && (
+          <Group gap="xs" px="md" justify="center" style={{ overflow: 'hidden', width: '100%' }}>
+            {logoUrl ? (
               <img 
                 src={logoUrl} 
-                alt="Logo" 
-                style={{ width: 24, height: 24, objectFit: 'contain' }} 
+                alt={appName} 
+                style={{ 
+                  height: '100%',
+                  maxHeight: '48px',
+                  width: 'auto',
+                  objectFit: 'contain'
+                }} 
               />
+            ) : (
+              <Text size="sm" fw={600} style={{ whiteSpace: 'nowrap' }}>
+                {appName}
+              </Text>
             )}
-            <Text size="sm" fw={600} style={{ whiteSpace: 'nowrap' }}>
-              {appName}
-            </Text>
           </Group>
         </Box>
 

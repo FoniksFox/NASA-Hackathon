@@ -28,6 +28,7 @@ export default function App() {
   return (
     <div style={{ display: 'flex', minHeight: '100vh', flexDirection: 'column', width: '100%', maxWidth: '100vw', overflow: 'hidden' }}>
       <BrowserHeader 
+        logoUrl="/logo_clear.png"
         appName="NASA Bioscience Explorer"
         activeTab={activeTab}
         publicationTabs={publicationTabs}
