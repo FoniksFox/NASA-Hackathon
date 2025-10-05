@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Service;
 
 import java.io.InputStream;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -34,5 +35,9 @@ public class UmapService {
 
     public ArticleCoords getArticleCoords(String id) {
         return articleMap.get(id);
+    }
+
+    public Collection<ArticleCoords> getAllArticles() {
+        return articleMap.values();
     }
 }

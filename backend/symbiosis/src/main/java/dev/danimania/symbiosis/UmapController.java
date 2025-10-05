@@ -3,6 +3,8 @@ package dev.danimania.symbiosis;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collection;
+
 @RestController
 @RequestMapping("/umap")
 public class UmapController {
@@ -22,4 +24,8 @@ public class UmapController {
         return ResponseEntity.ok(coords);
     }
 
+    @GetMapping("/articles")
+    public Collection<ArticleCoords> getAllArticles() {
+        return umapService.getAllArticles();
+    }
 }
