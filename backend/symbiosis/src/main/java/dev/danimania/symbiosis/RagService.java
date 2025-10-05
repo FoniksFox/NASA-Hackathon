@@ -1,7 +1,11 @@
 package dev.danimania.symbiosis;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Service;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,24 +27,17 @@ public class RagService {
         this.geminiService = geminiService;
         this.topicLinks = new HashMap<>();
 
-        this.topicLinks.put("Molecular Biology", new ArrayList<>());
-        this.topicLinks.put("Space Biology", new ArrayList<>());
-        this.topicLinks.put("Microgravity", new ArrayList<>());
-        this.topicLinks.put("Radiation Biology", new ArrayList<>());
-        this.topicLinks.put("Immunology", new ArrayList<>());
-        this.topicLinks.put("Genomics", new ArrayList<>());
-        this.topicLinks.put("Bioinformatics & Systems Biology", new ArrayList<>());
-        this.topicLinks.put("Bone-related Biology", new ArrayList<>());
-        this.topicLinks.put("Cardiovascular-related Biology", new ArrayList<>());
-        this.topicLinks.put("Microbiology", new ArrayList<>());
-        this.topicLinks.put("Astrobiology", new ArrayList<>());
-        this.topicLinks.put("Plant Biology & Space Agriculture", new ArrayList<>());
-        this.topicLinks.put("Stem Cell & Regenerative Medicine", new ArrayList<>());
-        this.topicLinks.put("Oxidative Stress & Aging Biology", new ArrayList<>());
-        topicLinks.get("Molecular Biology").add("3630201");
-        topicLinks.get("Space Biology").add("4136787");
-        topicLinks.get("Microgravity").add("11988870");
-        topicLinks.get("Stem Cell & Regenerative Medicine").add("7998608");
+        ObjectMapper mapper = new ObjectMapper();
+
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream("data.json")) {
+            if (is == null) {
+                throw new RuntimeException("data.json not found in resources");
+            }
+            topicLinks = mapper.readValue(is,
+                    mapper.getTypeFactory().constructMapType(Map.class, String.class, List.class));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public String askTopic(String topic, String question) throws Exception {
