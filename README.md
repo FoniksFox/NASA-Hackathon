@@ -1,13 +1,13 @@
 
 ## Project overview
 
-Project name: [TBD]
+Project name: **Simbiosis**
 
-Tagline / short description: [TBD]
+Tagline / short description: Interactive AI-powered exploration of NASA's bioscience research universe
 
-Logo: [TBD]
+Logo: `simbiosisrecortado.png` / `logo_clear.png`
 
-Accent Color: [TBD]
+Accent Color: Mint Green (#4db391)
 
 Concept summary
 ----------------
@@ -17,6 +17,7 @@ High-level goals
 - Provide interactive, searchable summaries of NASA bioscience publications.
 - Use embeddings + UMAP to visually cluster related publications and surface connections.
 - Allow conversational queries over the corpus with provenance and source links.
+
 # NASA Bioscience Explorer (TBD)
 
 Short description: An interactive dashboard combining an Obsidian-style note/graph workflow with an LLM-driven chat and a UMAP 3D projection for exploring NASA bioscience publications.
@@ -38,10 +39,10 @@ Table of contents
 
 ## Project overview
 
-- **Project name:** [TBD]
-- **Tagline:** [TBD]
-- **Logo:** `frontend/public/<logo.png>` (or a URL)
-- **Primary contact / team:** [TBD]
+- **Project name:** Simbiosis
+- **Tagline:** Interactive AI-powered exploration of NASA's bioscience research universe
+- **Logo:** `frontend/public/logo_clear.png` or `simbiosisrecortado.png`
+- **Primary contact / team:** borisbeslimov@gmail.com
 
 This repository contains a hackathon project for the 2025 NASA Space Apps Challenge: a dynamic dashboard that merges the note-taking / graph-exploration feel of Obsidian with an LLM-driven conversational layer and a UMAP-based 3D projection of document embeddings. The dashboard helps researchers, mission planners, and curious users explore and summarize the 608 NASA bioscience publications using embeddings, vector search, and provenance-aware LLM responses.
 
@@ -55,9 +56,9 @@ This repository contains a hackathon project for the 2025 NASA Space Apps Challe
 ## Architecture
 
 ### Frontend (`frontend/`)
-- Vite + React + TypeScript UI
+- Vite + React + TypeScript
 - Mantine UI components
-- UMAP visualization canvas (deck.gl / D3 / three.js) showing a 3D projection
+- UMAP visualization canvas showing a 3D projection
 - Chat interface that calls backend conversational API
 
 ### Backend (`backend/`)
@@ -68,11 +69,30 @@ This repository contains a hackathon project for the 2025 NASA Space Apps Challe
 
 ## API contract (minimal)
 
-[TBD]
+See [INTEGRATION.md](INTEGRATION.md) for detailed API documentation.
+
+**Key endpoints:**
+- `POST /rag/find-topic` - Determines the most relevant topic for a question
+- `POST /rag/ask-topic` - Answers questions within a specific topic context
+- `POST /rag/add` - Adds text chunks to the vector store
+- `GET /umap/data` - Returns UMAP 3D projection data for visualization
+
+**Backend:** Spring Boot (Java 17) on port 8080  
+**Frontend:** Vite + React + TypeScript on port 5173
 
 ## Environment variables
 
-[TBD]
+### Backend
+Create a `.env` file or configure environment variables in your IDE:
+- `GEMINI_API_KEY` - Your Google Gemini AI API key
+- `SPRING_DATASOURCE_URL` - Database connection string (if using persistence)
+- `SERVER_PORT` - Server port (default: 8080)
+
+### Frontend
+Create a `.env` file in the `frontend` directory:
+- `VITE_API_BASE_URL` - Backend API URL (default: http://localhost:8080)
+
+**Note:** Never commit API keys or secrets to version control. Use `.env.local` or environment-specific configuration.
 
 ## Developer setup
 
@@ -85,10 +105,24 @@ npm install
 npm run dev
 ```
 
-### Backend (high level)
+### Backend
 
-- Choose implementation (e.g., Node/Express, FastAPI).
-- Install dependencies, set `.env` values, and run the server.
+From the `backend/symbiosis` folder:
+
+```powershell
+# Using Maven wrapper (Windows)
+.\mvnw spring-boot:run
+
+# Or if you have Maven installed
+mvn spring-boot:run
+```
+
+**Requirements:**
+- Java 17 or higher
+- Maven 3.6+ (or use the included wrapper)
+- Gemini API key configured in environment variables
+
+See [backend/symbiosis/README.md](backend/symbiosis/README.md) for more details.
 
 ## Data ingestion notes
 
@@ -121,9 +155,10 @@ npm run dev
 
 ## Resources
 
-- NASA bioscience publications list (608 papers) — [TBD]
-- NASA Open Science Data Repository (OSDR)
-- Space Life Sciences Library
+- NASA bioscience publications list (608 papers) — `backend/analysis/articles.csv`
+- NASA Open Science Data Repository (OSDR) - https://osdr.nasa.gov/bio/
+- Space Life Sciences Library - https://github.com/jgalazka/SB_publications/tree/main
+- Google Gemini AI for conversational interface
 
 ## Security & provenance
 
@@ -132,12 +167,14 @@ npm run dev
 
 ## Contributing & license
 
-- Use `frontend` branch for UI changes and `backend` branch for server work.
-- License: [TBD] (e.g., MIT)
+- Main development happens on the `main` branch
+- Create feature branches for significant changes
+- License: MIT (Open Source)
 
 ## Contact
 
-- Team / primary contact: [TBD]
+- Team / primary contact: Boris Mladenv Beslimov (borisbeslimov@gmail.com)
+- Repository: https://github.com/FoniksFox/NASA-Hackathon
 
 ## Acknowledgements
 
