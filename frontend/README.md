@@ -52,19 +52,31 @@ This project uses Mantine for consistent, accessible UI elements. The README doc
 
 ## Environment & configuration
 
-The frontend reads only a few runtime values. Use environment variables prefixed with `VITE_`.
+The frontend uses environment variables for configuration. Create a `.env` file in `frontend/` for local development.
 
-Create a `.env` file in `frontend/` for local development (do not commit secrets).
+### Setup
 
-Example `.env`:
+1. Copy the example environment file:
+   ```powershell
+   Copy-Item .env.example .env
+   ```
 
-```env
-VITE_API_URL=http://localhost:4000/api
-VITE_APP_NAME="NASA Bioscience Explorer"
-```
+2. Edit `.env` with your configuration:
+   ```env
+   # Backend API URL (used by Vite proxy for /api requests)
+   VITE_BACKEND_URL=http://localhost:8080
+   ```
+
+### Environment Variables
+
+- `VITE_BACKEND_URL` - Backend API base URL (default: `http://localhost:8080`)
+  - Used by Vite dev server proxy to forward `/api/*` requests to the backend
+  - Change this if your backend runs on a different host/port
 
 Notes:
+- All Vite environment variables must be prefixed with `VITE_`
 - Keep secrets (LLM/API keys) on the backend only. The frontend should never store provider API keys.
+- The `.env` file is gitignored and should never be committed
 
 ## UMAP visualization
 
