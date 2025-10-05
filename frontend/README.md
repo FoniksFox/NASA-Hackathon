@@ -19,8 +19,8 @@ Open the app at the URL shown by Vite (usually `http://localhost:5173`).
 - React + TypeScript
 - TailwindCSS
 - Mantine UI (component library)
-- React Router (routing)
-- A visualization library for UMAP scatterplots (three.js)
+- React Three Fiber + Drei (3D visualization with three.js)
+- Custom workspace/tab management (no router needed)
 
 ## Mantine components used
 
@@ -42,12 +42,12 @@ This project uses Mantine for consistent, accessible UI elements. The README doc
 ## Project structure (important files)
 
 - `index.html` — Vite entry
-- `src/main.tsx` — React root, providers (MantineProvider, Router, QueryClient if used)
-- `src/App.tsx` — top-level routes and layout
-- `src/pages/` — route components
-- `src/components/` — reusable UI components (UMAPCanvas, ChatWindow, SearchBar, DocumentCard)
-- `src/api/` — frontend API client functions for /api/ endpoints
-- `src/theme/` — theme tokens and Mantine customization
+- `src/main.tsx` — React root with MantineProvider
+- `src/App.tsx` — main application with workspace and tab management
+- `src/components/` — reusable UI components (BrowserHeader, Sidebar, GraphView, ChatView, PublicationViewer)
+- `src/services/` — frontend API client functions (ragApi, umapApi)
+- `src/hooks/` — custom React hooks (useWorkspaces, useBrowserTabs)
+- `src/theme.ts` — custom Mantine theme with color palette
 - `src/assets/` — images, icons, logo placeholders
 
 ## Environment & configuration
@@ -80,14 +80,15 @@ Notes:
 
 ## UMAP visualization
 
-- The visualization component `UMAPCanvas` (or equivalent) consumes `/api/umap` which returns an array of points with coordinates and metadata.
-- Points can be rendered using a fast WebGL layer (three.js).
-- Clicking a point opens a window with the publication.
+- The visualization component `GraphView` (and `MiniGraphView`) consumes `/api/umap/articles` which returns an array of points with coordinates and metadata.
+- Points are rendered using React Three Fiber with WebGL acceleration.
+- Clicking a point opens a publication tab with the full article details.
 
 ## Chat UI
 
-- `ChatWindow` handles conversation state and displays LLM responses with inline citations.
-- Each citation renders a small `DocumentCard` or popover with the excerpt and a link back to the source.
+- `ChatView` handles conversation state and displays LLM responses from the RAG API.
+- Uses `/api/rag/find-topic` to determine relevant topics and `/api/rag/ask-topic` for answers.
+- Chat history is managed per workspace, allowing multiple independent research sessions.
 
 ## Accessibility
 

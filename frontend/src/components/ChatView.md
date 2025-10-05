@@ -68,9 +68,10 @@ Each message displays:
 ### Empty State
 
 When no messages:
-- Centered robot icon
+- Centered robot icon (🤖)
 - "Start a conversation" message
-- Helpful prompt about what to ask
+- Helpful prompts: "Ask about publications, research topics, or explore the graph"
+- Shows current active topic/specialist if available
 
 ### Loading Indicator
 

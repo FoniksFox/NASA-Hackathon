@@ -1,6 +1,6 @@
 # Components
 
-This directory contains reusable UI components for the NASA Bioscience Explorer.
+This directory contains reusable UI components for Simbiosis (NASA Bioscience Explorer).
 
 ## BrowserHeader
 
@@ -33,8 +33,8 @@ function App() {
 
   return (
     <BrowserHeader 
-      appName="NASA Bioscience Explorer"
-      logoUrl="/path/to/logo.png" // optional
+      appName="Simbiosis"
+      logoUrl="/logo_clear.png" // optional
       activeTab={activeTab}
       publicationTabs={publicationTabs}
       onTabChange={setActiveTab}

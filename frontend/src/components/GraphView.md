@@ -48,14 +48,14 @@ interface PublicationNode {
 ### Backend API Endpoint
 
 ```
-GET /api/graph/embeddings
+GET /api/umap/articles
 ```
 
 **Response:**
 ```json
 [
   {
-    "id": "pub-12345",
+    "id": "12345678",
     "title": "Study on Microgravity Effects",
     "x": 2.5,
     "y": -1.3,
@@ -64,6 +64,8 @@ GET /api/graph/embeddings
   ...
 ]
 ```
+
+Note: Article IDs are PubMed Central IDs (PMC IDs without the "PMC" prefix).
 
 ## Visual Design
 

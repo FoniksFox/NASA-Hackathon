@@ -9,7 +9,7 @@ Logo: `simbiosisrecortado.png` / `logo_clear.png`
 
 Accent Color: Mint Green (#4db391)
 
-Access Link: http://54.38.34.111:3000/
+Video demonstration: https://drive.google.com/file/d/1v62CUi-ttepC2lKnwMTSGmdP6f-PGEgf/view?usp=sharing
 
 Concept summary
 ----------------
@@ -92,7 +92,7 @@ Create a `.env` file or configure environment variables in your IDE:
 
 ### Frontend
 Create a `.env` file in the `frontend` directory:
-- `VITE_API_BASE_URL` - Backend API URL (default: http://localhost:8080)
+- `VITE_BACKEND_URL` - Backend API URL (default: http://localhost:8080)
 
 **Note:** Never commit API keys or secrets to version control. Use `.env.local` or environment-specific configuration.
 
