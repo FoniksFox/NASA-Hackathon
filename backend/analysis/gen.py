@@ -16,6 +16,7 @@ CACHE_DIR = "cache"
 SUMMARY_FILE = "result.json"
 API_KEY = "AIzaSyDyM2YV8rH8XMHLZYgxylOT2DmvmkmnlqI"
 MAX_CONCURRENT = 3
+TOPICS_FILE = "topics.json"
 
 os.makedirs(CACHE_DIR, exist_ok=True)
 
@@ -31,6 +32,8 @@ def getError(error):
 
     status = obj['error']['status']
     code = obj['error']['code']
+
+    # Extract retryDelay
     if (code != 503):
         retry_delay = None
         if (len(obj['error']) >= 3):
@@ -53,6 +56,54 @@ def extract_pmc_id_from_url(url: str) -> str:
         if part.startswith("PMC") and part[3:].isdigit():
             return part[3:]
     return None
+
+
+def update_topics(pmc_id, summary_text):
+    if os.path.exists(TOPICS_FILE):
+        with open(TOPICS_FILE, "r", encoding="utf-8") as f:
+            try:
+                topics_data = json.load(f)
+            except json.JSONDecodeError:
+                topics_data = {}
+    else:
+        topics_data = {}
+
+    all_topics = [
+        "Molecular Biology",
+        "Space Biology",
+        "Microgravity",
+        "Space Medicine",
+        "Radiation Biology",
+        "Immunology",
+        "Genomics",
+        "Bioinformatics & Systems Biology",
+        "Bone-related Biology",
+        "Cardiovascular-related Biology",
+        "Microbiology",
+        "Astrobiology",
+        "Plant Biology & Space Agriculture",
+        "Stem Cell & Regenerative Medicine",
+        "Oxidative Stress & Aging Biology",
+    ]
+    for topic in all_topics:
+        topics_data.setdefault(topic, [])
+
+    predicted_topics = [t.strip()
+                        for t in summary_text.split(",") if t.strip()]
+
+    for topic in predicted_topics:
+        if topic in topics_data:
+            if len(topics_data[topic]) < 20:
+                if pmc_id not in topics_data[topic]:
+                    topics_data[topic].append(pmc_id)
+            else:
+                print(f"Topic '{
+                      topic}' already has 20 articles, skipping PMC{pmc_id}")
+        else:
+            print(f"Unknown topic returned by Gemini: '{topic}'")
+
+    with open(TOPICS_FILE, "w", encoding="utf-8") as f:
+        json.dump(topics_data, f, indent=2, ensure_ascii=False)
 
 # ========== FETCH ARTICLES ==========
 
@@ -104,7 +155,7 @@ def extract_text(xml_content):
     if not xml_content:
         return ""
     soup = BeautifulSoup(xml_content, "xml")
-    paragraphs = soup.find_all("abstract")
+    paragraphs = soup.find_all("p")
     return "\n".join(p.get_text() for p in paragraphs)
 
 
@@ -132,7 +183,6 @@ class wait_for_gemini_retry_delay(wait_base):
 
     def __call__(self, retry_state):
         exc = retry_state.outcome.exception()
-        wait_seconds = None
 
         if isinstance(exc, gen_errors.ClientError):
             err = getError(exc.args)
@@ -169,24 +219,11 @@ async def summarize_with_gemini(text, content):
 
 async def summarize_article(text):
     prompt = """
-Hello Gemini! I will give you a text. You must analyze how strongly it relates to each of the following 15 established scientific topics:
-Molecular Biology
-Space Biology
-Microgravity
-Space Medicine
-Radiation Biology
-Immunology
-Genomics
-Bioinformatics & Systems Biology
-Bone-related Biology
-Cardiovascular-related Biology
-Microbiology
-Astrobiology
-Plant Biology & Space Agriculture
-Stem Cell & Regenerative Medicine
-Oxidative Stress & Aging Biology
-For each topic, output a decimal value between 0 and 1 (with up to 3 decimals), representing how strongly the text relates to that topic.
-Output only the 15 decimal numbers in order, separated by commas and please dont skip to the next line. No explanations, no extra text.
+You are given a list of scientific topics separated by commas:
+Molecular Biology, Space Biology, Microgravity, Space Medicine, Radiation Biology, Immunology, Genomics, Bioinformatics & Systems Biology, Bone-related Biology, Cardiovascular-related Biology, Microbiology, Astrobiology, Plant Biology & Space Agriculture, Stem Cell & Regenerative Medicine, Oxidative Stress & Aging Biology.
+Your task is:
+Given a full scientific paper as input, determine if the paper corresponds to any of the listed topics with at least 90% relevance. Output up to three topics (maximum) that best match the article, ordered by relevance.
+Output only the topics, separated by commas, without any explanations, greetings, or additional text.
 """
     try:
         return await summarize_with_gemini(text, prompt)
@@ -198,6 +235,7 @@ Output only the 15 decimal numbers in order, separated by commas and please dont
             return await summarize_article(text)
         else:
             raise
+
 
 # ========== MAIN ==========
 
@@ -226,6 +264,27 @@ async def main():
     if not isinstance(existing_data, dict):
         existing_data = {}
 
+    # Load or initialize processed tracker
+    PROCESSED_FILE = "processed.json"
+    if os.path.exists(PROCESSED_FILE):
+        with open(PROCESSED_FILE, "r", encoding="utf-8") as f:
+            try:
+                processed = json.load(f)
+            except json.JSONDecodeError:
+                processed = []
+    else:
+        processed = []
+
+    processed = set(processed)
+
+    # Filter PMC IDs that have summaries and haven't been processed
+    to_process = [
+        pid for pid in pmc_ids if pid in existing_data and pid not in processed]
+
+    if not to_process:
+        print("✅ All PMC IDs already processed or missing in result.json.")
+        return
+
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
     limits = httpx.Limits(max_connections=MAX_CONCURRENT)
     async with httpx.AsyncClient(timeout=60.0, limits=limits) as client_http:
@@ -252,7 +311,26 @@ async def main():
                 with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
                     json.dump(existing_data, f, indent=2, ensure_ascii=False)
 
-        tasks = [fetch_process_save(pid) for pid in pmc_ids]
+        async def process_existing_summary(pmc_id):
+            async with semaphore:
+                xml = await fetch_article(pmc_id, client_http)
+                if not xml:
+                    print(f"No XML returned for PMC{pmc_id}")
+                    return
+
+                text = extract_text(xml)
+                if not text:
+                    print(f"No abstract found for PMC{pmc_id}")
+                    return
+
+                summary = await summarize_article(text)
+                print(f"Updating topics for PMC{pmc_id}: {summary}")
+                update_topics(pmc_id, summary)
+                processed.add(pmc_id)
+                with open(PROCESSED_FILE, "w", encoding="utf-8") as f:
+                    json.dump(list(processed), f, indent=2)
+
+        tasks = [process_existing_summary(pid) for pid in to_process]
         await asyncio.gather(*tasks)
 
     print(f"Done. Summaries saved to {SUMMARY_FILE}")
