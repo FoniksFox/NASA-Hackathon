@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { Box, Loader } from '@mantine/core';
 import classes from './GraphView.module.css';
+import { umapApi, handleApiError } from '../services/api';
 
 interface PublicationNode {
   id: string;
@@ -168,23 +169,24 @@ export function GraphView({ activePublicationId, onNodeClick }: GraphViewProps) 
       try {
         setLoading(true);
 
-        // TODO: Replace with actual backend API call
-        // const response = await fetch('/api/graph/embeddings');
-        // const data = await response.json();
-        // setNodes(data);
-
-        // Mock data for demonstration
-        const mockNodes: PublicationNode[] = Array.from({ length: 50 }, (_, i) => ({
-          id: `pub-${i}`,
-          title: `Publication ${i + 1}: Research on Topic ${i + 1}`,
-          x: (Math.random() - 0.5) * 20,
-          y: (Math.random() - 0.5) * 20,
-          z: (Math.random() - 0.5) * 20,
+        // Fetch article coordinates from backend
+        const articles = await umapApi.getAllArticles();
+        
+        // Transform API response to match our PublicationNode interface
+        const transformedNodes: PublicationNode[] = articles.map((article) => ({
+          id: article.id,
+          title: article.title || `Article ${article.id}`,
+          x: article.x * 20, // Scale coordinates for better visualization
+          y: article.y * 20,
+          z: 0, // Backend provides 2D coords, set z to 0 or add slight variation
         }));
 
-        setNodes(mockNodes);
+        setNodes(transformedNodes);
       } catch (err) {
-        console.error('Failed to fetch graph:', err);
+        console.error('Failed to fetch graph:', handleApiError(err));
+        
+        // Fallback to empty array on error
+        setNodes([]);
       } finally {
         setLoading(false);
       }

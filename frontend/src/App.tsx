@@ -3,6 +3,7 @@ import { BrowserHeader, Sidebar, PublicationViewer, GraphView, ChatView } from '
 import { useWorkspaces } from './hooks'
 import { useEffect, useState, useRef } from 'react'
 import type { Tab, Message } from './hooks'
+import { ragApi, handleApiError } from './services/api'
 
 export default function App() {
   const {
@@ -109,38 +110,38 @@ export default function App() {
     setIsChatLoading(true);
 
     try {
-      // TODO: Replace with actual backend API call
-      // const response = await fetch('/api/chat', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ message, workspaceId: activeWorkspaceId }),
-      // });
-      // const data = await response.json();
+      // Step 1: Find the most relevant topic for the question
+      const detectedTopic = await ragApi.findTopic(message);
       
-      // Mock AI response with topic routing
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Mock topic assignment based on message content (backend will do this)
-      const mockTopics = ['Microgravity Research', 'Radiation Biology', 'Plant Biology', 'Immunology', 'Biotechnology'];
-      const randomTopic = mockTopics[Math.floor(Math.random() * mockTopics.length)];
+      // Step 2: Get AI response for the question within that topic
+      const aiResponse = await ragApi.askTopic(detectedTopic, message);
       
       const aiMessage: Message = {
         id: `msg-${Date.now()}-ai`,
         role: 'assistant',
-        content: `This is a mock response to: "${message}". The AI assistant will be connected to the backend soon!`,
+        content: aiResponse,
         timestamp: new Date(),
-        topic: randomTopic, // Backend will provide this
+        topic: detectedTopic,
       };
 
       setChatMessages(prev => [...prev, aiMessage]);
       
       // Update current topic for workspace
-      setCurrentTopic(randomTopic);
+      setCurrentTopic(detectedTopic);
       if (activeWorkspaceId) {
-        updateWorkspaceCurrentTopic(activeWorkspaceId, randomTopic);
+        updateWorkspaceCurrentTopic(activeWorkspaceId, detectedTopic);
       }
     } catch (error) {
       console.error('Error sending message:', error);
+      
+      // Add error message to chat
+      const errorMessage: Message = {
+        id: `msg-${Date.now()}-error`,
+        role: 'assistant',
+        content: `Sorry, I encountered an error: ${handleApiError(error)}. Please make sure the backend server is running.`,
+        timestamp: new Date(),
+      };
+      setChatMessages(prev => [...prev, errorMessage]);
     } finally {
       setIsChatLoading(false);
     }
