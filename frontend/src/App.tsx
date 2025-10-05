@@ -182,6 +182,7 @@ export default function App() {
               onSendMessage={handleSendMessage}
               isLoading={isChatLoading}
               currentTopic={currentTopic}
+              onOpenPublication={addPublicationTab}
             />
           )}
 

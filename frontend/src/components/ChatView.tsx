@@ -11,6 +11,85 @@ export interface Message {
   topic?: string; // The specialist/topic handling this message
 }
 
+interface ChatViewProps {
+  messages: Message[];
+  onSendMessage: (message: string) => void;
+  isLoading?: boolean;
+  currentTopic?: string; // Current active specialist/topic
+  onOpenPublication?: (pmcId: string, title: string) => void; // Callback to open publication
+}
+
+// Parse PMC links and extract IDs
+function extractPMCId(url: string): string | null {
+  const match = url.match(/PMC(\d+)/i);
+  return match ? match[1] : null;
+}
+
+// Format message content with clickable PMC links
+function formatMessageContent(
+  content: string, 
+  onOpenPublication?: (pmcId: string, title: string) => void
+): React.ReactNode {
+  // Regex to match PMC URLs
+  const pmcUrlRegex = /(https?:\/\/[^\s]*pmc\.ncbi\.nlm\.nih\.gov\/articles\/PMC\d+\/?)/gi;
+  
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+
+  const regex = new RegExp(pmcUrlRegex);
+  
+  while ((match = regex.exec(content)) !== null) {
+    const url = match[0];
+    const pmcId = extractPMCId(url);
+    
+    // Add text before the link
+    if (match.index > lastIndex) {
+      parts.push(content.substring(lastIndex, match.index));
+    }
+    
+    // Add the clickable link
+    if (pmcId && onOpenPublication) {
+      parts.push(
+        <Text
+          key={match.index}
+          component="a"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            onOpenPublication(pmcId, `Article PMC${pmcId}`);
+          }}
+          style={{
+            color: 'var(--mantine-color-mint-6)',
+            textDecoration: 'underline',
+            cursor: 'pointer',
+            fontWeight: 500,
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.color = 'var(--mantine-color-mint-7)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.color = 'var(--mantine-color-mint-6)';
+          }}
+        >
+          PMC{pmcId}
+        </Text>
+      );
+    } else {
+      parts.push(url);
+    }
+    
+    lastIndex = regex.lastIndex;
+  }
+  
+  // Add remaining text
+  if (lastIndex < content.length) {
+    parts.push(content.substring(lastIndex));
+  }
+  
+  return parts.length > 0 ? parts : content;
+}
+
 // Topic color palette mapping
 const TOPIC_COLORS: Record<string, string> = {
   // Palette 1: #D65C72 - Biology & Medicine
@@ -41,14 +120,7 @@ function getTopicColor(topic?: string): string {
   return TOPIC_COLORS[topic] || '#4db391';
 }
 
-interface ChatViewProps {
-  messages: Message[];
-  onSendMessage: (message: string) => void;
-  isLoading?: boolean;
-  currentTopic?: string; // Current active specialist/topic
-}
-
-export function ChatView({ messages, onSendMessage, isLoading = false, currentTopic }: ChatViewProps) {
+export function ChatView({ messages, onSendMessage, isLoading = false, currentTopic, onOpenPublication }: ChatViewProps) {
   const [input, setInput] = useState('');
   const viewportRef = useRef<HTMLDivElement>(null);
 
@@ -142,12 +214,19 @@ export function ChatView({ messages, onSendMessage, isLoading = false, currentTo
                           borderLeft: `4px solid ${getTopicColor(message.topic)}`,
                           boxShadow: `0 0 0 1px ${getTopicColor(message.topic)}40`
                         }
+                      : message.role === 'user' && currentTopic
+                      ? {
+                          backgroundColor: `${topicColor}15`,
+                          borderColor: topicColor,
+                          borderWidth: '1px',
+                          borderStyle: 'solid',
+                        }
                       : undefined
                   }
                 >
                   <Box className={classes.messageHeader}>
                     {message.role === 'user' ? (
-                      <IconUser size={16} />
+                      <IconUser size={16} style={currentTopic ? { color: topicColor } : undefined} />
                     ) : (
                       <IconRobot size={16} style={{ color: message.topic ? getTopicColor(message.topic) : undefined }} />
                     )}
@@ -176,7 +255,10 @@ export function ChatView({ messages, onSendMessage, isLoading = false, currentTo
                     </Text>
                   </Box>
                   <Text size="sm" className={classes.messageContent}>
-                    {message.content}
+                    {message.role === 'assistant' 
+                      ? formatMessageContent(message.content, onOpenPublication)
+                      : message.content
+                    }
                   </Text>
                 </Paper>
               </Box>
@@ -213,13 +295,28 @@ export function ChatView({ messages, onSendMessage, isLoading = false, currentTo
             onChange={(e) => setInput(e.target.value)}
             onKeyPress={handleKeyPress}
             disabled={isLoading}
+            styles={currentTopic ? {
+              input: {
+                borderColor: topicColor,
+                '&:focus': {
+                  borderColor: topicColor,
+                  boxShadow: `0 0 0 1px ${topicColor}`,
+                },
+              },
+            } : undefined}
             rightSection={
               <ActionIcon
                 type="submit"
                 variant="filled"
-                color="mint"
                 disabled={!input.trim() || isLoading}
                 size="lg"
+                style={currentTopic ? {
+                  backgroundColor: topicColor,
+                  '&:hover': {
+                    backgroundColor: topicColor,
+                    opacity: 0.9,
+                  },
+                } : { backgroundColor: '#4db391' }}
               >
                 <IconSend size={18} />
               </ActionIcon>
