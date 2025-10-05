@@ -1,13 +1,22 @@
 import { useState, useCallback } from 'react';
 import type { Tab } from './useBrowserTabs';
 
+export interface Message {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  timestamp: Date;
+  topic?: string; // The specialist/topic handling this message
+}
+
 export interface Workspace {
   id: string;
   name: string;
   color?: string; // Optional color for visual identification
   openTabs: Tab[];
   activeTab: string;
-  // Future: Add chat history, graph state, etc.
+  chatMessages: Message[]; // Chat history for this workspace
+  currentTopic?: string; // Current active specialist/topic
 }
 
 export interface UseWorkspacesReturn {
@@ -19,6 +28,8 @@ export interface UseWorkspacesReturn {
   deleteWorkspace: (workspaceId: string) => void;
   renameWorkspace: (workspaceId: string, newName: string) => void;
   updateWorkspaceTabs: (workspaceId: string, tabs: Tab[], activeTab: string) => void;
+  updateWorkspaceChatMessages: (workspaceId: string, messages: Message[]) => void;
+  updateWorkspaceCurrentTopic: (workspaceId: string, topic: string | undefined) => void;
 }
 
 const DEFAULT_COLORS = [
@@ -37,6 +48,7 @@ export function useWorkspaces(defaultWorkspaceName = 'Default'): UseWorkspacesRe
       color: 'blue',
       openTabs: [],
       activeTab: 'chat',
+      chatMessages: [],
     },
   ]);
   
@@ -52,6 +64,7 @@ export function useWorkspaces(defaultWorkspaceName = 'Default'): UseWorkspacesRe
       color: color || DEFAULT_COLORS[workspaces.length % DEFAULT_COLORS.length],
       openTabs: [],
       activeTab: 'chat',
+      chatMessages: [],
     };
 
     setWorkspaces(prev => [...prev, newWorkspace]);
@@ -104,6 +117,32 @@ export function useWorkspaces(defaultWorkspaceName = 'Default'): UseWorkspacesRe
     );
   }, []);
 
+  const updateWorkspaceChatMessages = useCallback((
+    workspaceId: string,
+    messages: Message[]
+  ) => {
+    setWorkspaces(prev =>
+      prev.map(w =>
+        w.id === workspaceId
+          ? { ...w, chatMessages: messages }
+          : w
+      )
+    );
+  }, []);
+
+  const updateWorkspaceCurrentTopic = useCallback((
+    workspaceId: string,
+    topic: string | undefined
+  ) => {
+    setWorkspaces(prev =>
+      prev.map(w =>
+        w.id === workspaceId
+          ? { ...w, currentTopic: topic }
+          : w
+      )
+    );
+  }, []);
+
   return {
     workspaces,
     activeWorkspaceId,
@@ -113,5 +152,7 @@ export function useWorkspaces(defaultWorkspaceName = 'Default'): UseWorkspacesRe
     deleteWorkspace,
     renameWorkspace,
     updateWorkspaceTabs,
+    updateWorkspaceChatMessages,
+    updateWorkspaceCurrentTopic,
   };
 }

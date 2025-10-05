@@ -5,3 +5,5 @@ export type { Workspace } from './Sidebar';
 export { PublicationViewer } from './PublicationViewer';
 export { GraphView } from './GraphView';
 export { MiniGraphView } from './MiniGraphView';
+export { ChatView } from './ChatView';
+export type { Message } from './ChatView';

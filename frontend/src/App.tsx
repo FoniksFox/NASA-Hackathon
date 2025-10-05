@@ -1,9 +1,8 @@
 import './App.css'
-import { Button, Stack, Box, Text } from '@mantine/core'
-import { BrowserHeader, Sidebar, PublicationViewer, GraphView } from './components'
+import { BrowserHeader, Sidebar, PublicationViewer, GraphView, ChatView } from './components'
 import { useWorkspaces } from './hooks'
 import { useEffect, useState, useRef } from 'react'
-import type { Tab } from './hooks'
+import type { Tab, Message } from './hooks'
 
 export default function App() {
   const {
@@ -15,11 +14,18 @@ export default function App() {
     deleteWorkspace,
     renameWorkspace,
     updateWorkspaceTabs,
+    updateWorkspaceChatMessages,
+    updateWorkspaceCurrentTopic,
   } = useWorkspaces('Main Workspace');
 
   // Local state for current workspace tabs
   const [activeTab, setActiveTab] = useState(activeWorkspace?.activeTab || 'chat');
   const [publicationTabs, setPublicationTabs] = useState<Tab[]>(activeWorkspace?.openTabs || []);
+  
+  // Local state for chat messages
+  const [chatMessages, setChatMessages] = useState<Message[]>(activeWorkspace?.chatMessages || []);
+  const [isChatLoading, setIsChatLoading] = useState(false);
+  const [currentTopic, setCurrentTopic] = useState<string | undefined>(activeWorkspace?.currentTopic);
   
   // Track if we're currently loading from workspace (to prevent update loop)
   const isLoadingFromWorkspace = useRef(false);
@@ -32,6 +38,8 @@ export default function App() {
       isLoadingFromWorkspace.current = true;
       setActiveTab(activeWorkspace.activeTab);
       setPublicationTabs(activeWorkspace.openTabs);
+      setChatMessages(activeWorkspace.chatMessages);
+      setCurrentTopic(activeWorkspace.currentTopic);
       prevWorkspaceId.current = activeWorkspaceId;
       
       // Reset flag after state updates
@@ -47,6 +55,13 @@ export default function App() {
       updateWorkspaceTabs(activeWorkspaceId, publicationTabs, activeTab);
     }
   }, [activeTab, publicationTabs, activeWorkspaceId, updateWorkspaceTabs]);
+
+  // Update workspace when chat messages change
+  useEffect(() => {
+    if (activeWorkspaceId && !isLoadingFromWorkspace.current) {
+      updateWorkspaceChatMessages(activeWorkspaceId, chatMessages);
+    }
+  }, [chatMessages, activeWorkspaceId, updateWorkspaceChatMessages]);
 
   const handleTabChange = (tabId: string) => {
     setActiveTab(tabId);
@@ -81,17 +96,54 @@ export default function App() {
     setActiveTab(newTabId);
   };
 
-  // Demo function to add sample publication tabs
-  const addSamplePublication = () => {
-    const titles = [
-      'Plant Growth in Microgravity',
-      'Cell Behavior Studies',
-      'Radiation Effects on DNA',
-      'Bone Density in Space',
-      'Muscle Atrophy Research',
-    ];
-    const randomTitle = titles[Math.floor(Math.random() * titles.length)];
-    addPublicationTab(randomTitle);
+  const handleSendMessage = async (message: string) => {
+    // Add user message
+    const userMessage: Message = {
+      id: `msg-${Date.now()}`,
+      role: 'user',
+      content: message,
+      timestamp: new Date(),
+    };
+
+    setChatMessages(prev => [...prev, userMessage]);
+    setIsChatLoading(true);
+
+    try {
+      // TODO: Replace with actual backend API call
+      // const response = await fetch('/api/chat', {
+      //   method: 'POST',
+      //   headers: { 'Content-Type': 'application/json' },
+      //   body: JSON.stringify({ message, workspaceId: activeWorkspaceId }),
+      // });
+      // const data = await response.json();
+      
+      // Mock AI response with topic routing
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      // Mock topic assignment based on message content (backend will do this)
+      const mockTopics = ['Microgravity Research', 'Radiation Biology', 'Plant Biology', 'Immunology', 'Biotechnology'];
+      const randomTopic = mockTopics[Math.floor(Math.random() * mockTopics.length)];
+      
+      const aiMessage: Message = {
+        id: `msg-${Date.now()}-ai`,
+        role: 'assistant',
+        content: `This is a mock response to: "${message}". The AI assistant will be connected to the backend soon!`,
+        timestamp: new Date(),
+        topic: randomTopic, // Backend will provide this
+      };
+
+      setChatMessages(prev => [...prev, aiMessage]);
+      
+      // Update current topic for workspace
+      setCurrentTopic(randomTopic);
+      if (activeWorkspaceId) {
+        updateWorkspaceCurrentTopic(activeWorkspaceId, randomTopic);
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+    } finally {
+      setIsChatLoading(false);
+    }
   };
 
   return (
@@ -115,19 +167,12 @@ export default function App() {
         />
         <section style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0, minHeight: 0 }}>
           {activeTab === 'chat' && (
-            <Box p="md">
-              <Stack gap="md">
-                <h2>AI Chat</h2>
-                <Text c="dimmed">Chat interface coming soon...</Text>
-                
-                {/* Demo button to test tab functionality */}
-                <div>
-                  <Button onClick={addSamplePublication}>
-                    Open Sample Publication
-                  </Button>
-                </div>
-              </Stack>
-            </Box>
+            <ChatView
+              messages={chatMessages}
+              onSendMessage={handleSendMessage}
+              isLoading={isChatLoading}
+              currentTopic={currentTopic}
+            />
           )}
 
           {activeTab === 'graph' && (
