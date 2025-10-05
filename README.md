@@ -9,6 +9,8 @@ Logo: `simbiosisrecortado.png` / `logo_clear.png`
 
 Accent Color: Mint Green (#4db391)
 
+Access Link: http://54.38.34.111:3000/
+
 Concept summary
 ----------------
 This repository contains a hackathon project for the 2025 NASA Space Apps Challenge: a dynamic dashboard that combines the note-taking / graph-exploration feel of Obsidian with an LLM-driven conversational layer (ChatGPT-style) and a UMAP-based 3D projection instead of a static Obsidian graph. The goal is to help researchers, mission planners, and curious users explore and summarize the 608 NASA bioscience publications using AI, knowledge graph concepts, and visual embeddings.

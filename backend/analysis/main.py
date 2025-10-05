@@ -10,11 +10,14 @@ import re
 from google import genai
 import ast
 from google.genai import errors as gen_errors
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ========== CONFIG ==========
+API_KEY = os.getenv("GENAI_API_KEY")
 CACHE_DIR = "cache"
 SUMMARY_FILE = "result.json"
-API_KEY = "AIzaSyDyM2YV8rH8XMHLZYgxylOT2DmvmkmnlqI"
 MAX_CONCURRENT = 3
 
 os.makedirs(CACHE_DIR, exist_ok=True)
