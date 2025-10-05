@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  height: 150px;
+  background-color: light-dark(var(--mantine-color-light-2), var(--mantine-color-darker-8));
+  border-radius: var(--mantine-radius-md);
+  overflow: hidden;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
