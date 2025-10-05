@@ -1,5 +1,3880 @@
 [
-  { "id": "3630201", "title": "Title 1", "x": 1.2, "y": 3.4, "z": 5.6 },
-  { "id": "4136787", "title":  "Title 2", "x": 7.8, "y": 9.0, "z": 1.2 },
-  { "id": "11988870", "title": "Title 3", "x": 2.3, "y": 4.5, "z": 6.7 }
+  {
+    "id": "4136787",
+    "title": "Mice in Bion-M 1 space mission: training and selection",
+    "x": 0.6784505248069763,
+    "y": 4.278327465057373,
+    "z": 6.7087297439575195
+  },
+  {
+    "id": "3630201",
+    "title": "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21",
+    "x": 0.22449642419815063,
+    "y": 3.450631856918335,
+    "z": 6.076838970184326
+  },
+  {
+    "id": "11988870",
+    "title": "Stem Cell Health and Tissue Regeneration in Microgravity",
+    "x": 0.7445183396339417,
+    "y": 3.164921283721924,
+    "z": 6.435250282287598
+  },
+  {
+    "id": "7998608",
+    "title": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells",
+    "x": 0.5608915090560913,
+    "y": 3.6017956733703613,
+    "z": 6.382962703704834
+  },
+  {
+    "id": "5587110",
+    "title": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station",
+    "x": 4.4261627197265625,
+    "y": 3.2829809188842773,
+    "z": 5.370981693267822
+  },
+  {
+    "id": "8396460",
+    "title": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart",
+    "x": 1.0911844968795776,
+    "y": 4.037561893463135,
+    "z": 7.439770698547363
+  },
+  {
+    "id": "5666799",
+    "title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+    "x": 1.751859188079834,
+    "y": 3.0439698696136475,
+    "z": 6.712136268615723
+  },
+  {
+    "id": "5460236",
+    "title": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions.",
+    "x": 1.2408047914505005,
+    "y": 3.53528094291687,
+    "z": 6.809028148651123
+  },
+  {
+    "id": "6222041",
+    "title": "High-precision method for cyclic loading of small-animal vertebrae to assess bone quality.",
+    "x": 0.5929379463195801,
+    "y": 3.533463716506958,
+    "z": 3.110212564468384
+  },
+  {
+    "id": "6813909",
+    "title": "Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae.",
+    "x": 1.2323943376541138,
+    "y": 3.4915730953216553,
+    "z": 3.3016867637634277
+  },
+  {
+    "id": "4095884",
+    "title": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+    "x": 3.7560007572174072,
+    "y": 2.750784158706665,
+    "z": 2.9309277534484863
+  },
+  {
+    "id": "3040128",
+    "title": "AtRabD2b and AtRabD2c have overlapping functions in pollen development and pollen tube growth.",
+    "x": 11.729270935058594,
+    "y": 8.172966957092285,
+    "z": 5.973339080810547
+  },
+  {
+    "id": "3177255",
+    "title": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis.",
+    "x": 11.742911338806152,
+    "y": 8.234214782714844,
+    "z": 5.986545562744141
+  },
+  {
+    "id": "11500582",
+    "title": "Functional redundancy between trans-Golgi network SNARE family members in Arabidopsis thaliana.",
+    "x": 11.62179946899414,
+    "y": 7.849795341491699,
+    "z": 5.858192443847656
+  },
+  {
+    "id": "5387210",
+    "title": "TNO1, a TGN-localized SNARE-interacting protein, modulates root skewing in Arabidopsis thaliana.",
+    "x": 11.756123542785645,
+    "y": 8.154699325561523,
+    "z": 6.008812427520752
+  },
+  {
+    "id": "4642138",
+    "title": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1",
+    "x": 11.557413101196289,
+    "y": 8.26366138458252,
+    "z": 5.910636901855469
+  },
+  {
+    "id": "2915878",
+    "title": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus.",
+    "x": 3.748469352722168,
+    "y": 2.7127034664154053,
+    "z": 2.9819512367248535
+  },
+  {
+    "id": "3901686",
+    "title": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+    "x": 3.710850238800049,
+    "y": 4.147083282470703,
+    "z": 7.150921821594238
+  },
+  {
+    "id": "6387434",
+    "title": "GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species.",
+    "x": 1.6752979755401611,
+    "y": 3.6582062244415283,
+    "z": 8.237945556640625
+  },
+  {
+    "id": "6371294",
+    "title": "FAIRness and usability for open-access omics data systems.",
+    "x": 8.4476318359375,
+    "y": 8.922233581542969,
+    "z": 6.1857805252075195
+  },
+  {
+    "id": "7072278",
+    "title": "NASA GeneLab platform utilized for biological response to space radiation in animal models",
+    "x": 1.7990717887878418,
+    "y": 3.900491714477539,
+    "z": 8.63991641998291
+  },
+  {
+    "id": "8441986",
+    "title": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+    "x": 1.5366480350494385,
+    "y": 3.8688886165618896,
+    "z": 8.368561744689941
+  },
+  {
+    "id": "9400218",
+    "title": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+    "x": 4.301201820373535,
+    "y": 3.7855539321899414,
+    "z": 7.521580219268799
+  },
+  {
+    "id": "9267413",
+    "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review",
+    "x": 1.2250295877456665,
+    "y": 3.6744203567504883,
+    "z": 6.771018981933594
+  },
+  {
+    "id": "9576569",
+    "title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice.",
+    "x": 1.5921324491500854,
+    "y": 4.557180404663086,
+    "z": 8.68084716796875
+  },
+  {
+    "id": "10789781",
+    "title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+    "x": 1.7564375400543213,
+    "y": 3.765852451324463,
+    "z": 8.473833084106445
+  },
+  {
+    "id": "10772081",
+    "title": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: Host extracellular to systemic effects of SARS-CoV-2 infection",
+    "x": 5.043951511383057,
+    "y": 3.0239057540893555,
+    "z": 3.802600145339966
+  },
+  {
+    "id": "11166946",
+    "title": "Aging and putative frailty biomarkers are altered by spaceflight",
+    "x": 1.8259317874908447,
+    "y": 4.500199317932129,
+    "z": 8.76809310913086
+  },
+  {
+    "id": "11166944",
+    "title": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs",
+    "x": 1.8025977611541748,
+    "y": 3.5084800720214844,
+    "z": 8.166479110717773
+  },
+  {
+    "id": "11166968",
+    "title": "Ethical considerations for the age of non-governmental space exploration",
+    "x": 1.651291847229004,
+    "y": 3.1441941261291504,
+    "z": 7.194666862487793
+  },
+  {
+    "id": "7000411",
+    "title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model.",
+    "x": 3.962402105331421,
+    "y": 4.534150123596191,
+    "z": 6.594542503356934
+  },
+  {
+    "id": "7787258",
+    "title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila",
+    "x": 1.356669306755066,
+    "y": 4.11387300491333,
+    "z": 8.120729446411133
+  },
+  {
+    "id": "8716943",
+    "title": "Regulation of plant gravity sensing and signaling by the actin cytoskeleton.",
+    "x": 11.694684028625488,
+    "y": 8.208032608032227,
+    "z": 5.9325714111328125
+  },
+  {
+    "id": "4826010",
+    "title": "HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis",
+    "x": 11.553574562072754,
+    "y": 7.820415496826172,
+    "z": 5.754461765289307
+  },
+  {
+    "id": "7010715",
+    "title": "Brassinosteroids inhibit autotropic root straightening by modifying filamentous-actin organization and dynamics.",
+    "x": 10.913908004760742,
+    "y": 8.266728401184082,
+    "z": 5.58482027053833
+  },
+  {
+    "id": "7503278",
+    "title": "Cell type-specific imaging of calcium signaling in Arabidopsis thaliana seedling roots using GCaMP3.",
+    "x": 11.775188446044922,
+    "y": 8.135003089904785,
+    "z": 6.033985614776611
+  },
+  {
+    "id": "8364238",
+    "title": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development.",
+    "x": 11.75838851928711,
+    "y": 8.234639167785645,
+    "z": 5.983523845672607
+  },
+  {
+    "id": "11579474",
+    "title": "Microgravity Stress: Bone and Connective Tissue",
+    "x": 2.1217551231384277,
+    "y": 4.168720245361328,
+    "z": 8.210038185119629
+  },
+  {
+    "id": "2998437",
+    "title": "S. aureus MscL is a pentamer in vivo but of variable stoichiometries in vitro: implications for detergent-solubilized membrane proteins",
+    "x": 6.469582557678223,
+    "y": 3.160240650177002,
+    "z": 3.653890371322632
+  },
+  {
+    "id": "3005423",
+    "title": "Manipulating the permeation of charged compounds through the MscL nanovalve.",
+    "x": 6.489903926849365,
+    "y": 3.187513828277588,
+    "z": 3.625134229660034
+  },
+  {
+    "id": "3289768",
+    "title": "Three routes to modulate the pore size of the MscL channel/nanovalve",
+    "x": 6.444094657897949,
+    "y": 3.2030820846557617,
+    "z": 3.6948306560516357
+  },
+  {
+    "id": "3190158",
+    "title": "The oligomeric state of the truncated mechanosensitive channel of large conductance shows no variance in vivo.",
+    "x": 6.476347923278809,
+    "y": 3.1949760913848877,
+    "z": 3.622875928878784
+  },
+  {
+    "id": "3508904",
+    "title": "The dynamics of protein-protein interactions between domains of MscL at the cytoplasmic-lipid interface",
+    "x": 6.4419121742248535,
+    "y": 3.1535627841949463,
+    "z": 3.665395736694336
+  },
+  {
+    "id": "3430326",
+    "title": "The MscS and MscL families of mechanosensitive channels act as microbial emergency release valves",
+    "x": 6.387759208679199,
+    "y": 3.1342179775238037,
+    "z": 3.6685540676116943
+  },
+  {
+    "id": "3593973",
+    "title": "Chimeras reveal a single lipid-interface residue that controls MscL channel kinetics as well as mechanosensitivity",
+    "x": 6.506101131439209,
+    "y": 3.1827409267425537,
+    "z": 3.628995656967163
+  },
+  {
+    "id": "11127935",
+    "title": "Tardigrades Use Intrinsically Disordered Proteins to Survive Desiccation.",
+    "x": 5.648060321807861,
+    "y": 3.1491308212280273,
+    "z": 4.0242791175842285
+  },
+  {
+    "id": "3774184",
+    "title": "Partial weight suspension: A novel murine model for investigating adaptation to reduced musculoskeletal loading.",
+    "x": 0.13671664893627167,
+    "y": 3.59242844581604,
+    "z": 5.746352195739746
+  },
+  {
+    "id": "4118556",
+    "title": "Partial reductions in mechanical loading yield proportional changes in bone density, bone architecture, and muscle mass",
+    "x": 0.14881955087184906,
+    "y": 3.5592238903045654,
+    "z": 5.724851608276367
+  },
+  {
+    "id": "4653813",
+    "title": "Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle",
+    "x": 0.1854168176651001,
+    "y": 3.688736915588379,
+    "z": 5.791811943054199
+  },
+  {
+    "id": "11930778",
+    "title": "The biology of tardigrade disordered proteins in extreme stress tolerance.",
+    "x": 9.034337043762207,
+    "y": 8.312295913696289,
+    "z": 5.480067253112793
+  },
+  {
+    "id": "6124165",
+    "title": "Treatment with a soluble bone morphogenetic protein type 1A receptor (BMPR1A) fusion protein increases bone mass and bone formation in mice subjected to hindlimb unloading.",
+    "x": 0.16241203248500824,
+    "y": 3.5385725498199463,
+    "z": 5.889838695526123
+  },
+  {
+    "id": "6915713",
+    "title": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver",
+    "x": 1.6045706272125244,
+    "y": 4.387469291687012,
+    "z": 8.702698707580566
+  },
+  {
+    "id": "8816950",
+    "title": "Production of reactive oxygen species and involvement of bioprotectants during anhydrobiosis in the tardigrade Paramacrobiotus spatialis",
+    "x": 3.498896837234497,
+    "y": 2.7752981185913086,
+    "z": 3.074399709701538
+  },
+  {
+    "id": "8509868",
+    "title": "RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice",
+    "x": 1.8062490224838257,
+    "y": 4.3932108879089355,
+    "z": 8.383772850036621
+  },
+  {
+    "id": "5672023",
+    "title": "Adaptive Changes in the Vestibular System of Land Snail to a 30-Day Spaceflight and Readaptation on Return to Earth",
+    "x": 1.6824736595153809,
+    "y": 4.58687686920166,
+    "z": 8.575294494628906
+  },
+  {
+    "id": "11063234",
+    "title": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation",
+    "x": 1.842932939529419,
+    "y": 3.4458184242248535,
+    "z": 8.101964950561523
+  },
+  {
+    "id": "5899691",
+    "title": "Morphology of the Utricular Otolith Organ in the Toadfish, Opsanus tau",
+    "x": 0.4844627380371094,
+    "y": 4.306397438049316,
+    "z": 5.917753219604492
+  },
+  {
+    "id": "4064004",
+    "title": "Organization of the ER-Golgi interface for membrane traffic control.",
+    "x": 3.4699387550354004,
+    "y": 3.0315158367156982,
+    "z": 2.7154393196105957
+  },
+  {
+    "id": "6204554",
+    "title": "Influence of Magnitude and Duration of Altered Gravity and Readaptation to 1g on the Structure and Function of the Utricle in Toadfish, Opsanus tau.",
+    "x": 0.48301175236701965,
+    "y": 4.274849891662598,
+    "z": 5.9828081130981445
+  },
+  {
+    "id": "3981873",
+    "title": "Inter-regulation of the unfolded protein response and auxin signaling.",
+    "x": 11.715191841125488,
+    "y": 8.164481163024902,
+    "z": 5.945732593536377
+  },
+  {
+    "id": "3818365",
+    "title": "IRE1: ER stress sensor and cell fate executor.",
+    "x": 11.389108657836914,
+    "y": 7.874129772186279,
+    "z": 5.469663619995117
+  },
+  {
+    "id": "4453782",
+    "title": "Vesicles versus Tubes: Is Endoplasmic Reticulum-Golgi Transport in Plants Fundamentally Different from Other Eukaryotes?",
+    "x": 11.715885162353516,
+    "y": 8.161019325256348,
+    "z": 5.905139923095703
+  },
+  {
+    "id": "4378170",
+    "title": "Galactose-depleted xycoglucan is dysfunctional and leads to dwarfism in Arabidopsis",
+    "x": 11.660163879394531,
+    "y": 7.503360748291016,
+    "z": 5.8632965087890625
+  },
+  {
+    "id": "4618186",
+    "title": "Unfolded protein response in plants: one master, many questions.",
+    "x": 11.631545066833496,
+    "y": 8.022697448730469,
+    "z": 5.752005577087402
+  },
+  {
+    "id": "4902601",
+    "title": "Pectin methylesterification impacts the relationship between photosynthesis and plant growth.",
+    "x": 11.67747688293457,
+    "y": 7.508854866027832,
+    "z": 5.890153884887695
+  },
+  {
+    "id": "3615599",
+    "title": "Differential effects of aging and exercise on intra-abdominal adipose arteriolar function and blood flow regulation.",
+    "x": 2.857039213180542,
+    "y": 3.8345985412597656,
+    "z": 2.7169957160949707
+  },
+  {
+    "id": "4050424",
+    "title": "Effects of spaceflight and ground recovery on mesenteric artery and vein constrictor properties in mice.",
+    "x": 0.6291631460189819,
+    "y": 4.3450398445129395,
+    "z": 6.627539157867432
+  },
+  {
+    "id": "3659353",
+    "title": "Spaceflight-induced alterations in cerebral artery vasoconstrictor, mechanical, and structural properties: Implications for elevated cerebral perfusion and intracranial pressure",
+    "x": 0.5604535341262817,
+    "y": 4.378106117248535,
+    "z": 6.444604873657227
+  },
+  {
+    "id": "4776492",
+    "title": "Reduced Chloroplast Coverage genes from Arabidopsis thaliana help to establish the size of the chloroplast compartment",
+    "x": 11.617594718933105,
+    "y": 7.433569431304932,
+    "z": 5.848803520202637
+  },
+  {
+    "id": "5415411",
+    "title": "Maintaining the factory: The roles of the unfolded protein response in cellular homeostasis in plants.",
+    "x": 11.419264793395996,
+    "y": 7.770827770233154,
+    "z": 5.4255781173706055
+  },
+  {
+    "id": "6289879",
+    "title": "NADPH oxidase activity is required for ER stress survival in plants.",
+    "x": 11.39653205871582,
+    "y": 7.75514554977417,
+    "z": 5.413447380065918
+  },
+  {
+    "id": "7987364",
+    "title": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis",
+    "x": 8.327942848205566,
+    "y": 9.140501022338867,
+    "z": 6.3473687171936035
+  },
+  {
+    "id": "8099722",
+    "title": "Reanalysis of the Mars500 experiment reveals common gut microbiome alterations in astronauts induced by long-duration confinement",
+    "x": 3.8890278339385986,
+    "y": 3.93369197845459,
+    "z": 6.827816009521484
+  },
+  {
+    "id": "4033213",
+    "title": "Genomic stability in response to high versus low linear energy transfer radiation in Arabidopsis thaliana",
+    "x": 8.774283409118652,
+    "y": 8.725542068481445,
+    "z": 5.990335941314697
+  },
+  {
+    "id": "6081456",
+    "title": "Acceleration profiles and processing methods for parabolic flight.",
+    "x": 0.466134637594223,
+    "y": 4.27107572555542,
+    "z": 5.99527645111084
+  },
+  {
+    "id": "5955502",
+    "title": "Cytoskeleton structure and total methylation of mouse cardiac and lung tissue during space flight.",
+    "x": 1.4270660877227783,
+    "y": 4.014336585998535,
+    "z": 8.278225898742676
+  },
+  {
+    "id": "10285634",
+    "title": "Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target",
+    "x": 0.09179554879665375,
+    "y": 3.3661978244781494,
+    "z": 6.094815731048584
+  },
+  {
+    "id": "7940393",
+    "title": "Modeled microgravity alters lipopolysaccharide and outer membrane vesicle production of the beneficial symbiont Vibrio fischeri",
+    "x": 4.046390056610107,
+    "y": 4.522726535797119,
+    "z": 6.555595397949219
+  },
+  {
+    "id": "9023564",
+    "title": "Emergence of novel cephalopod gene regulation and expression through large-scale genome reorganization",
+    "x": 4.098145961761475,
+    "y": 2.275202751159668,
+    "z": 3.298356771469116
+  },
+  {
+    "id": "9389742",
+    "title": "Modeled microgravity alters apoptotic gene expression and caspase activity in the squid-vibrio symbiosis",
+    "x": 4.141734600067139,
+    "y": 3.9026572704315186,
+    "z": 7.4879631996154785
+  },
+  {
+    "id": "11271499",
+    "title": "Spaceflight increases sarcoplasmic reticulum Ca2+ leak and this cannot be counteracted with BuOE treatment",
+    "x": 1.1228587627410889,
+    "y": 3.827763319015503,
+    "z": 7.240396976470947
+  },
+  {
+    "id": "6062551",
+    "title": "Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties",
+    "x": 1.2907382249832153,
+    "y": 3.9478869438171387,
+    "z": 8.042818069458008
+  },
+  {
+    "id": "9832585",
+    "title": "Inter-agency perspective: Translating advances in biomarker discovery and medical countermeasures development between terrestrial and space radiation environments",
+    "x": 1.9043793678283691,
+    "y": 3.0460052490234375,
+    "z": 6.806966304779053
+  },
+  {
+    "id": "11046949",
+    "title": "Development and characterization of two porcine monocyte-derived macrophage cell lines.",
+    "x": 5.324704647064209,
+    "y": 3.356656074523926,
+    "z": 3.31461501121521
+  },
+  {
+    "id": "3890248",
+    "title": "Understanding macrophage differentiation during space flight: The importance of ground-based experiments before space flight",
+    "x": 0.6681388020515442,
+    "y": 3.3426764011383057,
+    "z": 6.424065589904785
+  },
+  {
+    "id": "3868799",
+    "title": "Bone marrow leptin signaling mediates obesity-associated adipose tissue inflammation in male mice.",
+    "x": 3.5725417137145996,
+    "y": 3.508227825164795,
+    "z": 3.0851376056671143
+  },
+  {
+    "id": "4960141",
+    "title": "Establishment and characterization of DB-1: a leptin receptor-deficient murine macrophage cell line",
+    "x": 3.6241960525512695,
+    "y": 3.5577423572540283,
+    "z": 3.1092028617858887
+  },
+  {
+    "id": "5736159",
+    "title": "Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station.",
+    "x": 2.061819314956665,
+    "y": 4.272482872009277,
+    "z": 8.516341209411621
+  },
+  {
+    "id": "5761896",
+    "title": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing",
+    "x": 4.41879415512085,
+    "y": 2.5467119216918945,
+    "z": 3.461749792098999
+  },
+  {
+    "id": "5826609",
+    "title": "Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice",
+    "x": 2.2332775592803955,
+    "y": 4.164865016937256,
+    "z": 8.473112106323242
+  },
+  {
+    "id": "6366624",
+    "title": "A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing.",
+    "x": 4.267976760864258,
+    "y": 2.4541797637939453,
+    "z": 3.376688241958618
+  },
+  {
+    "id": "11929063",
+    "title": "Effects of skeletal unloading on the bone marrow antibody repertoire of tetanus toxoid and/or CpG treated C57BL/6J mice.",
+    "x": 3.878777027130127,
+    "y": 2.5156075954437256,
+    "z": 3.330678939819336
+  },
+  {
+    "id": "10996920",
+    "title": "An Analysis of the Effects of Spaceflight and Vaccination on Antibody Repertoire Diversity",
+    "x": 2.268019914627075,
+    "y": 4.207447052001953,
+    "z": 8.242828369140625
+  },
+  {
+    "id": "7954810",
+    "title": "Effects of spaceflight aboard the International Space Station on mouse estrous cycle and ovarian gene expression",
+    "x": 1.6455186605453491,
+    "y": 4.391824245452881,
+    "z": 8.4611234664917
+  },
+  {
+    "id": "4228280",
+    "title": "Effect of spaceflight on Pseudomonas aeruginosa final cell density is modulated by nutrient and oxygen availability.",
+    "x": 4.2440948486328125,
+    "y": 4.5369343757629395,
+    "z": 6.3740153312683105
+  },
+  {
+    "id": "3639165",
+    "title": "Spaceflight promotes biofilm formation by Pseudomonas aeruginosa.",
+    "x": 4.149522304534912,
+    "y": 4.628913402557373,
+    "z": 6.464226722717285
+  },
+  {
+    "id": "8044432",
+    "title": "NASA GeneLab RNA-Seq Consensus Pipeline: Standardized Processing of Short-Read RNA-Seq Data",
+    "x": 1.631799578666687,
+    "y": 4.434256076812744,
+    "z": 8.6880464553833
+  },
+  {
+    "id": "7778922",
+    "title": "NASA GeneLab: Interfaces for the exploration of space omics data",
+    "x": 1.705979347229004,
+    "y": 4.164691925048828,
+    "z": 8.75388240814209
+  },
+  {
+    "id": "7870178",
+    "title": "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact",
+    "x": 2.0616867542266846,
+    "y": 4.379313945770264,
+    "z": 8.790863990783691
+  },
+  {
+    "id": "7733874",
+    "title": "A New Era for Space Life Science: International Standards for Space Omics Processing",
+    "x": 2.4051430225372314,
+    "y": 3.273498773574829,
+    "z": 7.957681655883789
+  },
+  {
+    "id": "7828077",
+    "title": "Knowledge Network Embedding of Transcriptomic Data from Spaceflown Mice Uncovers Signs and Symptoms Associated with Terrestrial Diseases",
+    "x": 1.6069198846817017,
+    "y": 4.3758697509765625,
+    "z": 8.706868171691895
+  },
+  {
+    "id": "11166911",
+    "title": "Spatially resolved multiomics on the neuronal effects induced by spaceflight in mice",
+    "x": 1.9098241329193115,
+    "y": 4.415374279022217,
+    "z": 8.804603576660156
+  },
+  {
+    "id": "11094041",
+    "title": "Inspiration4 data access through the NASA Open Science Data Repository",
+    "x": 1.7505720853805542,
+    "y": 4.368935585021973,
+    "z": 8.691438674926758
+  },
+  {
+    "id": "11053165",
+    "title": "NASA GeneLab derived microarray studies of Mus musculus and Homo sapiens organisms in altered gravitational conditions.",
+    "x": 2.0566625595092773,
+    "y": 4.134490013122559,
+    "z": 8.177318572998047
+  },
+  {
+    "id": "11403809",
+    "title": "Celebrating 30 years of access to NASA space life sciences data.",
+    "x": 1.7103303670883179,
+    "y": 4.175904273986816,
+    "z": 8.670333862304688
+  },
+  {
+    "id": "8513672",
+    "title": "Dichotomous effects on lymphatic transport with loss of caveolae in mice.",
+    "x": 3.3654942512512207,
+    "y": 3.388235092163086,
+    "z": 2.8659372329711914
+  },
+  {
+    "id": "4964660",
+    "title": "Apollo Lunar Astronauts Show Higher Cardiovascular Disease Mortality: Possible Deep Space Radiation Effects on the Vascular Endothelium",
+    "x": 1.5919376611709595,
+    "y": 3.0075671672821045,
+    "z": 6.974576473236084
+  },
+  {
+    "id": "5866446",
+    "title": "Effects of age and exercise training on coronary microvascular smooth muscle phenotype and function",
+    "x": 2.839219570159912,
+    "y": 3.6360743045806885,
+    "z": 2.798593759536743
+  },
+  {
+    "id": "6165321",
+    "title": "Impact of Spaceflight and Artificial Gravity on the Mouse Retina: Biochemical and Proteomic Analysis.",
+    "x": 1.2168265581130981,
+    "y": 3.9607608318328857,
+    "z": 7.555168151855469
+  },
+  {
+    "id": "7339929",
+    "title": "Simulated microgravity induces regionally distinct neurovascular and structural remodeling of skeletal muscle and cutaneous arteries in the rat",
+    "x": 0.550616443157196,
+    "y": 4.363277912139893,
+    "z": 6.426946640014648
+  },
+  {
+    "id": "8220224",
+    "title": "Spaceflight decelerates the epigenetic clock orchestrated with a global alteration in DNA methylome and transcriptome in the mouse retina",
+    "x": 1.7285430431365967,
+    "y": 4.5248565673828125,
+    "z": 8.758230209350586
+  },
+  {
+    "id": "2910419",
+    "title": "Development of otolith receptors in Japanese quail.",
+    "x": 0.4812256395816803,
+    "y": 4.257820129394531,
+    "z": 5.985655784606934
+  },
+  {
+    "id": "3166430",
+    "title": "Spatial and temporal characteristics of vestibular convergence",
+    "x": 0.6391363739967346,
+    "y": 4.381327152252197,
+    "z": 5.574123382568359
+  },
+  {
+    "id": "10233975",
+    "title": "Characterization of metagenome-assembled genomes from the International Space Station.",
+    "x": 4.330813407897949,
+    "y": 3.7980096340179443,
+    "z": 7.5255961418151855
+  },
+  {
+    "id": "7829349",
+    "title": "Genomic and functional characterization of Enterococcus faecalis isolates recovered from the International Space Station and their potential for pathogenicity",
+    "x": 4.459921836853027,
+    "y": 3.8745758533477783,
+    "z": 3.215012311935425
+  },
+  {
+    "id": "3570223",
+    "title": "Evaluation of in vitro macrophage differentiation during space flight.",
+    "x": 1.670694351196289,
+    "y": 4.051150321960449,
+    "z": 5.546601295471191
+  },
+  {
+    "id": "3457586",
+    "title": "Identification of critical host mitochondrion-associated genes during Ehrlichia chaffeensis infections",
+    "x": 5.087707042694092,
+    "y": 4.898807048797607,
+    "z": 3.0654075145721436
+  },
+  {
+    "id": "3558598",
+    "title": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster.",
+    "x": 4.952117919921875,
+    "y": 4.355111598968506,
+    "z": 2.698303699493408
+  },
+  {
+    "id": "11126634",
+    "title": "Fungal diversity differences in the indoor dust microbiome from built environments on Earth and in space.",
+    "x": 4.697430610656738,
+    "y": 4.5322794914245605,
+    "z": 2.6055350303649902
+  },
+  {
+    "id": "11386075",
+    "title": "Predicting how varying moisture conditions impact the microbiome of dust collected from the International Space Station.",
+    "x": 4.951756954193115,
+    "y": 4.688199043273926,
+    "z": 2.8927032947540283
+  },
+  {
+    "id": "3502426",
+    "title": "Aging and estrogen status: A possible endothelium-dependent vascular coupling mechanism in bone remodeling.",
+    "x": 0.5437071323394775,
+    "y": 3.699838876724243,
+    "z": 3.5328171253204346
+  },
+  {
+    "id": "3856860",
+    "title": "Chronic skeletal unloading of the rat femur: mechanisms and functional consequences of vascular remodeling.",
+    "x": 0.40226468443870544,
+    "y": 3.565187931060791,
+    "z": 3.1899895668029785
+  },
+  {
+    "id": "4169763",
+    "title": "Exercise training augments regional bone and marrow blood flow during exercise.",
+    "x": 0.6746146082878113,
+    "y": 3.755582809448242,
+    "z": 3.3582842350006104
+  },
+  {
+    "id": "4398884",
+    "title": "Effects of Skeletal Unloading on the Vasomotor Properties of the Rat Femur Principal Nutrient Artery",
+    "x": 0.5061465501785278,
+    "y": 3.642301082611084,
+    "z": 4.055394649505615
+  },
+  {
+    "id": "4379453",
+    "title": "Type 2 diabetes alters bone and marrow blood flow and vascular control mechanisms in the ZDF rat.",
+    "x": 0.5067298412322998,
+    "y": 3.68947172164917,
+    "z": 3.653515100479126
+  },
+  {
+    "id": "4385880",
+    "title": "Spaceflight on the Bion-M1 biosatellite alters cerebral artery vasomotor and mechanical properties in mice",
+    "x": 0.5318203568458557,
+    "y": 4.355893611907959,
+    "z": 6.35207986831665
+  },
+  {
+    "id": "6615562",
+    "title": "Bone remodeling is regulated by inner ear vestibular signals",
+    "x": 0.7702295184135437,
+    "y": 3.7176074981689453,
+    "z": 3.2172868251800537
+  },
+  {
+    "id": "7324008",
+    "title": "Simulated Microgravity Enhances Oligodendrocyte Mitochondrial Function and Lipid Metabolism",
+    "x": 1.7498496770858765,
+    "y": 4.077882289886475,
+    "z": 5.486955165863037
+  },
+  {
+    "id": "8412175",
+    "title": "Human Neural Stem Cells Flown into Space Proliferate and Generate Young Neurons",
+    "x": 0.7848859429359436,
+    "y": 3.1968154907226562,
+    "z": 6.323062896728516
+  },
+  {
+    "id": "9953055",
+    "title": "Oligodendrocyte Progenitors Display Enhanced Proliferation and Autophagy after Space Flight",
+    "x": 0.8075681924819946,
+    "y": 3.1578004360198975,
+    "z": 6.475858688354492
+  },
+  {
+    "id": "10528075",
+    "title": "Metabolomics profile of the secretome of space-flown oligodendrocytes.",
+    "x": 1.5726946592330933,
+    "y": 3.9452009201049805,
+    "z": 5.73525857925415
+  },
+  {
+    "id": "10390562",
+    "title": "Strategies, research priorities, and challenges for the exploration of space beyond low-Earth orbit",
+    "x": 1.5895349979400635,
+    "y": 3.8276045322418213,
+    "z": 6.272678375244141
+  },
+  {
+    "id": "4290804",
+    "title": "Spaceflight Induces Specific Alterations in the Proteomes of Arabidopsis",
+    "x": 9.270230293273926,
+    "y": 8.4061279296875,
+    "z": 5.3802690505981445
+  },
+  {
+    "id": "10813126",
+    "title": "Metabolomic profiling of the secretome from human neural stem cells flown into space.",
+    "x": 1.0335333347320557,
+    "y": 4.061672210693359,
+    "z": 5.356771945953369
+  },
+  {
+    "id": "9699585",
+    "title": "Space Microgravity Alters Neural Stem Cell Division: Implications for Brain Cancer Research on Earth and in Space",
+    "x": 0.7596529722213745,
+    "y": 3.291818141937256,
+    "z": 6.510858058929443
+  },
+  {
+    "id": "5515520",
+    "title": "The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit.",
+    "x": 9.528078079223633,
+    "y": 7.734585285186768,
+    "z": 3.87662410736084
+  },
+  {
+    "id": "5286820",
+    "title": "Skewing in Arabidopsis roots involves disparate environmental signaling pathways.",
+    "x": 11.465539932250977,
+    "y": 7.524704456329346,
+    "z": 5.665307521820068
+  },
+  {
+    "id": "5470433",
+    "title": "Data for characterization of SALK_084889, a T-DNA insertion line of Arabidopsis thaliana",
+    "x": 11.509410858154297,
+    "y": 7.381430625915527,
+    "z": 5.7799882888793945
+  },
+  {
+    "id": "5491145",
+    "title": "Genetic dissection of the Arabidopsis spaceflight transcriptome: Are some responses dispensable for the physiological adaptation of plants to spaceflight?",
+    "x": 11.433514595031738,
+    "y": 7.308694839477539,
+    "z": 5.798582553863525
+  },
+  {
+    "id": "5996828",
+    "title": "Phenotypic characterization of an Arabidopsis T- DNA insertion line SALK_063500",
+    "x": 11.508397102355957,
+    "y": 7.480013847351074,
+    "z": 5.728783130645752
+  },
+  {
+    "id": "6201722",
+    "title": "Utilization of single‚Äêimage normalized difference vegetation index (SI‚ÄêNDVI) for early plant stress detection",
+    "x": 9.437897682189941,
+    "y": 7.7851691246032715,
+    "z": 3.889646291732788
+  },
+  {
+    "id": "6240453",
+    "title": "Comparing RNA-Seq and microarray gene expression data in two zones of the Arabidopsis root apex relevant to spaceflight.",
+    "x": 11.412378311157227,
+    "y": 7.224517822265625,
+    "z": 5.80571985244751
+  },
+  {
+    "id": "6447593",
+    "title": "Spaceflight-induced alternative splicing during seedling development in Arabidopsis thaliana.",
+    "x": 9.486383438110352,
+    "y": 8.448810577392578,
+    "z": 5.165990829467773
+  },
+  {
+    "id": "7264257",
+    "title": "The Plant Health Monitoring System of the EDEN ISS Space Greenhouse in Antarctica during the 2018 experiment phase",
+    "x": 9.459162712097168,
+    "y": 7.852872848510742,
+    "z": 3.9842841625213623
+  },
+  {
+    "id": "7064724",
+    "title": "Root skewing-associated genes impact the spaceflight response of Arabidopsis thaliana.",
+    "x": 9.552465438842773,
+    "y": 8.628597259521484,
+    "z": 5.159615993499756
+  },
+  {
+    "id": "6379395",
+    "title": "Articular cartilage and sternal fibrocartilage respond differently to extended microgravity.",
+    "x": 0.5814299583435059,
+    "y": 3.793335437774658,
+    "z": 3.7228989601135254
+  },
+  {
+    "id": "5219934",
+    "title": "Environmental cues and symbiont microbe-associated molecular patterns function in concert to drive the daily remodelling of the crypt-cell brush border of the Euprymna scolopes light organ",
+    "x": 5.34735107421875,
+    "y": 3.3225183486938477,
+    "z": 3.3686420917510986
+  },
+  {
+    "id": "6386654",
+    "title": "Symbiotic organs shaped by distinct modes of genome evolution in cephalopods.",
+    "x": 5.0955400466918945,
+    "y": 4.793661117553711,
+    "z": 3.4403879642486572
+  },
+  {
+    "id": "2824534",
+    "title": "In vitro generation of mechanically functional cartilage grafts based on adult human stem cells and 3D-woven poly(epsilon-caprolactone) scaffolds",
+    "x": 2.5085699558258057,
+    "y": 3.9459593296051025,
+    "z": 2.867689371109009
+  },
+  {
+    "id": "2991213",
+    "title": "Chondrogenesis and mineralization during in vitro culture of human mesenchymal stem cells on three-dimensional woven scaffolds",
+    "x": 1.906030535697937,
+    "y": 3.571341037750244,
+    "z": 3.189063787460327
+  },
+  {
+    "id": "4187166",
+    "title": "Host-microbe interactions in microgravity: assessment and implications.",
+    "x": 8.001891136169434,
+    "y": 8.86080265045166,
+    "z": 6.439667701721191
+  },
+  {
+    "id": "11362537",
+    "title": "Spaceflight alters host-gut microbiota interactions.",
+    "x": 1.2792277336120605,
+    "y": 3.526104211807251,
+    "z": 6.188899993896484
+  },
+  {
+    "id": "9111996",
+    "title": "Asparagine biosynthesis as a mechanism of increased host lethality induced by Serratia marcescens in simulated microgravity environments",
+    "x": 4.467956066131592,
+    "y": 4.2267022132873535,
+    "z": 5.186738014221191
+  },
+  {
+    "id": "10308117",
+    "title": "Comparative genomic analysis of Cohnella hashimotonis sp. nov. isolated from the International Space Station",
+    "x": 5.1004557609558105,
+    "y": 4.825308799743652,
+    "z": 2.933387041091919
+  },
+  {
+    "id": "10848226",
+    "title": "Biocontrol in built environments to reduce pathogen exposure and infection risk.",
+    "x": 5.030299663543701,
+    "y": 4.350332260131836,
+    "z": 2.809328317642212
+  },
+  {
+    "id": "3329368",
+    "title": "Extracellular nucleotides elicit cytosolic free calcium oscillations in Arabidopsis.",
+    "x": 11.27991008758545,
+    "y": 8.045040130615234,
+    "z": 5.484975337982178
+  },
+  {
+    "id": "12008199",
+    "title": "Gravity signaling in flowering plant roots",
+    "x": 9.406228065490723,
+    "y": 7.800128936767578,
+    "z": 3.8874213695526123
+  },
+  {
+    "id": "4035928",
+    "title": "Salt stress-induced Ca2+ waves are associated with rapid, long-distance root-to-shoot signaling in plants.",
+    "x": 11.470179557800293,
+    "y": 8.106389045715332,
+    "z": 5.605936050415039
+  },
+  {
+    "id": "5181587",
+    "title": "Wortmannin-induced vacuole fusion enhances amyloplast dynamics in Arabidopsis zigzag1 hypocotyls.",
+    "x": 3.475005626678467,
+    "y": 4.468671798706055,
+    "z": 2.420560836791992
+  },
+  {
+    "id": "4936552",
+    "title": "A ROS-assisted calcium wave dependent on AtRBOHD and TPC1 propagates the systemic response to salt stress in Arabidopsis roots",
+    "x": 11.469653129577637,
+    "y": 8.127209663391113,
+    "z": 5.541365146636963
+  },
+  {
+    "id": "7610290",
+    "title": "ROS, calcium and electric signals: Key mediators of rapid systemic signaling in plants",
+    "x": 9.480562210083008,
+    "y": 7.746516704559326,
+    "z": 3.846008777618408
+  },
+  {
+    "id": "5614317",
+    "title": "Real-time In Vivo Recording of Arabidopsis Calcium Signals During Insect Feeding Using a Fluorescent Biosensor",
+    "x": 9.88669204711914,
+    "y": 7.813923358917236,
+    "z": 4.505879878997803
+  },
+  {
+    "id": "5677518",
+    "title": "Orchestrating rapid long-distance signaling in plants with Ca2+ , ROS, and electrical signals",
+    "x": 9.690861701965332,
+    "y": 7.921247959136963,
+    "z": 4.196086883544922
+  },
+  {
+    "id": "11850895",
+    "title": "Glutamate triggers long-distance, calcium-based plant defense signaling.",
+    "x": 9.812257766723633,
+    "y": 7.870856761932373,
+    "z": 4.40596866607666
+  },
+  {
+    "id": "7076552",
+    "title": "Test of Arabidopsis Space Transcriptome: A discovery environment to explore multiple plant biology spaceflight experiments.",
+    "x": 8.4350004196167,
+    "y": 9.058886528015137,
+    "z": 6.2329816818237305
+  },
+  {
+    "id": "7414185",
+    "title": "Tonoplast-localized Ca2+ pumps regulate Ca2+ signals during pattern-triggered immunity in Arabidopsis thaliana.",
+    "x": 9.904502868652344,
+    "y": 7.824661731719971,
+    "z": 4.387808799743652
+  },
+  {
+    "id": "8133610",
+    "title": "The fast and the furious: Rapid long-range signaling in plants.",
+    "x": 11.311541557312012,
+    "y": 7.7157697677612305,
+    "z": 5.375011444091797
+  },
+  {
+    "id": "8113475",
+    "title": "Rad-Bio-App: A discovery environment for biologists to explore spaceflight-related radiation exposures",
+    "x": 1.3133385181427002,
+    "y": 3.787470817565918,
+    "z": 6.590983867645264
+  },
+  {
+    "id": "9706465",
+    "title": "The vacuolar H+/Ca transporter CAX1 participates in submergence and anoxia stress responses.",
+    "x": 9.872857093811035,
+    "y": 7.9128499031066895,
+    "z": 4.624905586242676
+  },
+  {
+    "id": "10027818",
+    "title": "Meta-analysis of the space flight and microgravity response of the Arabidopsis plant transcriptome",
+    "x": 8.617027282714844,
+    "y": 8.832491874694824,
+    "z": 6.0965895652771
+  },
+  {
+    "id": "3337602",
+    "title": "Low-dose, ionizing radiation and age-related changes in skeletal microarchitecture",
+    "x": 1.3426681756973267,
+    "y": 3.3597328662872314,
+    "z": 3.436399459838867
+  },
+  {
+    "id": "4490751",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue",
+    "x": 1.6436046361923218,
+    "y": 3.3856022357940674,
+    "z": 3.6589107513427734
+  },
+  {
+    "id": "5132293",
+    "title": "Preservation of Multiple Mammalian Tissues to Maximize Science Return from Ground Based and Spaceflight Experiments",
+    "x": 3.1376097202301025,
+    "y": 4.5616044998168945,
+    "z": 2.8468291759490967
+  },
+  {
+    "id": "11747068",
+    "title": "Hindlimb Unloading: Rodent Analog for Microgravity",
+    "x": 0.9495287537574768,
+    "y": 3.080974578857422,
+    "z": 6.274706840515137
+  },
+  {
+    "id": "5666834",
+    "title": "Redox Signaling and Its Impact on Skeletal and Vascular Responses to Spaceflight",
+    "x": 0.9508320093154907,
+    "y": 2.972210168838501,
+    "z": 6.085408687591553
+  },
+  {
+    "id": "6753329",
+    "title": "Influence of social isolation during prolonged simulated weightlessness by hindlimb unloading",
+    "x": 0.8144317865371704,
+    "y": 3.0684127807617188,
+    "z": 5.945255279541016
+  },
+  {
+    "id": "7012842",
+    "title": "Validation of a new Rodent experimental System to investigate consequences of Long Duration Space Habitation",
+    "x": 0.9597750306129456,
+    "y": 3.3581387996673584,
+    "z": 6.341004371643066
+  },
+  {
+    "id": "4405755",
+    "title": "Skeletal tissue regulation by catalase over-expression in mitochondria",
+    "x": 0.9252428412437439,
+    "y": 2.9354777336120605,
+    "z": 5.978227615356445
+  },
+  {
+    "id": "8260663",
+    "title": "Overexpression of catalase in mitochondria mitigates changes in hippocampal cytokine expression following simulated microgravity and isolation.",
+    "x": 1.5435296297073364,
+    "y": 3.6624393463134766,
+    "z": 6.484042167663574
+  },
+  {
+    "id": "4647464",
+    "title": "An extensive allelic series of Drosophila kae1 mutants reveals diverse and tissue-specific requirements for t6A biogenesis",
+    "x": 3.816281795501709,
+    "y": 2.813483476638794,
+    "z": 3.21254563331604
+  },
+  {
+    "id": "5659752",
+    "title": "Novel Organelles with Elements of Bacterial and Eukaryotic Secretion Systems Weaponize Parasites of Drosophila",
+    "x": 4.926675319671631,
+    "y": 3.7734477519989014,
+    "z": 2.98104190826416
+  },
+  {
+    "id": "6372189",
+    "title": "A combined computational strategy of sequence and structural analysis predicts the existence of a functional eicosanoid pathway in Drosophila melanogaster.",
+    "x": 4.131579875946045,
+    "y": 2.2665576934814453,
+    "z": 3.289393901824951
+  },
+  {
+    "id": "6945029",
+    "title": "Immune suppressive extracellular vesicle proteins of Leptopilina heterotoma are encoded in the wasp genome.",
+    "x": 5.087906837463379,
+    "y": 2.9443600177764893,
+    "z": 3.811662197113037
+  },
+  {
+    "id": "8191917",
+    "title": "A parasitoid wasp of Drosophila employs preemptive and reactive strategies to deplete its host's blood cells",
+    "x": 4.8977227210998535,
+    "y": 3.1072287559509277,
+    "z": 3.7998359203338623
+  },
+  {
+    "id": "9865768",
+    "title": "In Silico Analysis of a Drosophila Parasitoid Venom Peptide Reveals Prevalence of the Cation‚ÄìPolar‚ÄìCation Clip Motif in Knottin Proteins",
+    "x": 5.047253608703613,
+    "y": 3.084256649017334,
+    "z": 3.7186546325683594
+  },
+  {
+    "id": "10797188",
+    "title": "Drosophila parasitoids go to space: Unexpected effects of spaceflight on hosts and their parasitoids",
+    "x": 4.193962097167969,
+    "y": 3.8026037216186523,
+    "z": 3.260387897491455
+  },
+  {
+    "id": "7555395",
+    "title": "Simultaneous exposure of cultured human lymphoblastic cells to simulated microgravity and radiation increases chromosome aberrations",
+    "x": 1.2917368412017822,
+    "y": 3.7375612258911133,
+    "z": 6.637391567230225
+  },
+  {
+    "id": "4309212",
+    "title": "Genes required for survival in microgravity revealed by genome-wide yeast deletion collections cultured during spaceflight.",
+    "x": 2.3948869705200195,
+    "y": 3.3073348999023438,
+    "z": 7.803431034088135
+  },
+  {
+    "id": "6560652",
+    "title": "Physical Forces Modulate Oxidative Status and Stress Defense Meditated Metabolic Adaptation of Yeast Colonies: Spaceflight and Microgravity Simulations",
+    "x": 3.9774434566497803,
+    "y": 4.008110523223877,
+    "z": 6.094458103179932
+  },
+  {
+    "id": "6321533",
+    "title": "Effects of space flight on mouse liver versus kidney: Gene pathway analyses.",
+    "x": 1.9473189115524292,
+    "y": 3.62373948097229,
+    "z": 6.267022609710693
+  },
+  {
+    "id": "12040010",
+    "title": "Yeast in Space",
+    "x": 4.929172039031982,
+    "y": 4.386104583740234,
+    "z": 2.673036575317383
+  },
+  {
+    "id": "11833055",
+    "title": "Endocrine Effects of Space Flight",
+    "x": 1.1918812990188599,
+    "y": 3.6675195693969727,
+    "z": 6.130369663238525
+  },
+  {
+    "id": "9146534",
+    "title": "Role of shear stress on renal proximal tubular cells for nephrotoxicity assays",
+    "x": 3.0548932552337646,
+    "y": 4.192260265350342,
+    "z": 2.569667100906372
+  },
+  {
+    "id": "11492218",
+    "title": "Bone hemodynamic responses to changes in external pressure.",
+    "x": 3.283536434173584,
+    "y": 4.354980945587158,
+    "z": 2.3347525596618652
+  },
+  {
+    "id": "6339989",
+    "title": "Back pain in space and post-flight spine injury: Mechanisms and countermeasure development",
+    "x": 0.7112192511558533,
+    "y": 3.102724075317383,
+    "z": 5.846877574920654
+  },
+  {
+    "id": "4110898",
+    "title": "Fifteen days of microgravity causes growth in calvaria of mice",
+    "x": 0.37723350524902344,
+    "y": 3.321864366531372,
+    "z": 5.746827602386475
+  },
+  {
+    "id": "3947616",
+    "title": "Altered disc compression in children with idiopathic low back pain: an upright magnetic resonance imaging backpack study",
+    "x": 0.619678795337677,
+    "y": 3.8232460021972656,
+    "z": 3.3394792079925537
+  },
+  {
+    "id": "5477841",
+    "title": "Spaceflight-induced bone loss alters failure mode and reduces bending strength in murine spinal segments.",
+    "x": 0.6041936278343201,
+    "y": 3.256114959716797,
+    "z": 5.520074844360352
+  },
+  {
+    "id": "9139491",
+    "title": "Spaceflight-associated vascular remodeling and gene expression in mouse calvaria.",
+    "x": 0.7014865875244141,
+    "y": 3.313992738723755,
+    "z": 5.967733383178711
+  },
+  {
+    "id": "5515531",
+    "title": "Exposure of Mycobacterium marinum to low-shear modeled microgravity: Effect on growth, the transcriptome and survival under stress.",
+    "x": 4.152647018432617,
+    "y": 4.200907230377197,
+    "z": 6.289031505584717
+  },
+  {
+    "id": "3258067",
+    "title": "Effects of mechanostimulation on gravitropism and signal persistence in flax roots.",
+    "x": 9.45676040649414,
+    "y": 8.786096572875977,
+    "z": 5.290070056915283
+  },
+  {
+    "id": "10025027",
+    "title": "Oxygen dependency of germinating Brassica seeds.",
+    "x": 9.628705024719238,
+    "y": 7.8776936531066895,
+    "z": 4.087762355804443
+  },
+  {
+    "id": "7733933",
+    "title": "Desiccation mitigates heat stress in the resurrection fern, Pleopeltis polypodioides",
+    "x": 9.69131088256836,
+    "y": 7.93121337890625,
+    "z": 4.1630096435546875
+  },
+  {
+    "id": "9105288",
+    "title": "Transcription profile of auxin related genes during positively gravitropic hypocotyl curvature of Brassica rapa.",
+    "x": 9.541581153869629,
+    "y": 8.190820693969727,
+    "z": 5.128726482391357
+  },
+  {
+    "id": "9617909",
+    "title": "High-gradient magnetic fields and starch metabolism: Results from a space experiment.",
+    "x": 9.439043998718262,
+    "y": 8.842312812805176,
+    "z": 5.351013660430908
+  },
+  {
+    "id": "9695138",
+    "title": "Lipid rafts and plant gravisensitivity.",
+    "x": 9.580883026123047,
+    "y": 8.168587684631348,
+    "z": 4.687077045440674
+  },
+  {
+    "id": "3503204",
+    "title": "Expression and characterization of the bacterial mechanosensitive channel MscS in Xenopus laevis oocytes",
+    "x": 3.532382011413574,
+    "y": 4.506042003631592,
+    "z": 2.40372633934021
+  },
+  {
+    "id": "5896955",
+    "title": "United in Diversity: Mechanosensitive Ion Channels in Plants",
+    "x": 3.2742974758148193,
+    "y": 4.351040363311768,
+    "z": 2.4393274784088135
+  },
+  {
+    "id": "4469364",
+    "title": "Expressing and Characterizing Mechanosensitive Channels in Xenopus Oocytes",
+    "x": 3.6887528896331787,
+    "y": 4.556313514709473,
+    "z": 2.478586435317993
+  },
+  {
+    "id": "5047659",
+    "title": "Plastid osmotic stress influences cell differentiation at the plant shoot apex.",
+    "x": 9.647010803222656,
+    "y": 7.967568874359131,
+    "z": 4.200327396392822
+  },
+  {
+    "id": "5454470",
+    "title": "Spaceflight-induced synaptic modifications within hair cells of the mammalian utricle.",
+    "x": 0.5829864144325256,
+    "y": 3.9699785709381104,
+    "z": 6.054886341094971
+  },
+  {
+    "id": "5515506",
+    "title": "Effects of angular frequency during clinorotation on mesenchymal stem cell morphology and migration",
+    "x": 0.653502345085144,
+    "y": 3.1719768047332764,
+    "z": 6.322975158691406
+  },
+  {
+    "id": "3044105",
+    "title": "The role of FGF-2 and BMP-2 in regulation of gene induction, cell proliferation and mineralization.",
+    "x": 1.9788776636123657,
+    "y": 3.495929002761841,
+    "z": 3.242767572402954
+  },
+  {
+    "id": "3002170",
+    "title": "Nutritional supplements, COX-2 and IGF-1 expression in men on active surveillance for prostate cancer.",
+    "x": 3.8118045330047607,
+    "y": 2.7821831703186035,
+    "z": 3.2304461002349854
+  },
+  {
+    "id": "11470607",
+    "title": "Hyperoxia inhibits T cell activation in mice",
+    "x": 4.235793590545654,
+    "y": 3.4838898181915283,
+    "z": 3.485846996307373
+  },
+  {
+    "id": "3603133",
+    "title": "Effects of gravitational mechanical unloading in endothelial cells: association between caveolins, inflammation and adhesion molecules",
+    "x": 1.0212455987930298,
+    "y": 4.00410795211792,
+    "z": 6.178861618041992
+  },
+  {
+    "id": "6462350",
+    "title": "n-3 Polyunsaturated fatty acids supplementation in peripheral artery disease: the OMEGA-PAD trial",
+    "x": 3.0421195030212402,
+    "y": 4.152130126953125,
+    "z": 2.548905372619629
+  },
+  {
+    "id": "4012541",
+    "title": "Molecular mechanisms underlying the enhanced functions of three-dimensional hepatocyte aggregates",
+    "x": 2.5636777877807617,
+    "y": 3.573511838912964,
+    "z": 5.733362197875977
+  },
+  {
+    "id": "4653058",
+    "title": "Spaceflight alters expression of microRNA during T-cell activation",
+    "x": 2.539346218109131,
+    "y": 3.477083683013916,
+    "z": 7.7967915534973145
+  },
+  {
+    "id": "6137544",
+    "title": "Spaceflight impairs antigen-specific tolerance induction in vivo and increases inflammatory cytokines.",
+    "x": 3.358808755874634,
+    "y": 3.857285737991333,
+    "z": 6.2011847496032715
+  },
+  {
+    "id": "2913424",
+    "title": "From cellular mechanotransduction to biologically inspired engineering: 2009 Pritzker Award Lecture, BMES Annual Meeting October 10, 2009.",
+    "x": 2.868624687194824,
+    "y": 3.4662086963653564,
+    "z": 3.149444103240967
+  },
+  {
+    "id": "7190111",
+    "title": "Crewmember microbiome may influence microbial composition of ISS habitable surfaces",
+    "x": 4.020436763763428,
+    "y": 3.881932258605957,
+    "z": 6.276473045349121
+  },
+  {
+    "id": "9241228",
+    "title": "Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces",
+    "x": 3.999492645263672,
+    "y": 3.7445900440216064,
+    "z": 6.288929462432861
+  },
+  {
+    "id": "8953707",
+    "title": "Detection of Target Genes for Drug Repurposing to Treat Skeletal Muscle Atrophy in Mice Flown in Spaceflight",
+    "x": 1.504320502281189,
+    "y": 3.772573947906494,
+    "z": 6.090717792510986
+  },
+  {
+    "id": "7382458",
+    "title": "Sierra Nevada sweep: Metagenomic measurements of bioaerosols vertically distributed across the troposphere.",
+    "x": 4.323367595672607,
+    "y": 3.618229627609253,
+    "z": 6.214470386505127
+  },
+  {
+    "id": "8444978",
+    "title": "Draft Genome Sequences of Fungi Isolated from the International Space Station during the Microbial Tracking-2 Experiment",
+    "x": 4.233443737030029,
+    "y": 3.9820399284362793,
+    "z": 5.772701263427734
+  },
+  {
+    "id": "11166646",
+    "title": "Release of CD36-associated cell-free mitochondrial DNA and RNA as a hallmark of space environment response",
+    "x": 2.332404851913452,
+    "y": 3.259843111038208,
+    "z": 7.874696731567383
+  },
+  {
+    "id": "3747666",
+    "title": "Increasing the number of unloading/reambulation cycles does not adversely impac body composition and lumbar bone mineral density but reduces tissue sensitivity",
+    "x": 0.561577558517456,
+    "y": 3.480656385421753,
+    "z": 5.132911682128906
+  },
+  {
+    "id": "4337661",
+    "title": "Bone shaft bending strength index is unaffected by exercise and unloading in mice",
+    "x": 0.46675175428390503,
+    "y": 3.700352907180786,
+    "z": 3.365474224090576
+  },
+  {
+    "id": "4631774",
+    "title": "Focal enhancement of the skeleton to exercise correlates to mesenchymal stem cell responsivity rather than peak external forces.",
+    "x": 1.716960072517395,
+    "y": 3.6236233711242676,
+    "z": 3.2431118488311768
+  },
+  {
+    "id": "5488280",
+    "title": "Osteocyte apoptosis caused by hindlimb unloading is required to trigger osteocyte RANKL production and subsequent resorption of cortical and trabecular bone in mice femurs.",
+    "x": 1.7302261590957642,
+    "y": 3.5377860069274902,
+    "z": 3.340768814086914
+  },
+  {
+    "id": "5114340",
+    "title": "Genetic and tissue level muscle-bone interactions during unloading and reambulation.",
+    "x": 1.2297117710113525,
+    "y": 3.6540329456329346,
+    "z": 3.1721651554107666
+  },
+  {
+    "id": "5052530",
+    "title": "Cytoskeletal configuration modulates mechanically induced changes in mesenchymal stem cell osteogenesis, morphology, and stiffness.",
+    "x": 1.7223459482192993,
+    "y": 3.652951240539551,
+    "z": 3.2021145820617676
+  },
+  {
+    "id": "9293686",
+    "title": "Differential Single Cell Responses of Embryonic Stem Cells Versus Embryoid Bodies to Gravity Mechanostimulation",
+    "x": 1.8864325284957886,
+    "y": 3.5906944274902344,
+    "z": 6.241756439208984
+  },
+  {
+    "id": "6091969",
+    "title": "Macrophages inhibit Aspergillus fumigatus germination and neutrophil-mediated fungal killing.",
+    "x": 5.087620258331299,
+    "y": 3.7087149620056152,
+    "z": 2.926734685897827
+  },
+  {
+    "id": "7029147",
+    "title": "Contributions of spore secondary metabolites to UV-C protection and virulence vary in different Aspergillus fumigatus strains",
+    "x": 4.206583499908447,
+    "y": 3.8771073818206787,
+    "z": 6.028252124786377
+  },
+  {
+    "id": "5748516",
+    "title": "A novel blue-light phototropic response is revealed in roots of Arabidopsis thaliana in microgravity.",
+    "x": 9.383306503295898,
+    "y": 8.917187690734863,
+    "z": 5.42635440826416
+  },
+  {
+    "id": "3092937",
+    "title": "Regulation of hemocytes in Drosophila requires dappled cytochrome b5.",
+    "x": 3.8328299522399902,
+    "y": 2.9882850646972656,
+    "z": 3.0996599197387695
+  },
+  {
+    "id": "9287483",
+    "title": "Plant cell proliferation and growth are altered by microgravity conditions in spaceflight.",
+    "x": 8.60754108428955,
+    "y": 9.053519248962402,
+    "z": 6.053450107574463
+  },
+  {
+    "id": "5821596",
+    "title": "Comparative transcriptomics indicate changes in cell wall organization and stress response in seedlings during spaceflight",
+    "x": 8.525224685668945,
+    "y": 9.12781047821045,
+    "z": 6.166293144226074
+  },
+  {
+    "id": "6889863",
+    "title": "RNAseq analysis of the response of Arabidopsis thaliana to fractional gravity under blue-light stimulation during spaceflight",
+    "x": 8.313934326171875,
+    "y": 8.984460830688477,
+    "z": 6.255530834197998
+  },
+  {
+    "id": "4211383",
+    "title": "Light and gravity signals synergize in modulating plant development",
+    "x": 9.448330879211426,
+    "y": 8.637938499450684,
+    "z": 5.233139991760254
+  },
+  {
+    "id": "6908503",
+    "title": "Comparison of Microgravity Analogs to Spaceflight in Studies of Plant Growth and Development",
+    "x": 9.394998550415039,
+    "y": 8.882631301879883,
+    "z": 5.398042678833008
+  },
+  {
+    "id": "7607443",
+    "title": "The importance of Earth reference controls in spaceflight-omics research: Characterization of nucleolin mutants from the Seedling Growth experiments",
+    "x": 8.551148414611816,
+    "y": 9.106226921081543,
+    "z": 6.141175746917725
+  },
+  {
+    "id": "10764921",
+    "title": "Conducting plant experiments in space and on the Moon",
+    "x": 9.385237693786621,
+    "y": 8.951923370361328,
+    "z": 5.4157490730285645
+  },
+  {
+    "id": "9605285",
+    "title": "Red light enhances plant adaptation to spaceflight and Mars g-levels.",
+    "x": 8.403607368469238,
+    "y": 9.025822639465332,
+    "z": 6.210567474365234
+  },
+  {
+    "id": "3962621",
+    "title": "EUK-134 ameliorates nNOS¬µ translocation and skeletal muscle fiber atrophy during short-term mechanical unloading.",
+    "x": 1.146031141281128,
+    "y": 2.932276964187622,
+    "z": 5.71400785446167
+  },
+  {
+    "id": "5026643",
+    "title": "Lifelong wheel running exercise and mild caloric restriction attenuate nuclear EndoG in the aging plantaris muscle.",
+    "x": 2.3282928466796875,
+    "y": 3.4653818607330322,
+    "z": 3.1169238090515137
+  },
+  {
+    "id": "4462657",
+    "title": "MnSOD Overexpression Reduces Fibrosis and Pro-Apoptotic Signaling in the Aging Mouse Heart",
+    "x": 2.565889596939087,
+    "y": 3.5787057876586914,
+    "z": 2.9260079860687256
+  },
+  {
+    "id": "5026642",
+    "title": "Age-related alterations in the sarcolemmal environment are attenuated by lifelong caloric restriction and voluntary exercise.",
+    "x": 1.8702300786972046,
+    "y": 3.5817525386810303,
+    "z": 3.150761842727661
+  },
+  {
+    "id": "11167039",
+    "title": "Bioreactor development for skeletal muscle hypertrophy and atrophy by manipulating uniaxial cyclic strain: Proof of concept.",
+    "x": 0.7433924078941345,
+    "y": 3.0331945419311523,
+    "z": 5.858664035797119
+  },
+  {
+    "id": "10342025",
+    "title": "The impact of SRT2104 on skeletal muscle mitochondrial function, redox biology, and loss of muscle mass in hindlimb unloaded rats.",
+    "x": 0.9731007218360901,
+    "y": 3.034257650375366,
+    "z": 6.399400234222412
+  },
+  {
+    "id": "10020673",
+    "title": "Genomic and phenotypic characterization of Burkholderia isolates from the potable water system of the International Space Station",
+    "x": 4.8972697257995605,
+    "y": 4.649035453796387,
+    "z": 4.245388031005859
+  },
+  {
+    "id": "7314936",
+    "title": "Hardware validation of the Advanced Plant Habitat on ISS: Canopy photosynthesis in reduced gravity.",
+    "x": 9.492195129394531,
+    "y": 8.242890357971191,
+    "z": 4.548012733459473
+  },
+  {
+    "id": "9144607",
+    "title": "CAMDLES: CFD-DEM Simulation of Microbial Communities in Spaceflight and Artificial Microgravity",
+    "x": 4.291811943054199,
+    "y": 4.271057605743408,
+    "z": 5.995575428009033
+  },
+  {
+    "id": "5933128",
+    "title": "Reduced Arogenate Dehydratase Expression: Ramifications for Photosynthesis and Metabolism",
+    "x": 9.479752540588379,
+    "y": 7.776322364807129,
+    "z": 3.9445064067840576
+  },
+  {
+    "id": "8185232",
+    "title": "New insights into lignification via network and multi-omics analyses of arogenate dehydratase knock-out mutants in Arabidopsis thaliana",
+    "x": 10.02592658996582,
+    "y": 7.8968186378479,
+    "z": 4.833553314208984
+  },
+  {
+    "id": "4340379",
+    "title": "Trimeric structure of (+)-pinoresinol-forming dirigent protein at 1.95 A resolution with three isolated active sites.",
+    "x": 11.240480422973633,
+    "y": 7.90687894821167,
+    "z": 5.454766750335693
+  },
+  {
+    "id": "11998595",
+    "title": "Exploration of space to achieve scientific breakthroughs",
+    "x": 2.960585117340088,
+    "y": 3.5579071044921875,
+    "z": 3.0936577320098877
+  },
+  {
+    "id": "7996555",
+    "title": "Network Analysis of Gene Transcriptions of Arabidopsis thaliana in Spaceflight Microgravity.",
+    "x": 8.605825424194336,
+    "y": 9.144307136535645,
+    "z": 6.095731735229492
+  },
+  {
+    "id": "3936501",
+    "title": "Functional consequences of radiation-induced oxidative stress in cultured neural stem cells and the brain exposed to charged particle irradiation",
+    "x": 1.894299864768982,
+    "y": 2.928238868713379,
+    "z": 6.674346923828125
+  },
+  {
+    "id": "4152162",
+    "title": "The Effect of spaceflight on mouse olfactory bulb volume, neurogenesis, and cell death indicates the protective effect of novel environment.",
+    "x": 1.181196928024292,
+    "y": 3.5322978496551514,
+    "z": 6.663910865783691
+  },
+  {
+    "id": "5498037",
+    "title": "Effects of low-dose rate Œ≥-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart",
+    "x": 1.5140314102172852,
+    "y": 2.9495162963867188,
+    "z": 6.953354835510254
+  },
+  {
+    "id": "6747492",
+    "title": "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae.",
+    "x": 1.3148635625839233,
+    "y": 3.6588497161865234,
+    "z": 6.759207248687744
+  },
+  {
+    "id": "6547757",
+    "title": "Characterization of mouse ocular response to a 35-day spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations.",
+    "x": 1.7338515520095825,
+    "y": 3.158116579055786,
+    "z": 7.207118511199951
+  },
+  {
+    "id": "8234954",
+    "title": "Detection of Genes in Arabidopsis thaliana L. Responding to DNA Damage from Radiation and Other Stressors in Spaceflight",
+    "x": 8.678977012634277,
+    "y": 8.825122833251953,
+    "z": 6.050892353057861
+  },
+  {
+    "id": "8400407",
+    "title": "Evaluating ocular response in the retina and optic nerve head after single and fractionated high-energy protons",
+    "x": 1.686653971672058,
+    "y": 2.902649402618408,
+    "z": 6.886754989624023
+  },
+  {
+    "id": "9365836",
+    "title": "Characterization of gene expression profiles in the mouse brain after 35 days of spaceflight mission.",
+    "x": 2.608522891998291,
+    "y": 3.403625249862671,
+    "z": 7.407283782958984
+  },
+  {
+    "id": "6746706",
+    "title": "Spaceflight influences gene expression, photoreceptor integrity, and oxidative stress-related damage in the murine retina.",
+    "x": 1.842708706855774,
+    "y": 3.140019655227661,
+    "z": 6.940374851226807
+  },
+  {
+    "id": "12031868",
+    "title": "Effects of spaceflight on the brain",
+    "x": 0.6323874592781067,
+    "y": 4.037071228027344,
+    "z": 6.025002956390381
+  },
+  {
+    "id": "9547011",
+    "title": "A multi-omics longitudinal study of the murine retinal response to chronic low-dose irradiation and simulated microgravity.",
+    "x": 2.056424140930176,
+    "y": 3.570678234100342,
+    "z": 7.9817352294921875
+  },
+  {
+    "id": "10138634",
+    "title": "Evidence of spaceflight-induced adverse effects on photoreceptors and retinal function in the mouse eye.",
+    "x": 1.738865852355957,
+    "y": 2.9347190856933594,
+    "z": 6.86929988861084
+  },
+  {
+    "id": "9746133",
+    "title": "Spatial omics technologies at multimodal and single cell/subcellular level.",
+    "x": 4.306807041168213,
+    "y": 2.5181212425231934,
+    "z": 3.2626354694366455
+  },
+  {
+    "id": "9583032",
+    "title": "Routine omics collection is a golden opportunity for European human research in space and analog environments.",
+    "x": 2.351722002029419,
+    "y": 3.318392753601074,
+    "z": 7.890056133270264
+  },
+  {
+    "id": "10422843",
+    "title": "Genomic characterization and radiation tolerance of Naganishia kalamii sp. nov. and Cystobasidium onofrii sp. nov. from Mars 2020 mission assembly facilities.",
+    "x": 4.367558479309082,
+    "y": 3.6294617652893066,
+    "z": 6.280784606933594
+  },
+  {
+    "id": "11357997",
+    "title": "Molecular and physiologic changes in the SpaceX Inspiration4 civilian crew",
+    "x": 1.9909944534301758,
+    "y": 3.275179386138916,
+    "z": 7.50499963760376
+  },
+  {
+    "id": "11167063",
+    "title": "Telomeric RNA (TERRA) increases in response to spaceflight and high-altitude climbing",
+    "x": 2.155085325241089,
+    "y": 3.1491858959198,
+    "z": 6.450122833251953
+  },
+  {
+    "id": "11022651",
+    "title": "Genome and clonal hematopoiesis stability contrasts with immune, cfDNA, mitochondrial, and telomere length changes during short duration spaceflight",
+    "x": 2.4341702461242676,
+    "y": 3.4307687282562256,
+    "z": 7.850155353546143
+  },
+  {
+    "id": "11166909",
+    "title": "Spatial multi-omics of human skin reveals KRAS and inflammatory responses to spaceflight",
+    "x": 2.625044822692871,
+    "y": 3.228271961212158,
+    "z": 7.838403224945068
+  },
+  {
+    "id": "11166952",
+    "title": "Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight",
+    "x": 2.472686529159546,
+    "y": 3.3482797145843506,
+    "z": 7.5120439529418945
+  },
+  {
+    "id": "11222149",
+    "title": "Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight",
+    "x": 3.7841827869415283,
+    "y": 3.997232437133789,
+    "z": 6.547388553619385
+  },
+  {
+    "id": "11166948",
+    "title": "Spatiotemporal expression and control of haemoglobin in space",
+    "x": 1.6893227100372314,
+    "y": 3.549610137939453,
+    "z": 7.680996417999268
+  },
+  {
+    "id": "11166937",
+    "title": "Single-cell analysis identifies conserved features of immune dysfunction in simulated microgravity and spaceflight",
+    "x": 2.7350733280181885,
+    "y": 3.472360849380493,
+    "z": 7.650533676147461
+  },
+  {
+    "id": "11357981",
+    "title": "The Space Omics and Medical Atlas (SOMA) and international astronaut biobank",
+    "x": 2.316298484802246,
+    "y": 3.2824015617370605,
+    "z": 7.8778510093688965
+  },
+  {
+    "id": "11166969",
+    "title": "Secretome profiling reveals acute changes in oxidative stress, brain homeostasis, and coagulation following short-duration spaceflight",
+    "x": 1.9921504259109497,
+    "y": 3.3690149784088135,
+    "z": 7.741201400756836
+  },
+  {
+    "id": "11166943",
+    "title": "Astronaut omics and the impact of space on the human body at scale",
+    "x": 1.75871741771698,
+    "y": 3.695441722869873,
+    "z": 6.2718000411987305
+  },
+  {
+    "id": "11166967",
+    "title": "Transcriptomics analysis reveals molecular alterations underpinning spaceflight dermatology.",
+    "x": 2.300894260406494,
+    "y": 3.2942371368408203,
+    "z": 7.886045932769775
+  },
+  {
+    "id": "11167060",
+    "title": "Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction",
+    "x": 1.6655209064483643,
+    "y": 3.4824326038360596,
+    "z": 7.600136756896973
+  },
+  {
+    "id": "11166981",
+    "title": "Effects of sex and gender on adaptations to space: reproductive health",
+    "x": 2.026825428009033,
+    "y": 3.3721868991851807,
+    "z": 7.774694919586182
+  },
+  {
+    "id": "11263583",
+    "title": "Protective alleles and precision healthcare in crewed spaceflight",
+    "x": 1.7444093227386475,
+    "y": 3.6261305809020996,
+    "z": 6.250911235809326
+  },
+  {
+    "id": "10780891",
+    "title": "Growth chambers on the International Space Station for large plants",
+    "x": 9.339985847473145,
+    "y": 8.844706535339355,
+    "z": 5.421202659606934
+  },
+  {
+    "id": "4321547",
+    "title": "Natural variation in the expression of ORGANIC CATION TRANSPORTER 1 affects root length responses to cadaverine in Arabidopsis.",
+    "x": 9.911347389221191,
+    "y": 7.887181282043457,
+    "z": 4.723538875579834
+  },
+  {
+    "id": "6710492",
+    "title": "Auxin: Shape matters.",
+    "x": 4.843227863311768,
+    "y": 4.78040075302124,
+    "z": 2.310108184814453
+  },
+  {
+    "id": "7067979",
+    "title": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station",
+    "x": 9.224809646606445,
+    "y": 8.81725025177002,
+    "z": 5.5226731300354
+  },
+  {
+    "id": "2897429",
+    "title": "New device for high-throughput viability screening of flow biofilms",
+    "x": 4.963311195373535,
+    "y": 4.563593864440918,
+    "z": 2.8899123668670654
+  },
+  {
+    "id": "9861679",
+    "title": "Low-speed clinorotation of Brachypodium distachyon and Arabidopsis thaliana seedlings triggers root tip curvatures that are reminiscent of gravitropism.",
+    "x": 9.493520736694336,
+    "y": 8.480546951293945,
+    "z": 5.126702308654785
+  },
+  {
+    "id": "4187989",
+    "title": "Sigma S-dependent antioxidant defense protects stationary-phase Escherichia coli against the bactericidal antibiotic gentamicin",
+    "x": 4.975744247436523,
+    "y": 3.9651541709899902,
+    "z": 3.1246135234832764
+  },
+  {
+    "id": "8518694",
+    "title": "Cadaverine regulates biotin synthesis to modulate primary root growth in Arabidopsis",
+    "x": 9.881227493286133,
+    "y": 7.858203887939453,
+    "z": 4.554053783416748
+  },
+  {
+    "id": "6981245",
+    "title": "Salivary Gland Protein Expression after Bion-M1 and Space Shuttle STS-135 Missions",
+    "x": 1.1479911804199219,
+    "y": 3.8024280071258545,
+    "z": 6.387689590454102
+  },
+  {
+    "id": "8217198",
+    "title": "Plasma membrane disruption (PMD) formation and repair in mechanosensitive tissues",
+    "x": 2.271796703338623,
+    "y": 3.4858622550964355,
+    "z": 3.150653839111328
+  },
+  {
+    "id": "6131065",
+    "title": "Response of the mouse sublingual gland to spaceflight.",
+    "x": 1.1807760000228882,
+    "y": 3.5596137046813965,
+    "z": 6.422133922576904
+  },
+  {
+    "id": "6213004",
+    "title": "Reactivation of Latent Epstein-Barr Virus: A Comparison after Exposure to Gamma, Proton, Carbon, and Iron Radiation",
+    "x": 3.645698308944702,
+    "y": 3.762967348098755,
+    "z": 6.157176971435547
+  },
+  {
+    "id": "11233762",
+    "title": "Effects of spaceflight on the mouse submandibular gland",
+    "x": 1.5515226125717163,
+    "y": 3.5492613315582275,
+    "z": 7.154097080230713
+  },
+  {
+    "id": "8450295",
+    "title": "Telomere length assessments of muscle stem cells in rodent and human skeletal muscle sections",
+    "x": 2.325918436050415,
+    "y": 3.471876621246338,
+    "z": 3.130019187927246
+  },
+  {
+    "id": "7171750",
+    "title": "The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation",
+    "x": 3.944965362548828,
+    "y": 3.957042694091797,
+    "z": 6.157702922821045
+  },
+  {
+    "id": "10414970",
+    "title": "The cyclic nucleotide-gated channel CNGC14 regulates root gravitropism in Arabidopsis thaliana.",
+    "x": 9.53812313079834,
+    "y": 8.026328086853027,
+    "z": 4.202232837677002
+  },
+  {
+    "id": "10504369",
+    "title": "Impacts of radiation exposure, hindlimb unloading, and recovery on murine skeletal muscle cell telomere length.",
+    "x": 1.2065997123718262,
+    "y": 3.184433937072754,
+    "z": 6.8004984855651855
+  },
+  {
+    "id": "8932657",
+    "title": "Piezo1 regulates the regenerative capacity of skeletal muscles via orchestration of stem cell morphological states.",
+    "x": 2.217107057571411,
+    "y": 3.424900531768799,
+    "z": 3.261934518814087
+  },
+  {
+    "id": "8183356",
+    "title": "Persistent NF-Œ∫B activation in muscle stem cells induces proliferation-independent telomere shortening",
+    "x": 2.198747158050537,
+    "y": 3.5032479763031006,
+    "z": 3.1746063232421875
+  },
+  {
+    "id": "4682325",
+    "title": "Transcriptional and Hormonal Regulation of Gravitropism of Woody Stems in Populus.",
+    "x": 9.494089126586914,
+    "y": 8.258164405822754,
+    "z": 5.162589073181152
+  },
+  {
+    "id": "7358545",
+    "title": "A conditional mutation in SCD1 reveals linkage between PIN protein trafficking, auxin transport, gravitropism, and lateral root initiation.",
+    "x": 9.699823379516602,
+    "y": 8.00387191772461,
+    "z": 4.222464084625244
+  },
+  {
+    "id": "10264680",
+    "title": "Endosidin2 targets conserved exocyst complex subunit EXO70 to inhibit exocytosis",
+    "x": 9.930295944213867,
+    "y": 7.908979415893555,
+    "z": 4.552102565765381
+  },
+  {
+    "id": "3982735",
+    "title": "Ethylene-induced flavonol accumulation in guard cells suppresses reactive oxygen species and modulates stomatal aperture",
+    "x": 9.773885726928711,
+    "y": 7.887321472167969,
+    "z": 4.185645580291748
+  },
+  {
+    "id": "3545801",
+    "title": "Growth of Carnobacterium spp. from permafrost under low pressure, temperature, and anoxic atmosphere has implications for Earth microbes on Mars",
+    "x": 4.832864761352539,
+    "y": 4.632498264312744,
+    "z": 4.550595760345459
+  },
+  {
+    "id": "7555797",
+    "title": "Changes in nuclear shape and gene expression in response to simulated microgravity are LINC complex-dependent.",
+    "x": 1.025957465171814,
+    "y": 3.7463395595550537,
+    "z": 6.395845413208008
+  },
+  {
+    "id": "9108708",
+    "title": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 1: Intracellular overdrive for SARS-CoV-2 infection.",
+    "x": 5.164331912994385,
+    "y": 3.285040855407715,
+    "z": 3.4838809967041016
+  },
+  {
+    "id": "4135744",
+    "title": "Exposure of Bacillus subtilis to low pressure (5 kilopascals) induces several global regulons, including those involved in the SigB-mediated general stress response",
+    "x": 4.891756534576416,
+    "y": 4.6112446784973145,
+    "z": 4.180171966552734
+  },
+  {
+    "id": "3911009",
+    "title": "Resistance of Bacillus subtilis Spore DNA to Lethal Ionizing Radiation Damage Relies Primarily on Spore Core Components and DNA Repair, with Minor Effects of Oxygen Radical Detoxification",
+    "x": 4.309615135192871,
+    "y": 3.6610350608825684,
+    "z": 6.300449371337891
+  },
+  {
+    "id": "3869332",
+    "title": "Complete Genome Sequence of Carnobacterium gilichinskyi Strain WN1359T (DSM 27470T)",
+    "x": 4.931881904602051,
+    "y": 4.680802822113037,
+    "z": 4.103814601898193
+  },
+  {
+    "id": "5648920",
+    "title": "Cultivation in space flight produces minimal alterations in the susceptibility of Bacillus subtilis cells to 72 different antibiotics and growth-inhibiting compounds",
+    "x": 4.324950695037842,
+    "y": 4.451115608215332,
+    "z": 6.347856044769287
+  },
+  {
+    "id": "4923109",
+    "title": "Cultivation of Staphylococcus epidermidis in the human spaceflight environment leads to alterations in the frequency and spectrum of spontaneous rifampicin-resistance mutations in the rpoB gene",
+    "x": 4.126358985900879,
+    "y": 3.8365349769592285,
+    "z": 6.249917984008789
+  },
+  {
+    "id": "11673879",
+    "title": "Experimental Evolution of Bacillus subtilis",
+    "x": 4.905379295349121,
+    "y": 4.531743049621582,
+    "z": 2.9048666954040527
+  },
+  {
+    "id": "7825584",
+    "title": "Mechanotransduction in Prokaryotes: A Possible Mechanism of Spaceflight Adaptation",
+    "x": 4.343203544616699,
+    "y": 4.313561916351318,
+    "z": 6.15126895904541
+  },
+  {
+    "id": "8904044",
+    "title": "Environmental dependence of competitive fitness in rifampin-resistant rpoB mutants of Bacillus subtilis.",
+    "x": 5.19029426574707,
+    "y": 2.792264938354492,
+    "z": 4.167527198791504
+  },
+  {
+    "id": "5817088",
+    "title": "Alterations in the Spectrum of Spontaneous Rifampicin-Resistance Mutations in the Bacillus subtilis rpoB Gene after Cultivation in the Human Spaceflight Environment",
+    "x": 4.215556621551514,
+    "y": 3.9285619258880615,
+    "z": 6.054920196533203
+  },
+  {
+    "id": "11088941",
+    "title": "Organotypic 3D cell culture models: using the rotating wall vessel to study host-pathogen interactions.",
+    "x": 4.106992721557617,
+    "y": 3.3430261611938477,
+    "z": 3.274850606918335
+  },
+  {
+    "id": "3187170",
+    "title": "Induction of attachment-independent biofilm formation and repression of Hfq expression by low-fluid-shear culture of Staphylococcus aureus",
+    "x": 4.907895565032959,
+    "y": 3.7697384357452393,
+    "z": 3.2174041271209717
+  },
+  {
+    "id": "3012082",
+    "title": "Analysis of interactions of Salmonella type three secretion mutants with 3-D intestinal epithelial cells.",
+    "x": 5.025806903839111,
+    "y": 4.3154988288879395,
+    "z": 2.7572712898254395
+  },
+  {
+    "id": "3133089",
+    "title": "Characterization of the Salmonella enterica serovar Typhimurium ydcI gene which encodes a conserved DNA binding protein required for full acid stress resistance.",
+    "x": 5.053218364715576,
+    "y": 3.337231159210205,
+    "z": 3.5081369876861572
+  },
+  {
+    "id": "3067220",
+    "title": "Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen.",
+    "x": 4.208594799041748,
+    "y": 4.344962120056152,
+    "z": 6.432831764221191
+  },
+  {
+    "id": "3242767",
+    "title": "Evaluation of microorganisms cultured from injured and repressed tissue regeneration sites in endangered giant aquatic Ozark Hellbender salamanders.",
+    "x": 4.863804817199707,
+    "y": 4.391152381896973,
+    "z": 2.7952194213867188
+  },
+  {
+    "id": "4085587",
+    "title": "Conservation of the low-shear modeled microgravity response in Enterobacteriaceae and analysis of the trp genes in this response.",
+    "x": 4.299873352050781,
+    "y": 4.305278301239014,
+    "z": 6.109187126159668
+  },
+  {
+    "id": "3251573",
+    "title": "New insights into the bacterial fitness-associated mechanisms revealed by the characterization of large plasmids of an avian pathogenic E. coli",
+    "x": 5.180219650268555,
+    "y": 2.7975411415100098,
+    "z": 4.07832145690918
+  },
+  {
+    "id": "3647661",
+    "title": "Lack of norovirus replication and histo-blood group antigen expression in 3-dimensional intestinal epithelial cells",
+    "x": 4.878403186798096,
+    "y": 4.089194297790527,
+    "z": 2.8877110481262207
+  },
+  {
+    "id": "4096993",
+    "title": "Mimicking the host and its microenvironment in vitro for studying mucosal infections by Pseudomonas aeruginosa.",
+    "x": 4.996630668640137,
+    "y": 3.8338985443115234,
+    "z": 3.155935287475586
+  },
+  {
+    "id": "7467030",
+    "title": "Effects of Sex and Gender on Adaptation to Space: Immune System",
+    "x": 3.848966598510742,
+    "y": 3.8674256801605225,
+    "z": 3.106973171234131
+  },
+  {
+    "id": "4427280",
+    "title": "Recellularization of decellularized lung scaffolds is enhanced by dynamic suspension culture.",
+    "x": 2.865919351577759,
+    "y": 4.253739356994629,
+    "z": 2.617828607559204
+  },
+  {
+    "id": "6204695",
+    "title": "Modeling Host-Pathogen Interactions in the Context of the Microenvironment: 3-D Cell Culture Comes of Age.",
+    "x": 5.045358657836914,
+    "y": 3.370551586151123,
+    "z": 3.497631072998047
+  },
+  {
+    "id": "7943786",
+    "title": "Evaluating the effect of spaceflight on the host‚Äìpathogen interaction between human intestinal epithelial cells and Salmonella Typhimurium",
+    "x": 3.867961883544922,
+    "y": 3.8934152126312256,
+    "z": 6.5282487869262695
+  },
+  {
+    "id": "5460263",
+    "title": "Three-dimensional organotypic co-culture model of intestinal epithelial cells and macrophages to study Salmonella enterica colonization patterns.",
+    "x": 4.785171031951904,
+    "y": 3.291719675064087,
+    "z": 3.681668996810913
+  },
+  {
+    "id": "11888247",
+    "title": "Rapid phenotypic response of LSMMG-'primed' Candida albicans.",
+    "x": 4.048233509063721,
+    "y": 4.506729602813721,
+    "z": 2.4957058429718018
+  },
+  {
+    "id": "3851762",
+    "title": "Spaceflight enhances cell aggregation and random budding in Candida albicans.",
+    "x": 4.149339199066162,
+    "y": 3.8603081703186035,
+    "z": 6.893223762512207
+  },
+  {
+    "id": "9701605",
+    "title": "Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight.",
+    "x": 2.005488872528076,
+    "y": 3.589157819747925,
+    "z": 7.42410945892334
+  },
+  {
+    "id": "8067245",
+    "title": "Growth and antifungal resistance of the pathogenic yeast, Candida albicans, in the microgravity environment of the International Space Station: An aggregate of multiple flight experiences.",
+    "x": 4.153925895690918,
+    "y": 4.380521774291992,
+    "z": 6.401525020599365
+  },
+  {
+    "id": "3838407",
+    "title": "Microfluidics-enabled method to identify modes of Caenorhabditis elegans paralysis in four anthelmintics.",
+    "x": 3.763244867324829,
+    "y": 4.472121238708496,
+    "z": 2.4455618858337402
+  },
+  {
+    "id": "11166648",
+    "title": "Direct RNA sequencing of astronaut blood reveals spaceflight-associated m6A increases and hematopoietic transcriptional responses",
+    "x": 2.516888380050659,
+    "y": 3.206909418106079,
+    "z": 7.926545143127441
+  },
+  {
+    "id": "11166662",
+    "title": "Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)",
+    "x": 1.8572715520858765,
+    "y": 3.3699166774749756,
+    "z": 7.374414920806885
+  },
+  {
+    "id": "3350920",
+    "title": "The 14-3-3 proteins of Arabidopsis regulate root growth and chloroplast development as components of the photosensory system.",
+    "x": 11.038376808166504,
+    "y": 7.681130409240723,
+    "z": 5.29076623916626
+  },
+  {
+    "id": "3748764",
+    "title": "Multiparameter behavioral analyses provide insights to mechanisms of cyanide resistance in Caenorhabditis elegans.",
+    "x": 4.799076557159424,
+    "y": 2.6331558227539062,
+    "z": 3.789900302886963
+  },
+  {
+    "id": "2925951",
+    "title": "Growth performance and root transcriptome remodeling of Arabidopsis in response to Mars-like levels of magnesium sulfate.",
+    "x": 9.20378303527832,
+    "y": 8.352853775024414,
+    "z": 5.3267621994018555
+  },
+  {
+    "id": "11869762",
+    "title": "Plant growth strategies are remodeled by spaceflight",
+    "x": 3.5817387104034424,
+    "y": 3.9386236667633057,
+    "z": 6.334929466247559
+  },
+  {
+    "id": "3422896",
+    "title": "14-3-3 phosphoprotein interaction networks - does isoform diversity present functional interaction specification?",
+    "x": 11.39167594909668,
+    "y": 7.73544454574585,
+    "z": 5.577661514282227
+  },
+  {
+    "id": "10712242",
+    "title": "Spaceflight transcriptomes: unique responses to a novel environment.",
+    "x": 8.365255355834961,
+    "y": 9.034868240356445,
+    "z": 6.2490386962890625
+  },
+  {
+    "id": "4103452",
+    "title": "A method for preparing spaceflight RNAlater-fixed Arabidopsis thaliana (Brassicaceae) tissue for scanning electron microscopy.",
+    "x": 9.549223899841309,
+    "y": 8.209477424621582,
+    "z": 4.598830699920654
+  },
+  {
+    "id": "10058394",
+    "title": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight.",
+    "x": 8.461411476135254,
+    "y": 9.10562801361084,
+    "z": 6.205930709838867
+  },
+  {
+    "id": "6143729",
+    "title": "Fundamental plant biology enabled by the space shuttle.",
+    "x": 4.203335762023926,
+    "y": 3.757030725479126,
+    "z": 6.220912933349609
+  },
+  {
+    "id": "8024390",
+    "title": "ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight",
+    "x": 8.120620727539062,
+    "y": 9.062801361083984,
+    "z": 6.345273017883301
+  },
+  {
+    "id": "6348315",
+    "title": "A Member of the CONSTANS-Like Protein Family is a Putative Regulator of ROS Homeostasis and Spaceflight Physiological Adaptation",
+    "x": 8.46815013885498,
+    "y": 8.924221992492676,
+    "z": 6.178150177001953
+  },
+  {
+    "id": "6359015",
+    "title": "HSFA2 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight.",
+    "x": 8.288390159606934,
+    "y": 8.958226203918457,
+    "z": 6.244813442230225
+  },
+  {
+    "id": "7667275",
+    "title": "Neutrophil to Lymphocyte ratio: A biomarker to monitor the immune status of astronauts.",
+    "x": 2.996182441711426,
+    "y": 3.7916948795318604,
+    "z": 6.229701995849609
+  },
+  {
+    "id": "8169688",
+    "title": "Immunological and hematological outcomes following protracted low dose/low dose rate ionizing radiation and simulated microgravity",
+    "x": 2.273496389389038,
+    "y": 3.301642656326294,
+    "z": 7.62332820892334
+  },
+  {
+    "id": "7756144",
+    "title": "Beyond low-Earth orbit: Characterizing immune and microRNA differentials following simulated deep spaceflight conditions in mice.",
+    "x": 2.1845712661743164,
+    "y": 3.949711322784424,
+    "z": 8.396194458007812
+  },
+  {
+    "id": "10503492",
+    "title": "Artificial gravity partially protects space-induced neurological deficits in Drosophila melanogaster.",
+    "x": 1.6744236946105957,
+    "y": 4.49370813369751,
+    "z": 8.609929084777832
+  },
+  {
+    "id": "8475764",
+    "title": "Epigenomic regulators elongator complex subunit 2 and methyltransferase 1 differentially condition the spaceflight response in Arabidopsis",
+    "x": 11.308733940124512,
+    "y": 7.306392669677734,
+    "z": 5.710232257843018
+  },
+  {
+    "id": "9098553",
+    "title": "Plants grown in Apollo lunar regolith present stress-associated transcriptomes that inform prospects for lunar exploration",
+    "x": 11.391828536987305,
+    "y": 7.537612438201904,
+    "z": 5.537027359008789
+  },
+  {
+    "id": "9693084",
+    "title": "Utilizing the KSC fixation tube to conduct human-tended plant biology experiments on a suborbital spaceflight",
+    "x": 9.99860668182373,
+    "y": 7.942272186279297,
+    "z": 4.835933685302734
+  },
+  {
+    "id": "5045078",
+    "title": "Changes in the distribution and function of leukocytes after whole-body iron ion irradiation.",
+    "x": 3.966500759124756,
+    "y": 3.8693594932556152,
+    "z": 3.36641001701355
+  },
+  {
+    "id": "4430214",
+    "title": "Post-Spaceflight (STS-135) Mouse Splenocytes Demonstrate Altered Activation Properties and Surface Molecule Expression.",
+    "x": 3.8525023460388184,
+    "y": 3.920973062515259,
+    "z": 3.0458786487579346
+  },
+  {
+    "id": "5666744",
+    "title": "Spaceflight Activates Autophagy Programs and the Proteasome in Mouse Liver",
+    "x": 1.6547436714172363,
+    "y": 3.3140902519226074,
+    "z": 7.351413726806641
+  },
+  {
+    "id": "5865701",
+    "title": "Vive la radior√©sistance!: Converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization.",
+    "x": 2.021843671798706,
+    "y": 3.0084187984466553,
+    "z": 6.587913990020752
+  },
+  {
+    "id": "9953463",
+    "title": "Transcriptomic effects on the mouse heart following 30 days on the International Space Station.",
+    "x": 1.103148102760315,
+    "y": 4.092006683349609,
+    "z": 6.002673149108887
+  },
+  {
+    "id": "6337482",
+    "title": "Proteomic analysis of mouse brain subjected to spaceflight.",
+    "x": 1.7744377851486206,
+    "y": 3.906578302383423,
+    "z": 5.6936516761779785
+  },
+  {
+    "id": "11942576",
+    "title": "Basal signaling regulates plant growth and development",
+    "x": 11.31752872467041,
+    "y": 7.984050750732422,
+    "z": 5.385899066925049
+  },
+  {
+    "id": "10487739",
+    "title": "Spaceflight-induced gene expression profiles in the mouse brain are attenuated by treatment with the antioxidant BuOE",
+    "x": 1.906416893005371,
+    "y": 3.659264326095581,
+    "z": 6.220536231994629
+  },
+  {
+    "id": "4052902",
+    "title": "Phosphoinositide-signaling is one component of a robust plant defense response",
+    "x": 10.216516494750977,
+    "y": 7.8353986740112305,
+    "z": 4.618873119354248
+  },
+  {
+    "id": "8539686",
+    "title": "Uncovering transcriptional responses to fractional gravity in Arabidopsis roots",
+    "x": 9.6090087890625,
+    "y": 8.522615432739258,
+    "z": 5.031688690185547
+  },
+  {
+    "id": "7756143",
+    "title": "RNAseq analysis of rodent spaceflight experiments is confounded by sample collection techniques",
+    "x": 1.7829562425613403,
+    "y": 3.9707376956939697,
+    "z": 5.67870569229126
+  },
+  {
+    "id": "10800490",
+    "title": "Conserved plant transcriptional responses to microgravity from two consecutive spaceflight experiments.",
+    "x": 11.099932670593262,
+    "y": 8.138148307800293,
+    "z": 5.603847503662109
+  },
+  {
+    "id": "11324864",
+    "title": "Simulated microgravity impairs human NK [natural killer] cell cytotoxic activity against space radiation-relevant leukemic cells.",
+    "x": 2.511688470840454,
+    "y": 3.8757152557373047,
+    "z": 5.809582233428955
+  },
+  {
+    "id": "5443495",
+    "title": "Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?",
+    "x": 2.774280309677124,
+    "y": 3.681407928466797,
+    "z": 5.832381248474121
+  },
+  {
+    "id": "3066201",
+    "title": "Functional changes in the snail statocyst system elicited by microgravity",
+    "x": 0.6208171844482422,
+    "y": 4.283085823059082,
+    "z": 5.677346229553223
+  },
+  {
+    "id": "3665236",
+    "title": "Multi-analyte biochip (MAB) based on all-solid-state ion-selective electrodes (ASSISE) for physiological research",
+    "x": 3.4341742992401123,
+    "y": 4.573391437530518,
+    "z": 2.5173470973968506
+  },
+  {
+    "id": "8896891",
+    "title": "The interaction of vortical flows with red cells in venous valve mimics.",
+    "x": 3.0386273860931396,
+    "y": 4.209009647369385,
+    "z": 2.6028084754943848
+  },
+  {
+    "id": "10470837",
+    "title": "Lab-on-a-chip approaches for space-biology research.",
+    "x": 4.783932685852051,
+    "y": 4.483425140380859,
+    "z": 4.669374465942383
+  },
+  {
+    "id": "10386755",
+    "title": "Plant chemical genomics: gravity sensing and response.",
+    "x": 4.096974849700928,
+    "y": 2.3525195121765137,
+    "z": 3.2785215377807617
+  },
+  {
+    "id": "5460135",
+    "title": "Investigation of simulated microgravity effects on Streptococcus mutans physiology and global gene expression.",
+    "x": 4.929316520690918,
+    "y": 4.7098493576049805,
+    "z": 2.7198402881622314
+  },
+  {
+    "id": "10774393",
+    "title": "Altered quorum sensing and physiology of Staphylococcus aureus during spaceflight detected by multi-omics data analysis",
+    "x": 4.625079154968262,
+    "y": 4.134520053863525,
+    "z": 5.045826435089111
+  },
+  {
+    "id": "8430797",
+    "title": "Mammalian and Invertebrate Models as Complementary Tools for Gaining Mechanistic Insight on Muscle Responses to Spaceflight",
+    "x": 1.7388675212860107,
+    "y": 3.8304433822631836,
+    "z": 5.985294818878174
+  },
+  {
+    "id": "6126739",
+    "title": "Phosphoinositides control the localization of HOPS subunit VPS41, which together with VPS33 mediates vacuole fusion in plants.",
+    "x": 9.433415412902832,
+    "y": 7.858373641967773,
+    "z": 3.973074197769165
+  },
+  {
+    "id": "4411111",
+    "title": "REGULATOR OF BULB BIOGENESIS1 (RBB1) Is Involved in Vacuole Bulb Formation in Arabidopsis.",
+    "x": 3.4118854999542236,
+    "y": 4.430030822753906,
+    "z": 2.3227100372314453
+  },
+  {
+    "id": "5600826",
+    "title": "Intrauterine exposure to maternal stress alters Bdnf IV DNA methylation and telomere length in the brain of adult rat offspring.",
+    "x": 3.664186477661133,
+    "y": 2.5592148303985596,
+    "z": 3.0696003437042236
+  },
+  {
+    "id": "3509447",
+    "title": "Hypergravity disruption of homeorhetic adaptations to lactation in rat dams include changes in circadian clocks",
+    "x": 0.8162561655044556,
+    "y": 4.199317932128906,
+    "z": 5.716604709625244
+  },
+  {
+    "id": "9445043",
+    "title": "Microgravity enhances the phenotype of Arabidopsis zigzag-1 and reduces the Wortmannin-induced vacuole fusion in root cells.",
+    "x": 10.995227813720703,
+    "y": 8.209062576293945,
+    "z": 5.561060428619385
+  },
+  {
+    "id": "10831389",
+    "title": "Sex differences in muscle health in simulated micro- and partial-gravity environments in rats.",
+    "x": 0.511576771736145,
+    "y": 3.581472396850586,
+    "z": 5.075028419494629
+  },
+  {
+    "id": "4507784",
+    "title": "Brassinazole resistant 1 (BZR1)-dependent brassinosteroid signalling pathway leads to ectopic activation of quiescent cell division and suppresses columella stem cell differentiation",
+    "x": 11.291409492492676,
+    "y": 8.005227088928223,
+    "z": 5.388983249664307
+  },
+  {
+    "id": "4349987",
+    "title": "Proteomic study of microsomal proteins reveals a key role for Arabidopsis Annexin 1 in mediating heat stress-induced increase in intracellular calcium levels.",
+    "x": 9.439494132995605,
+    "y": 7.80283784866333,
+    "z": 3.9098217487335205
+  },
+  {
+    "id": "6130020",
+    "title": "ANN1 and ANN2 Function in Post-Phloem Sugar Transport in Root Tips to Affect Primary Root Growth",
+    "x": 11.535572052001953,
+    "y": 8.114506721496582,
+    "z": 5.658960342407227
+  },
+  {
+    "id": "9695374",
+    "title": "Mitochondria-targeted human catalase in the mouse longevity MCAT model mitigates head-tilt bedrest-induced neuro-inflammation in the hippocampus.",
+    "x": 0.8512434959411621,
+    "y": 4.097568035125732,
+    "z": 5.231785774230957
+  },
+  {
+    "id": "6638264",
+    "title": "Apyrase inhibitors enhance the ability of diverse fungicides to inhibit the growth of different plant-pathogenic fungi",
+    "x": 4.890874862670898,
+    "y": 4.6053056716918945,
+    "z": 2.5313429832458496
+  },
+  {
+    "id": "6141014",
+    "title": "Structural and functional properties of bone are compromised in amyotrophic lateral sclerosis mice.",
+    "x": 0.3421371579170227,
+    "y": 3.5799264907836914,
+    "z": 3.2185769081115723
+  },
+  {
+    "id": "6706399",
+    "title": "Longitudinal time course of muscle impairments during partial weight-bearing in rats",
+    "x": 0.6657964587211609,
+    "y": 3.8540971279144287,
+    "z": 4.9548468589782715
+  },
+  {
+    "id": "12034070",
+    "title": "The partial weight-bearing rat model using a pelvic harness does not impact stress or hindlimb blood flow.",
+    "x": 3.326103687286377,
+    "y": 4.3850626945495605,
+    "z": 2.2923777103424072
+  },
+  {
+    "id": "7235020",
+    "title": "Dose-dependent skeletal deficits due to varied reductions in mechanical loading in rats.",
+    "x": 0.5569716691970825,
+    "y": 3.792907238006592,
+    "z": 3.355989694595337
+  },
+  {
+    "id": "7599661",
+    "title": "Approaching Gravity as a Continuum Using the Rat Partial Weight-Bearing Model",
+    "x": 0.5938184261322021,
+    "y": 4.049677848815918,
+    "z": 6.013035297393799
+  },
+  {
+    "id": "8493566",
+    "title": "Hindlimb suspension in Wistar rats: Sex-based differences in muscle response",
+    "x": 1.215504765510559,
+    "y": 3.948427200317383,
+    "z": 5.697988986968994
+  },
+  {
+    "id": "6069985",
+    "title": "Effects of liquid cultivation on gene expression and phenotype of C. elegans.",
+    "x": 4.0949296951293945,
+    "y": 2.345693826675415,
+    "z": 3.288943290710449
+  },
+  {
+    "id": "9856674",
+    "title": "Transcriptomic Signature of the Simulated Microgravity Response in Caenorhabditis elegans and Comparison to Spaceflight Experiments.",
+    "x": 1.817388653755188,
+    "y": 4.045121669769287,
+    "z": 5.494810581207275
+  },
+  {
+    "id": "4750446",
+    "title": "Dried plum diet protects from bone loss caused by ionizing radiation",
+    "x": 1.3662596940994263,
+    "y": 3.362859010696411,
+    "z": 3.438431739807129
+  },
+  {
+    "id": "10344948",
+    "title": "Caenorhabditis elegans in microgravity: An omics perspective",
+    "x": 1.9804364442825317,
+    "y": 3.7100465297698975,
+    "z": 7.556535720825195
+  },
+  {
+    "id": "11353732",
+    "title": "Simulated microgravity alters gene regulation linked to immunity and cardiovascular disease.",
+    "x": 1.0558243989944458,
+    "y": 4.08706521987915,
+    "z": 6.047245502471924
+  },
+  {
+    "id": "9410522",
+    "title": "Enabling clonal analyses of yeast in outer space by encapsulation and desiccation in hollow microparticles.",
+    "x": 5.8912177085876465,
+    "y": 3.304495096206665,
+    "z": 3.8660922050476074
+  },
+  {
+    "id": "9737020",
+    "title": "A new role of NAP1L1 in megakaryocytes and human platelets",
+    "x": 3.6476404666900635,
+    "y": 3.045064687728882,
+    "z": 3.115182638168335
+  },
+  {
+    "id": "5515519",
+    "title": "Evaluation of rodent spaceflight in the NASA animal enclosure module for an extended operational period (up to 35 days)",
+    "x": 0.7251895666122437,
+    "y": 4.031490325927734,
+    "z": 5.677726745605469
+  },
+  {
+    "id": "10144393",
+    "title": "Morphology of Penicillium rubens Biofilms Formed in Space",
+    "x": 4.475272178649902,
+    "y": 4.147278785705566,
+    "z": 5.360091686248779
+  },
+  {
+    "id": "10719374",
+    "title": "Explainable machine learning identifies multi-omics signatures of muscle response to spaceflight in mice",
+    "x": 1.63311767578125,
+    "y": 3.8721654415130615,
+    "z": 5.903801441192627
+  },
+  {
+    "id": "11096397",
+    "title": "Microbial adaptation to spaceflight is correlated with bacteriophage-encoded functions",
+    "x": 5.110924243927002,
+    "y": 2.913762092590332,
+    "z": 4.469916820526123
+  },
+  {
+    "id": "11166655",
+    "title": "Influence of the spaceflight environment on macrophage lineages",
+    "x": 2.9876043796539307,
+    "y": 3.756279468536377,
+    "z": 5.574513912200928
+  },
+  {
+    "id": "7937622",
+    "title": "MARSBOx: Fungal and bacterial endurance from a balloon-flown analog mission in the stratosphere",
+    "x": 4.341238975524902,
+    "y": 3.934849262237549,
+    "z": 5.886342525482178
+  },
+  {
+    "id": "7055474",
+    "title": "In situ linkage of fungal and bacterial proliferation to microbiologically influenced corrosion in B20 biodiesel storage tanks.",
+    "x": 3.9427664279937744,
+    "y": 4.547633171081543,
+    "z": 2.355788230895996
+  },
+  {
+    "id": "7118179",
+    "title": "Identification of metagenome-assembled genomes containing antimicrobial resistance genes, isolated from an advanced water treatment facility.",
+    "x": 5.0563859939575195,
+    "y": 4.780674457550049,
+    "z": 3.240004062652588
+  },
+  {
+    "id": "4494396",
+    "title": "Nature of pre-earthquake phenomena and their effects on living organisms",
+    "x": 3.400995969772339,
+    "y": 4.482912540435791,
+    "z": 2.268709659576416
+  },
+  {
+    "id": "8323809",
+    "title": "The rapid diagnosis and effective inhibition of coronavirus using spike antibody attached gold nanoparticles",
+    "x": 5.257916450500488,
+    "y": 3.282442808151245,
+    "z": 3.4147021770477295
+  },
+  {
+    "id": "8886715",
+    "title": "Blocking SARS-CoV-2 Delta variant (B.1.617.2) spike protein receptor-binding domain binding with the ACE2 receptor of the host cell and inhibiting virus infections using human host defense peptide-conjugated graphene quantum dots.",
+    "x": 4.515422344207764,
+    "y": 2.593966484069824,
+    "z": 3.5119478702545166
+  },
+  {
+    "id": "8890767",
+    "title": "Safety and pharmacokinetics of intranasally administered heparin",
+    "x": 3.4602394104003906,
+    "y": 4.439681529998779,
+    "z": 2.3314931392669678
+  },
+  {
+    "id": "9487896",
+    "title": "Inhibition of SARS-CoV-2 wild-type (Wuhan-Hu-1) and Delta (B.1.617.2) strains by marine sulfated glycans.",
+    "x": 3.8241121768951416,
+    "y": 2.6027753353118896,
+    "z": 3.1436409950256348
+  },
+  {
+    "id": "10142442",
+    "title": "Inhibition of Cytomegalovirus by Pentacta pygmaea Fucosylated Chondroitin Sulfate Depends on Its Molecular Weight",
+    "x": 5.280089378356934,
+    "y": 3.4849629402160645,
+    "z": 3.199934244155884
+  },
+  {
+    "id": "11477029",
+    "title": "Effect of simulated cosmic radiation on cytomegalovirus reactivation and lytic replication.",
+    "x": 2.246018171310425,
+    "y": 3.138558864593506,
+    "z": 6.360166549682617
+  },
+  {
+    "id": "4309301",
+    "title": "A Tissue Retrieval and Postharvest Processing Regimen for Rodent Reproductive Tissues Compatible with Long-Term Storage on the International Space Station and Postflight Biospecimen Sharing Program",
+    "x": 1.7178289890289307,
+    "y": 3.9361801147460938,
+    "z": 5.611535549163818
+  },
+  {
+    "id": "7162976",
+    "title": "Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice",
+    "x": 0.6750463247299194,
+    "y": 3.747515916824341,
+    "z": 3.9970266819000244
+  },
+  {
+    "id": "11953390",
+    "title": "Autophagy and its consequences for platelet biology",
+    "x": 4.079169750213623,
+    "y": 2.32029128074646,
+    "z": 3.263448476791382
+  },
+  {
+    "id": "6343501",
+    "title": "Effects of spaceflight on the muscles of the murine shoulder.",
+    "x": 0.5191319584846497,
+    "y": 3.6642045974731445,
+    "z": 4.853302478790283
+  },
+  {
+    "id": "6689164",
+    "title": "Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight.",
+    "x": 4.650234699249268,
+    "y": 3.9734442234039307,
+    "z": 5.038568019866943
+  },
+  {
+    "id": "7138367",
+    "title": "Multiscale effects of spaceflight on murine tendon and bone",
+    "x": 0.503523051738739,
+    "y": 3.4306533336639404,
+    "z": 5.369917392730713
+  },
+  {
+    "id": "3564669",
+    "title": "Failure to Generate Bone Marrow Adipocytes Does Not Protect Mice from Ovariectomy-Induced Osteopenia",
+    "x": 0.5786747932434082,
+    "y": 3.7592720985412598,
+    "z": 3.350972890853882
+  },
+  {
+    "id": "4042434",
+    "title": "Acute exposure to high dose gamma-radiation results in transient activation of bone lining cells",
+    "x": 1.4896925687789917,
+    "y": 3.3714256286621094,
+    "z": 3.4481024742126465
+  },
+  {
+    "id": "4161659",
+    "title": "Morbid obesity attenuates the skeletal abnormalities associated with leptin deficiency in mice",
+    "x": 0.8504777550697327,
+    "y": 3.7147834300994873,
+    "z": 3.0912866592407227
+  },
+  {
+    "id": "5421618",
+    "title": "Room temperature housing results in premature cancellous bone loss in growing female mice: implications for the mouse as a preclinical model for age-related bone loss.",
+    "x": 0.7699845433235168,
+    "y": 3.640068531036377,
+    "z": 3.128980875015259
+  },
+  {
+    "id": "4917201",
+    "title": "Hypothalamic leptin gene therapy reduces body weight without accelerating age-related bone loss",
+    "x": 1.0047364234924316,
+    "y": 3.648723602294922,
+    "z": 3.0499870777130127
+  },
+  {
+    "id": "4985531",
+    "title": "Hypothalamic Leptin Gene Therapy Reduces Bone Marrow Adiposity in ob/ob Mice Fed Regular and High-Fat Diets.",
+    "x": 0.7918131351470947,
+    "y": 3.781179189682007,
+    "z": 3.318255662918091
+  },
+  {
+    "id": "5515514",
+    "title": "Spaceflight-induced vertebral bone loss in ovariectomized rats is associated with increased bone marrow adiposity and no change in bone formation",
+    "x": 0.7302635908126831,
+    "y": 3.4820916652679443,
+    "z": 4.7440595626831055
+  },
+  {
+    "id": "8671758",
+    "title": "Role of oestrogen receptor signaling in skeletal response to leptin in female ob/ob mice.",
+    "x": 0.42346617579460144,
+    "y": 3.660069227218628,
+    "z": 3.259880781173706
+  },
+  {
+    "id": "5771473",
+    "title": "Effects of hypothalamic leptin gene therapy on osteopetrosis in leptin-deficient mice.",
+    "x": 1.0160090923309326,
+    "y": 3.685558557510376,
+    "z": 3.0800321102142334
+  },
+  {
+    "id": "5389344",
+    "title": "Bone Marrow Adipose Tissue Deficiency Increases Disuse-Induced Bone Loss in Male Mice",
+    "x": 0.9540329575538635,
+    "y": 3.7387940883636475,
+    "z": 3.0504157543182373
+  },
+  {
+    "id": "5288125",
+    "title": "Leptin stimulates bone formation in ob/ob mice at doses having minimal impact on energy metabolism.",
+    "x": 1.115935206413269,
+    "y": 3.6904730796813965,
+    "z": 3.0983142852783203
+  },
+  {
+    "id": "6548323",
+    "title": "Maintenance of near normal bone mass and architecture in lethally irradiated female mice following adoptive transfer with as few as 750 purified hematopoietic stem cells.",
+    "x": 2.092569589614868,
+    "y": 3.40454363822937,
+    "z": 3.30759859085083
+  },
+  {
+    "id": "9784906",
+    "title": "Metabolic Coupling Between Bone Marrow Adipose Tissue and Hematopoiesis",
+    "x": 3.5461819171905518,
+    "y": 4.240516662597656,
+    "z": 2.545954465866089
+  },
+  {
+    "id": "7907224",
+    "title": "Effects of Spaceflight on Cancellous and Cortical Bone in Proximal Femur in Growing Rats",
+    "x": 0.5097099542617798,
+    "y": 3.604384422302246,
+    "z": 4.988584995269775
+  },
+  {
+    "id": "6865368",
+    "title": "Thermoneutral housing attenuates premature cancellous bone loss in male C57BL/6J mice",
+    "x": 0.32835227251052856,
+    "y": 3.468933343887329,
+    "z": 3.1193950176239014
+  },
+  {
+    "id": "6597714",
+    "title": "Effect of leptin deficiency on the skeletal response to hindlimb unloading in adult male mice.",
+    "x": 0.3707062900066376,
+    "y": 3.5247390270233154,
+    "z": 3.1715705394744873
+  },
+  {
+    "id": "9582271",
+    "title": "Leptin and environmental temperature as determinants of bone marrow adiposity in female mice",
+    "x": 3.142404556274414,
+    "y": 4.400165557861328,
+    "z": 2.3616557121276855
+  },
+  {
+    "id": "10063413",
+    "title": "Small changes in thermoregulation influence cancellous bone turnover balance in distal femur metaphysis in growing female mice",
+    "x": 0.5734781622886658,
+    "y": 3.791316509246826,
+    "z": 3.372929573059082
+  },
+  {
+    "id": "8213760",
+    "title": "Evidence for increased thermogenesis in female C57BL/6J mice housed aboard the international space station",
+    "x": 1.7628173828125,
+    "y": 3.981194257736206,
+    "z": 5.6460394859313965
+  },
+  {
+    "id": "8468678",
+    "title": "Simulated Microgravity Promotes Horizontal Gene Transfer of Antimicrobial Resistance Genes between Bacterial Genera in the Absence of Antibiotic Selective Pressure",
+    "x": 4.568161487579346,
+    "y": 4.017361164093018,
+    "z": 5.16599178314209
+  },
+  {
+    "id": "10030976",
+    "title": "Toward sustainable space exploration: A roadmap for harnessing the power of microorganisms.",
+    "x": 4.765592098236084,
+    "y": 4.6833391189575195,
+    "z": 2.384244918823242
+  },
+  {
+    "id": "10889206",
+    "title": "Bone Marrow Adipose Tissue Is Not Required for Reconstitution of the Immune System Following Irradiation in Male Mice",
+    "x": 3.563739776611328,
+    "y": 3.6214630603790283,
+    "z": 3.043694257736206
+  },
+  {
+    "id": "5910807",
+    "title": "Roll maneuvers are essential for active reorientation of Caenorhabditis elegans in 3D media",
+    "x": 3.2111520767211914,
+    "y": 4.264290809631348,
+    "z": 2.4265928268432617
+  },
+  {
+    "id": "12021249",
+    "title": "Microfluidic Device for Studying Nematodes",
+    "x": 4.092776298522949,
+    "y": 2.3301303386688232,
+    "z": 3.2359650135040283
+  },
+  {
+    "id": "9031868",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions",
+    "x": 4.714552879333496,
+    "y": 4.4436187744140625,
+    "z": 2.8483574390411377
+  },
+  {
+    "id": "6057834",
+    "title": "NemaFlex: A microfluidics-based technology for standardized measurement of muscular strength of C. elegans.",
+    "x": 3.1058382987976074,
+    "y": 3.1972503662109375,
+    "z": 3.102066993713379
+  },
+  {
+    "id": "7415877",
+    "title": "Molecular muscle experiment: Hardware and operational lessons for future astrobiology space experiments",
+    "x": 0.8234198093414307,
+    "y": 3.140946388244629,
+    "z": 6.3370842933654785
+  },
+  {
+    "id": "6876156",
+    "title": "Swim exercise in Caenorhabditis elegans extends neuromuscular and gut healthspan, enhances learning ability, and protects against neurodegeneration",
+    "x": 2.82901930809021,
+    "y": 3.4252266883850098,
+    "z": 2.9069535732269287
+  },
+  {
+    "id": "7285199",
+    "title": "Tart Cherry Increases Lifespan in Caenorhabditis elegans by Altering Metabolic Signaling Pathways",
+    "x": 3.275449275970459,
+    "y": 2.974496603012085,
+    "z": 2.9993698596954346
+  },
+  {
+    "id": "9549344",
+    "title": "A region of UNC-89 (obscurin) lying between two protein kinase domains is a highly elastic spring required for proper sarcomere organization",
+    "x": 3.3980236053466797,
+    "y": 2.9718921184539795,
+    "z": 2.7609784603118896
+  },
+  {
+    "id": "7890410",
+    "title": "Spaceflight affects neuronal morphology and alters transcellular degradation of neuronal debris in adult Caenorhabditis elegans",
+    "x": 0.7757800817489624,
+    "y": 4.181881904602051,
+    "z": 5.888133525848389
+  },
+  {
+    "id": "7530743",
+    "title": "NemaLife chip: a micropillar-based microfluidic culture device optimized for aging studies in crawling C. elegans",
+    "x": 2.9902493953704834,
+    "y": 4.324584007263184,
+    "z": 2.6149659156799316
+  },
+  {
+    "id": "9862956",
+    "title": "A Compact Imaging Platform for Conducting C. elegans Phenotypic Assays on Earth and in Spaceflight.",
+    "x": 9.143068313598633,
+    "y": 8.177650451660156,
+    "z": 5.0223612785339355
+  },
+  {
+    "id": "10410709",
+    "title": "Mitochondrial sulfide promotes life span and health span through distinct mechanisms in developing versus adult treated Caenorhabditis elegans.",
+    "x": 2.895939350128174,
+    "y": 4.075031757354736,
+    "z": 2.6018784046173096
+  },
+  {
+    "id": "9640571",
+    "title": "Microfluidics-integrated spaceflight hardware for measuring muscle strength of Caenorhabditis elegans on the International Space Station.",
+    "x": 1.8377697467803955,
+    "y": 3.9756853580474854,
+    "z": 5.802968502044678
+  },
+  {
+    "id": "10751425",
+    "title": "Bisphosphonates attenuate age-related muscle decline in Caenorhabditis elegans.",
+    "x": 2.181199789047241,
+    "y": 3.942601203918457,
+    "z": 2.8298733234405518
+  },
+  {
+    "id": "10846184",
+    "title": "Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics.",
+    "x": 5.3249287605285645,
+    "y": 3.2247471809387207,
+    "z": 3.5070581436157227
+  },
+  {
+    "id": "11487192",
+    "title": "Protein kinase 2 of the giant sarcomeric protein UNC-89 regulates mitochondrial morphology and function.",
+    "x": 3.4445853233337402,
+    "y": 3.1262006759643555,
+    "z": 2.7798943519592285
+  },
+  {
+    "id": "10605753",
+    "title": "Spaceflight Induces Strength Decline in Caenorhabditis elegans",
+    "x": 1.7676270008087158,
+    "y": 4.330906391143799,
+    "z": 8.246368408203125
+  },
+  {
+    "id": "3554398",
+    "title": "New perspectives on viable microbial communities in low-biomass cleanroom environments",
+    "x": 5.058440685272217,
+    "y": 4.610089302062988,
+    "z": 2.8052239418029785
+  },
+  {
+    "id": "10370681",
+    "title": "Microbial existence in controlled habitats and their resistance to space conditions",
+    "x": 5.1642022132873535,
+    "y": 3.5032119750976562,
+    "z": 3.0986711978912354
+  },
+  {
+    "id": "11302229",
+    "title": "Identification and characterization of a skin microbiome on Caenorhabditis elegans suggests environmental microbes confer cuticle protection",
+    "x": 6.098601341247559,
+    "y": 3.1911675930023193,
+    "z": 3.632258176803589
+  },
+  {
+    "id": "4945788",
+    "title": "Draft genome sequences of two Aspergillus fumigatus strains, isolated from the International Space Station",
+    "x": 5.026119232177734,
+    "y": 4.6997480392456055,
+    "z": 3.4171485900878906
+  },
+  {
+    "id": "4624184",
+    "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft assembly facilities",
+    "x": 5.133191108703613,
+    "y": 4.867868900299072,
+    "z": 2.8443427085876465
+  },
+  {
+    "id": "9116463",
+    "title": "Proteomic characterization of Aspergillus fumigatus isolated from air and surfaces of the International Space Station.",
+    "x": 4.542051792144775,
+    "y": 4.1305389404296875,
+    "z": 5.243433952331543
+  },
+  {
+    "id": "5201052",
+    "title": "Draft genome sequences of biosafety level 2 opportunistic pathogens isolated from the environmental surfaces of the International Space Station.",
+    "x": 4.795738697052002,
+    "y": 2.922893524169922,
+    "z": 4.755645275115967
+  },
+  {
+    "id": "5504618",
+    "title": "Human presence impacts fungal diversity of inflated lunar/Mars analog habitat.",
+    "x": 5.196634292602539,
+    "y": 2.8151333332061768,
+    "z": 4.242814540863037
+  },
+  {
+    "id": "8421509",
+    "title": "Longitudinal characterization of multispecies microbial populations recovered from spaceflight potable water",
+    "x": 5.129095554351807,
+    "y": 2.8902556896209717,
+    "z": 4.316862106323242
+  },
+  {
+    "id": "5391430",
+    "title": "Draft Genome Sequences of Several Fungal Strains Selected for Exposure to Microgravity at the International Space Station.",
+    "x": 4.263577461242676,
+    "y": 2.3515615463256836,
+    "z": 3.595154047012329
+  },
+  {
+    "id": "5805884",
+    "title": "Draft Genome Sequences of Acinetobacter and Bacillus Strains Isolated from Spacecraft-Associated Surfaces",
+    "x": 4.871422290802002,
+    "y": 2.904374599456787,
+    "z": 4.848316192626953
+  },
+  {
+    "id": "5552977",
+    "title": "Draft Genome Sequences from a Novel Clade of Bacillus cereus Sensu Lato Strains, Isolated from the International Space Station.",
+    "x": 4.936611175537109,
+    "y": 4.731723308563232,
+    "z": 3.275012254714966
+  },
+  {
+    "id": "5578834",
+    "title": "Draft Genome Sequence of Solibacillus kalamii, Isolated from an Air Filter Aboard the International Space Station",
+    "x": 4.831667900085449,
+    "y": 4.754804611206055,
+    "z": 3.2326557636260986
+  },
+  {
+    "id": "5864415",
+    "title": "KatharoSeq enables high-throughput microbiome analysis from low-biomass samples",
+    "x": 5.167799472808838,
+    "y": 4.89072322845459,
+    "z": 2.9492337703704834
+  },
+  {
+    "id": "6013642",
+    "title": "Draft genome sequence of a clinical isolate of Fusarium fujikuroi isolated from a male patient with acute myeloid leukemia.",
+    "x": 5.021679878234863,
+    "y": 4.780737400054932,
+    "z": 3.2465429306030273
+  },
+  {
+    "id": "5958250",
+    "title": "Draft genome sequences of two Fusarium oxysporum isolates cultured from infected Zinnia hybrida plants grown on the International Space Station.",
+    "x": 9.863338470458984,
+    "y": 7.734463691711426,
+    "z": 4.497047424316406
+  },
+  {
+    "id": "7326050",
+    "title": "Characterization of Aspergillus niger Isolated from the International Space Station",
+    "x": 4.35089111328125,
+    "y": 3.7718470096588135,
+    "z": 6.323227882385254
+  },
+  {
+    "id": "6251167",
+    "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+    "x": 4.970610618591309,
+    "y": 4.710869789123535,
+    "z": 3.9851975440979004
+  },
+  {
+    "id": "9098231",
+    "title": "International Space Station conditions alter genomics, proteomics, and metabolomics in Aspergillus nidulans.",
+    "x": 4.746790409088135,
+    "y": 3.0646181106567383,
+    "z": 5.076022624969482
+  },
+  {
+    "id": "6426649",
+    "title": "Genomic Characterization and Virulence Potential of Two Fusarium oxysporum Isolates Cultured from the International Space Station",
+    "x": 4.981249809265137,
+    "y": 3.086303234100342,
+    "z": 4.053887367248535
+  },
+  {
+    "id": "6952069",
+    "title": "MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities",
+    "x": 3.793060779571533,
+    "y": 3.093863010406494,
+    "z": 2.788766860961914
+  },
+  {
+    "id": "6452512",
+    "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces.",
+    "x": 3.941243886947632,
+    "y": 4.4428606033325195,
+    "z": 2.593656063079834
+  },
+  {
+    "id": "6529585",
+    "title": "Proteomic and Metabolomic Characteristics of Extremophilic Fungi Under Simulated Mars Conditions.",
+    "x": 4.766467094421387,
+    "y": 4.598142623901367,
+    "z": 4.762125015258789
+  },
+  {
+    "id": "7317102",
+    "title": "Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station",
+    "x": 4.435113906860352,
+    "y": 3.2243523597717285,
+    "z": 5.137831211090088
+  },
+  {
+    "id": "7393961",
+    "title": "Draft Genome Sequences of Rhodotorula mucilaginosa Strains Isolated from the International Space Station",
+    "x": 4.192726135253906,
+    "y": 2.3263914585113525,
+    "z": 3.3648533821105957
+  },
+  {
+    "id": "7303416",
+    "title": "Draft Genome Sequences of Sphingomonas Species Associated with the International Space Station",
+    "x": 4.537281036376953,
+    "y": 3.122020959854126,
+    "z": 5.100937843322754
+  },
+  {
+    "id": "7561690",
+    "title": "Draft Genome Sequences of Klebsiella Species Isolated from the International Space Station",
+    "x": 5.160306453704834,
+    "y": 2.7615036964416504,
+    "z": 4.401777744293213
+  },
+  {
+    "id": "7516158",
+    "title": "Draft Genome Sequences of Lactobacillales Isolated from the International Space Station",
+    "x": 5.024243354797363,
+    "y": 4.745946407318115,
+    "z": 3.8435890674591064
+  },
+  {
+    "id": "7484075",
+    "title": "Draft Genome Sequences of Enterobacteriales Strains Isolated from the International Space Station",
+    "x": 5.057353496551514,
+    "y": 4.782225131988525,
+    "z": 3.401930332183838
+  },
+  {
+    "id": "7595942",
+    "title": "Draft Genome Sequences of Bacillaceae Strains Isolated from the International Space Station.",
+    "x": 5.17803430557251,
+    "y": 2.7937450408935547,
+    "z": 4.442134857177734
+  },
+  {
+    "id": "8104057",
+    "title": "Draft Genome Sequences of Aspergillus and Penicillium Species Isolated from the International Space Station and Crew Resupply Vehicle Capsule",
+    "x": 5.097226142883301,
+    "y": 4.811772346496582,
+    "z": 3.4562923908233643
+  },
+  {
+    "id": "12034939",
+    "title": "Advances in Space Microbiology",
+    "x": 3.817485809326172,
+    "y": 3.3557684421539307,
+    "z": 3.1508400440216064
+  },
+  {
+    "id": "8012687",
+    "title": "Effects of simulated microgravity on the proteome and secretome of the polyextremotolerant black fungus Knufia chersonesos.",
+    "x": 4.458902359008789,
+    "y": 4.310646057128906,
+    "z": 6.242675304412842
+  },
+  {
+    "id": "8005752",
+    "title": "Methylobacterium ajmalii sp. nov., isolated from the International Space Station",
+    "x": 4.998252868652344,
+    "y": 4.89724588394165,
+    "z": 3.1135454177856445
+  },
+  {
+    "id": "7677455",
+    "title": "Assessing the risk of transfer of microorganisms at the International Space Station due to cargo delivery by commercial resupply vehicles",
+    "x": 5.177186965942383,
+    "y": 3.053823947906494,
+    "z": 3.8367841243743896
+  },
+  {
+    "id": "8086211",
+    "title": "Draft Genome Sequences of Various Bacterial Phyla Isolated from the International Space Station",
+    "x": 5.075565338134766,
+    "y": 2.9949004650115967,
+    "z": 4.470102787017822
+  },
+  {
+    "id": "8211661",
+    "title": "Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications",
+    "x": 9.427886009216309,
+    "y": 7.851233959197998,
+    "z": 3.9992387294769287
+  },
+  {
+    "id": "11988970",
+    "title": "Investigation of Spaceflight Induced Changes to Astronaut Microbiomes",
+    "x": 4.3448967933654785,
+    "y": 4.241281032562256,
+    "z": 5.815967082977295
+  },
+  {
+    "id": "8754149",
+    "title": "Genomic Characterization of Potential Plant Growth-Promoting Features of Sphingomonas Strains Isolated from the International Space Station",
+    "x": 9.902851104736328,
+    "y": 7.799951076507568,
+    "z": 4.718130111694336
+  },
+  {
+    "id": "9258157",
+    "title": "Metabolic modeling of the International Space Station microbiome reveals key microbial interactions.",
+    "x": 5.110373497009277,
+    "y": 4.917970657348633,
+    "z": 3.0217111110687256
+  },
+  {
+    "id": "9743659",
+    "title": "Multidrug-resistant Acinetobacter pittii is adapting to and exhibiting potential succession aboard the International Space Station.",
+    "x": 4.295924186706543,
+    "y": 3.7162983417510986,
+    "z": 7.39160680770874
+  },
+  {
+    "id": "9503880",
+    "title": "Microbial Burden Estimation of Food Items, Built Environments, and the International Space Station Using Film Media",
+    "x": 4.439701080322266,
+    "y": 4.523094177246094,
+    "z": 6.271177768707275
+  },
+  {
+    "id": "10715203",
+    "title": "Genomic analysis reveals the presence of emerging pathogenic Klebsiella lineages aboard the International Space Station",
+    "x": 4.337428569793701,
+    "y": 3.726618766784668,
+    "z": 7.5297346115112305
+  },
+  {
+    "id": "8875396",
+    "title": "Genomic Characterization of the Titan-like Cell Producing Naganishia tulchinskyi, the First Novel Eukaryote Isolated from the International Space Station",
+    "x": 4.451401233673096,
+    "y": 3.856494665145874,
+    "z": 7.195258140563965
+  },
+  {
+    "id": "10960378",
+    "title": "Genomic, functional, and metabolic enhancements in multidrug-resistant Enterobacter bugandensis facilitating its persistence and succession in the International Space Station",
+    "x": 4.289611339569092,
+    "y": 3.7646546363830566,
+    "z": 7.484652996063232
+  },
+  {
+    "id": "5523082",
+    "title": "Spatial regulation of a common precursor from two distinct genes generates metabolite diversity",
+    "x": 5.267082691192627,
+    "y": 2.691816806793213,
+    "z": 4.457774639129639
+  },
+  {
+    "id": "6590338",
+    "title": "Recent advances in the genome mining of Aspergillus secondary metabolites (covering 2012‚Äì2018).",
+    "x": 5.284806251525879,
+    "y": 2.6849124431610107,
+    "z": 4.47849702835083
+  },
+  {
+    "id": "10628120",
+    "title": "Phylogenomics, phenotypic, and functional traits of five novel (Earth-derived) bacterial species isolated from the International Space Station and their prevalence in metagenomes",
+    "x": 4.183450222015381,
+    "y": 3.8694589138031006,
+    "z": 7.457789897918701
+  },
+  {
+    "id": "6036641",
+    "title": "Cortical thinning and structural bone changes in non-human primates after single-fraction whole-chest irradiation.",
+    "x": 1.356614351272583,
+    "y": 3.339768648147583,
+    "z": 3.4718260765075684
+  },
+  {
+    "id": "6599637",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading.",
+    "x": 1.2615922689437866,
+    "y": 3.521881341934204,
+    "z": 7.218611240386963
+  },
+  {
+    "id": "8274610",
+    "title": "The individual and combined effects of spaceflight radiation and microgravity on biologic systems and functional outcomes",
+    "x": 0.9784609079360962,
+    "y": 3.126474618911743,
+    "z": 6.653564929962158
+  },
+  {
+    "id": "8131644",
+    "title": "Spaceflight and hind limb unloading induces an arthritic phenotype in knee articular cartilage and menisci of rodents",
+    "x": 1.0990368127822876,
+    "y": 3.859151601791382,
+    "z": 7.260030746459961
+  },
+  {
+    "id": "9163032",
+    "title": "Œ±Klotho decreases after reduced weight-bearing from both spaceflight and hindlimb unloading",
+    "x": 0.14870582520961761,
+    "y": 3.5124337673187256,
+    "z": 5.887415885925293
+  },
+  {
+    "id": "5568470",
+    "title": "Prolonged exposure to particulate chromate inhibits RAD51 nuclear import mediator proteins.",
+    "x": 3.6368680000305176,
+    "y": 2.627121686935425,
+    "z": 3.08078670501709
+  },
+  {
+    "id": "5460239",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response.",
+    "x": 1.3105733394622803,
+    "y": 3.5582664012908936,
+    "z": 7.197664260864258
+  },
+  {
+    "id": "5397022",
+    "title": "Transcriptome and proteome responses in RNAlater preserved tissue of Arabidopsis thaliana.",
+    "x": 11.534802436828613,
+    "y": 7.412808895111084,
+    "z": 5.772035598754883
+  },
+  {
+    "id": "7251690",
+    "title": "Spaceflight induces novel regulatory responses in Arabidopsis seedling as revealed by combined proteomic and transcriptomic analyses.",
+    "x": 8.395715713500977,
+    "y": 9.139655113220215,
+    "z": 6.316472053527832
+  },
+  {
+    "id": "10284894",
+    "title": "Mitigation and use of biofilms in space for the benefit of human space exploration",
+    "x": 4.2652716636657715,
+    "y": 3.713595151901245,
+    "z": 7.504712104797363
+  },
+  {
+    "id": "11451251",
+    "title": "Adaptation to space conditions of novel bacterial species isolated from the International Space Station revealed by functional gene annotations and comparative genome analysis.",
+    "x": 4.365175724029541,
+    "y": 3.8400957584381104,
+    "z": 7.501412391662598
+  },
+  {
+    "id": "9964234",
+    "title": "Designing a Novel Monitoring Approach for the Effects of Space Travel on Astronauts‚Äô Health",
+    "x": 1.7335487604141235,
+    "y": 4.144482612609863,
+    "z": 8.868108749389648
+  },
+  {
+    "id": "5485990",
+    "title": "Transcriptomics, NF-Œ∫B Pathway, and Their Potential Spaceflight-Related Health Consequences.",
+    "x": 2.261176824569702,
+    "y": 3.9375662803649902,
+    "z": 8.239104270935059
+  },
+  {
+    "id": "4116675",
+    "title": "Overexpression of CupB5 activates alginate overproduction in Pseudomonas aeruginosa by a novel AlgW-dependent mechanism",
+    "x": 6.382667064666748,
+    "y": 3.131681442260742,
+    "z": 3.6681339740753174
+  },
+  {
+    "id": "5810432",
+    "title": "Burn injury-associated MHCII(+) immune cell accumulation around lymphatic vessels of the mesentery and increased lymphatic endothelial permeability are blocked by doxycycline treatment.",
+    "x": 3.7191734313964844,
+    "y": 3.7704317569732666,
+    "z": 2.97268009185791
+  },
+  {
+    "id": "10261121",
+    "title": "CubeSats for microbiology and astrobiology research",
+    "x": 4.7592973709106445,
+    "y": 4.595826148986816,
+    "z": 4.791926383972168
+  },
+  {
+    "id": "8739323",
+    "title": "The smallest space miners: Principles of space biomining",
+    "x": 4.475586891174316,
+    "y": 3.827462673187256,
+    "z": 6.903488636016846
+  },
+  {
+    "id": "6275019",
+    "title": "Synergistic Effects of Weightlessness, Isoproterenol, and Radiation on DNA Damage Response and Cytokine Production in Immune Cells",
+    "x": 2.2373037338256836,
+    "y": 3.7749693393707275,
+    "z": 8.133241653442383
+  },
+  {
+    "id": "10793275",
+    "title": "Draft genome sequence of Sphingomonas paucimobilis strain Sph5, isolated from tap water filtration membrane",
+    "x": 5.29107141494751,
+    "y": 2.689393997192383,
+    "z": 4.490302085876465
+  },
+  {
+    "id": "10432549",
+    "title": "Biofilm formation of Pseudomonas aeruginosa in spaceflight is minimized on lubricant impregnated surfaces.",
+    "x": 4.145073413848877,
+    "y": 3.9133174419403076,
+    "z": 7.518717288970947
+  },
+  {
+    "id": "7261848",
+    "title": "Competitive Growth Assay of Mutagenized Chlamydomonas reinhardtii Compatible With the International Space Station Veggie Plant Growth Chamber.",
+    "x": 8.167726516723633,
+    "y": 8.948514938354492,
+    "z": 6.37394380569458
+  },
+  {
+    "id": "8537831",
+    "title": "Spatial Characterization of Microbial Communities on Multi-Species Leafy Greens Grown Simultaneously in the Vegetable Production Systems on the International Space Station",
+    "x": 8.099631309509277,
+    "y": 8.936182022094727,
+    "z": 6.42075252532959
+  },
+  {
+    "id": "8879990",
+    "title": "Response of Arabidopsis thaliana and Mizuna mustard seeds to simulated space radiation exposures.",
+    "x": 9.209526062011719,
+    "y": 8.81242561340332,
+    "z": 5.550616264343262
+  },
+  {
+    "id": "11999716",
+    "title": "Metagenomic interrogation of urban Superfund site reveals antimicrobial resistance reservoir and bioremediation potential.",
+    "x": 5.289311408996582,
+    "y": 2.67970609664917,
+    "z": 4.47960090637207
+  },
+  {
+    "id": "11940681",
+    "title": "37-day microgravity exposure in 16-week female C57BL/6J mice is associated with bone loss specific to weight-bearing skeletal sites.",
+    "x": 0.13002361357212067,
+    "y": 3.5403449535369873,
+    "z": 5.734289169311523
+  },
+  {
+    "id": "11941215",
+    "title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice.",
+    "x": 3.762909173965454,
+    "y": 4.519066333770752,
+    "z": 6.707419395446777
+  },
+  {
+    "id": "11892206",
+    "title": "Immunization induces inflammation in the mouse heart during spaceflight.",
+    "x": 1.5379894971847534,
+    "y": 3.9044137001037598,
+    "z": 7.888898849487305
+  },
+  {
+    "id": "11748630",
+    "title": "Analyzing the relationship between gene expression and phenotype in space-flown mice using a causal inference machine learning ensemble.",
+    "x": 1.6054524183273315,
+    "y": 4.475594997406006,
+    "z": 8.651854515075684
+  },
+  {
+    "id": "11659408",
+    "title": "Sex-specific cardiovascular adaptations to simulated microgravity in Sprague-Dawley rats",
+    "x": 0.9204177260398865,
+    "y": 4.082897663116455,
+    "z": 7.138095855712891
+  },
+  {
+    "id": "11701653",
+    "title": "NASA open science data repository: Open science for life in space.",
+    "x": 1.6946914196014404,
+    "y": 4.1033244132995605,
+    "z": 8.801497459411621
+  },
+  {
+    "id": "11593819",
+    "title": "Artificial gravity attenuates the transcriptomic response to spaceflight in the optic nerve and retina",
+    "x": 1.7464333772659302,
+    "y": 4.588603496551514,
+    "z": 8.766810417175293
+  },
+  {
+    "id": "11339457",
+    "title": "Discoveries from human stem cell research in space that are relevant to advancing cellular therapies on Earth.",
+    "x": 0.5473658442497253,
+    "y": 3.6387712955474854,
+    "z": 6.403173446655273
+  },
+  {
+    "id": "9502502",
+    "title": "Simulated micro-, lunar, and Martian gravities on Earth‚Äîeffects on Escherichia coli growth, phenotype, and sensitivity to antibiotics.",
+    "x": 4.315507411956787,
+    "y": 4.58234977722168,
+    "z": 6.355132102966309
+  },
+  {
+    "id": "11969330",
+    "title": "In situ monitoring of barrier function on-chip via automated, non-invasive luminescence sensing.",
+    "x": 3.5397214889526367,
+    "y": 3.6972289085388184,
+    "z": 2.8865339756011963
+  }
 ]

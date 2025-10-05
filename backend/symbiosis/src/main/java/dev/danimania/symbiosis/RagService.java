@@ -47,7 +47,8 @@ public class RagService {
                 .collect(Collectors.joining("\n"));
 
         String prompt = "You're an expert on " + topic + ". This is your information:\n"
-                + context + "\n\nPlease do any necessary explanations. Include quotes and references to the information. Answer to: " + question;
+          + context + "\n\nPlease don't go over 40 lines. Include quotes and references to the information (every reference must be linked). Answer to: " + question;
+
 
         return geminiService.askGemini(prompt);
     }
