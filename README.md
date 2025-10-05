@@ -64,10 +64,20 @@ This repository contains a hackathon project for the 2025 NASA Space Apps Challe
 - Chat interface that calls backend conversational API
 
 ### Backend (`backend/`)
-- Ingest pipeline: download, parse, and chunk publications (prefer Results / Conclusions / Abstract)
-- Embedding generator: compute vectors for text chunks
-- Vector store: persistent semantic index (Pinecone, Milvus, Weaviate, FAISS, etc.)
-- Conversational API: RAG endpoints returning answers and inline citations
+The backend is built with **Java Spring Boot**, providing the necessary RESTful endpoints for communication with the frontend.
+
+In addition to the API layer, the backend includes a **data analysis module** for processing and classifying scientific articles:
+
+#### 1. Data Collection
+- A Python script uses **Pandas** to read a CSV file containing links to research papers.  
+- For each link, the script retrieves the corresponding **XML version** of the article using the **NCBI tools API**.
+
+#### 2. Text Extraction
+- The textual content is manually extracted from the XML structure, focusing on relevant sections such as the title, abstract, and main body.
+
+#### 3. AI-Powered Classification
+- The extracted text is analyzed using **Google Gemini AI** via the `GEMINI_API_KEY`.  
+- Gemini classifies each article into predefined **topics or categories**, enabling better organization and filtering of the research data.
 
 ## API contract (minimal)
 
