@@ -85,8 +85,17 @@ export default function App() {
     });
   };
 
-  const addPublicationTab = (title: string) => {
-    const newTabId = `pub-${Date.now()}`;
+  const addPublicationTab = (articleId: string, title: string) => {
+    // Use the article ID as the tab ID with 'pub-' prefix
+    const newTabId = `pub-${articleId}`;
+    
+    // Check if tab already exists
+    const existingTab = publicationTabs.find(tab => tab.id === newTabId);
+    if (existingTab) {
+      setActiveTab(newTabId);
+      return;
+    }
+    
     const newTab: Tab = {
       id: newTabId,
       title,

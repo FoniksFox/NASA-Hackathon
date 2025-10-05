@@ -29,17 +29,22 @@ export function PublicationViewer({ publicationId }: PublicationViewerProps) {
         setLoading(true);
         setError(null);
 
-        // TODO: Replace with actual backend API call when ready
-        // const response = await fetch(`/api/publications/${publicationId}`);
-        // if (!response.ok) throw new Error('Failed to fetch publication');
-        // const xmlText = await response.text();
+        // Extract PMC ID from publicationId (remove 'pub-' prefix if present)
+        const pmcId = publicationId.replace('pub-', '');
         
-        // For now, use the example XML from assets
-        const xmlText = exampleXML;
+        // Fetch XML from backend static resources
+        // Backend serves files from src/main/resources/static/{pmcId}.xml
+        const response = await fetch(`/api/${pmcId}.xml`);
         
+        if (!response.ok) {
+          throw new Error(`Failed to fetch publication: ${response.statusText}`);
+        }
+        
+        const xmlText = await response.text();
         const parsed = parseJATSXML(xmlText);
         setArticle(parsed);
       } catch (err) {
+        console.error('Error fetching publication:', err);
         setError(err instanceof Error ? err.message : 'Unknown error');
       } finally {
         setLoading(false);
@@ -60,7 +65,15 @@ export function PublicationViewer({ publicationId }: PublicationViewerProps) {
   if (error || !article) {
     return (
       <Box className={classes.container}>
-        <Text c="red">Error loading publication: {error}</Text>
+        <Stack gap="md">
+          <Text c="red">Error loading publication: {error}</Text>
+          <Text size="sm" c="dimmed">
+            Publication ID: {publicationId}
+          </Text>
+          <Text size="sm" c="dimmed">
+            Make sure the backend server is running and the article XML file exists in the static resources.
+          </Text>
+        </Stack>
       </Box>
     );
   }

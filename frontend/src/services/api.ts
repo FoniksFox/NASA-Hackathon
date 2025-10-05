@@ -6,6 +6,7 @@ export interface ArticleCoords {
   id: string;
   x: number;
   y: number;
+  z: number;
   title?: string;
   topic?: string;
 }

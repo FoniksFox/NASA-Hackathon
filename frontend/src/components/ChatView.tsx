@@ -11,6 +11,36 @@ export interface Message {
   topic?: string; // The specialist/topic handling this message
 }
 
+// Topic color palette mapping
+const TOPIC_COLORS: Record<string, string> = {
+  // Palette 1: #D65C72 - Biology & Medicine
+  "Radiation Biology": "#D65C72",
+  "Bone-related Biology": "#D65C72",
+  "Cardiovascular-related Biology": "#D65C72",
+  "Immunology": "#D65C72",
+  "Microbiology": "#D65C72",
+  
+  // Palette 2: #5465A2 - Space Sciences
+  "Space Biology": "#5465A2",
+  "Microgravity": "#5465A2",
+  "Astrobiology": "#5465A2",
+  "Space Medicine": "#5465A2",
+  "Plant Biology & Space Agriculture": "#5465A2",
+  
+  // Palette 3: #BC9E62 - Molecular Sciences
+  "Molecular Biology": "#BC9E62",
+  "Genomics": "#BC9E62",
+  "Bioinformatics & Systems Biology": "#BC9E62",
+  "Stem Cell & Regenerative Medicine": "#BC9E62",
+  "Oxidative Stress & Aging Biology": "#BC9E62",
+};
+
+// Get color for a topic, default to mint if not found
+function getTopicColor(topic?: string): string {
+  if (!topic) return '#4db391'; // Default mint color
+  return TOPIC_COLORS[topic] || '#4db391';
+}
+
 interface ChatViewProps {
   messages: Message[];
   onSendMessage: (message: string) => void;
@@ -47,21 +77,30 @@ export function ChatView({ messages, onSendMessage, isLoading = false, currentTo
     }
   };
 
+  const topicColor = getTopicColor(currentTopic);
+
   return (
-    <Box className={`${classes.container} ${currentTopic ? classes.containerWithTopic : ''}`}>
+    <Box 
+      className={classes.container}
+      style={currentTopic ? { border: `3px solid ${topicColor}` } : undefined}
+    >
       {/* Topic Header */}
       {currentTopic && (
-        <Box className={classes.topicHeader}>
+        <Box className={classes.topicHeader} style={{ borderBottomColor: topicColor }}>
           <Group gap="xs" justify="center">
-            <IconBrain size={18} />
+            <IconBrain size={18} style={{ color: topicColor }} />
             <Text size="sm" fw={500}>
               Specialist:
             </Text>
             <Badge
               variant="light"
-              color="mint"
               size="lg"
               className={classes.topicBadge}
+              style={{ 
+                backgroundColor: `${topicColor}20`,
+                color: topicColor,
+                borderColor: topicColor
+              }}
             >
               {currentTopic}
             </Badge>
@@ -97,18 +136,35 @@ export function ChatView({ messages, onSendMessage, isLoading = false, currentTo
                     message.role === 'user' ? classes.messageUser : classes.messageAssistant
                   }
                   p="sm"
+                  style={
+                    message.role === 'assistant' && message.topic
+                      ? { 
+                          borderLeft: `4px solid ${getTopicColor(message.topic)}`,
+                          boxShadow: `0 0 0 1px ${getTopicColor(message.topic)}40`
+                        }
+                      : undefined
+                  }
                 >
                   <Box className={classes.messageHeader}>
                     {message.role === 'user' ? (
                       <IconUser size={16} />
                     ) : (
-                      <IconRobot size={16} />
+                      <IconRobot size={16} style={{ color: message.topic ? getTopicColor(message.topic) : undefined }} />
                     )}
                     <Text size="xs" c="dimmed" ml={4}>
                       {message.role === 'user' ? 'You' : 'AI Assistant'}
                     </Text>
                     {message.topic && message.role === 'assistant' && (
-                      <Badge size="xs" variant="dot" color="mint" ml={4}>
+                      <Badge 
+                        size="xs" 
+                        variant="dot" 
+                        ml={4}
+                        style={{ 
+                          backgroundColor: `${getTopicColor(message.topic)}20`,
+                          color: getTopicColor(message.topic),
+                          borderColor: getTopicColor(message.topic)
+                        }}
+                      >
                         {message.topic}
                       </Badge>
                     )}
