@@ -58,25 +58,38 @@ function Node({ node, isActive, onNodeClick, onHover }: NodeProps) {
     }
   });
 
-  const color = isActive ? '#4db391' : hovered ? '#3c9779' : '#ebebeb';
+  const color = isActive ? '#4db391' : hovered ? '#3c9779' : '#ffffff';
   const scale = isActive ? 1.5 : hovered ? 1.2 : 1;
 
   return (
-    <mesh
-      ref={meshRef}
-      position={[node.x, node.y, node.z]}
-      onClick={handleClick}
-      onPointerOver={handlePointerOver}
-      onPointerOut={handlePointerOut}
-      scale={isActive ? 1 : scale}
-    >
-      <sphereGeometry args={[0.3, 32, 32]} />
-      <meshStandardMaterial
-        color={color}
-        emissive={color}
-        emissiveIntensity={isActive ? 0.5 : hovered ? 0.3 : 0.1}
-      />
-    </mesh>
+    <group>
+      <mesh
+        ref={meshRef}
+        position={[node.x, node.y, node.z]}
+        onClick={handleClick}
+        onPointerOver={handlePointerOver}
+        onPointerOut={handlePointerOut}
+        scale={isActive ? 1 : scale}
+      >
+        <sphereGeometry args={[0.3, 32, 32]} />
+        <meshStandardMaterial
+          color={color}
+          emissive={color}
+          emissiveIntensity={isActive ? 0.8 : hovered ? 0.5 : 0.3}
+          metalness={0.3}
+          roughness={0.4}
+        />
+      </mesh>
+      {/* Outer glow */}
+      <mesh position={[node.x, node.y, node.z]} scale={(isActive ? 1.5 : scale) * 1.5}>
+        <sphereGeometry args={[0.3, 16, 16]} />
+        <meshBasicMaterial
+          color={color}
+          transparent
+          opacity={isActive ? 0.3 : hovered ? 0.2 : 0.1}
+        />
+      </mesh>
+    </group>
   );
 }
 
@@ -112,11 +125,12 @@ function Scene({ nodes, activePublicationId, onNodeClick, onHover }: SceneProps)
   return (
     <>
       {/* Ambient light for overall illumination */}
-      <ambientLight intensity={0.5} />
+      <ambientLight intensity={0.6} />
       
-      {/* Directional light for depth */}
-      <directionalLight position={[10, 10, 10]} intensity={1} />
-      <directionalLight position={[-10, -10, -10]} intensity={0.5} />
+      {/* Directional lights for depth and atmosphere */}
+      <directionalLight position={[10, 10, 10]} intensity={0.8} color="#ffffff" />
+      <directionalLight position={[-10, -10, -10]} intensity={0.4} color="#4db391" />
+      <pointLight position={[0, 0, 0]} intensity={0.5} color="#3c9779" distance={50} />
 
       {/* Render nodes */}
       {nodes.map((node) => (
